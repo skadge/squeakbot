@@ -1,0 +1,63 @@
+#! /bin/sh
+
+SQUEAKBOT_VERSION=2.1
+
+ETOYS_BASE=etoys-4.1.2390
+
+#########################################################################################
+
+SQUEAKBOT=squeakbot-$SQUEAKBOT_VERSION
+
+if [ -d $SQUEAKBOT ]
+then
+	echo "$SQUEAKBOT est déjà présent. Le script ne permet pas pour \
+l'instant la mise à jour. Je m'arrête là."
+	exit 1
+fi
+
+if [ ! -f $ETOYS_BASE.tar.gz ]
+then
+	echo "Téléchargement de $ETOYS_BASE..."
+	wget http://download.sugarlabs.org/sources/sucrose/glucose/etoys/$ETOYS_BASE.tar.gz
+fi
+if [ ! -d $ETOYS_BASE ]
+then
+	echo "Extraction de $ETOYS_BASE..."
+	tar xf $ETOYS_BASE.tar.gz
+fi
+
+mkdir $SQUEAKBOT
+#mv $ETOYS_BASE/Content $SQUEAKBOT
+cp -r $ETOYS_BASE/Content/* $SQUEAKBOT
+
+#rm -rf $ETOYS_BASE
+
+cd $SQUEAKBOT
+
+mv etoys.image squeakbot.image
+mv etoys.changes squeakbot.changes
+
+for pofile in ../po/fr/*.po
+do	
+	echo "Compilation de la traduction pour ${pofile}"
+	msgfmt ${pofile} -o locale/fr/LC_MESSAGES/`basename ${pofile} .po`.mo
+done
+
+cd ..
+
+echo "L'image vierge EToys pour $SQUEAKBOT est prête dans ./$SQUEAKBOT."
+
+echo "Pour finir la préparation, il faut déposer par drag&drop tous les fichiers"
+echo "de changeset présents dans changesets/ (dans l'ordre de leur numéro) ainsi"
+echo "que les examples présents dans projets."
+echo
+echo -n "Voulez-vous ouvrir immédiatement l'image (O/N)?"
+
+read answer
+
+if test "$answer" = "O" -o "$answer" = "o";
+then
+	squeak $SQUEAKBOT/squeakbot.image
+fi
+
+exit 0
