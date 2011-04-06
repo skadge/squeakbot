@@ -1,0 +1,131 @@
+; SqueakBot.nsi 
+;--------------------------------
+
+
+; The name of the installer
+Name "SqueakBot @SQUEAKBOT_VERSION@"
+
+; The file to write
+OutFile "squeakbot-@SQUEAKBOT_VERSION@.exe"
+
+; The default installation directory
+InstallDir $PROGRAMFILES\SqueakBot
+
+; Registry key to check for directory (so if you install again, it will 
+; overwrite the old one automatically)
+InstallDirRegKey HKLM "Software\SqueakBot" "Install_Dir"
+
+LoadLanguageFile "${NSISDIR}\Contrib\Language files\French.nlf"
+
+
+XPStyle on
+
+
+Icon "boiteabots.ico"
+UninstallIcon "boiteabots.ico"
+
+;--------------------------------
+
+; Pages
+
+Page components
+Page directory
+Page instfiles
+
+UninstPage uninstConfirm
+UninstPage instfiles
+
+;--------------------------------
+
+; The stuff to install
+Section "SqueakBot (requis)"
+
+ SectionIn RO
+ 
+ ; Set output path to the installation directory.
+ SetOutPath $INSTDIR
+ 
+ ; Put file there
+ File "..\@SQUEAKBOT@\squeakbot.image"
+ File "..\@SQUEAKBOT@\squeakbot.changes"
+ ;File "..\@SQUEAKBOT@\EtoysV4.sources"
+ File "Squeak.exe"
+ File "boiteabots.ico"
+ File "Squeakbot2.ini"
+; File "SqueakFFIPrims.dll"
+ File "..\CHANGELOG"
+ File "..\LICENSE"
+
+ ; Set output path to the installation directory.
+ SetOutPath $INSTDIR\locale\fr\LC_MESSAGES
+ File "..\@SQUEAKBOT@\locale\fr\LC_MESSAGES\*.mo"
+
+;Copie du fichier du drivers de la carte ASPIC
+; SetOutPath $WINDIR\inf
+; File "Pilotes\aspic_porkepic.inf"
+
+; La dll pour le port parallele
+; SetOutPath $SYSDIR
+; File "io.dll"
+ 
+ ; Write the installation path into the registry
+ WriteRegStr HKLM SOFTWARE\SqueakBot "Install_Dir" "$INSTDIR"
+ 
+ ; Write the uninstall keys for Windows
+ WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\SqueakBot" "DisplayName" "SqueakBot @SQUEAKBOT_VERSION@"
+ WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\SqueakBot" "UninstallString" '"$INSTDIR\uninstall.exe"'
+ WriteRegDWORD HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\SqueakBot" "NoModify" 1
+ WriteRegDWORD HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\SqueakBot" "NoRepair" 1
+ WriteUninstaller "uninstall.exe"
+ 
+SectionEnd
+
+; Optional section (can be disabled by the user)
+Section "Raccourcis dans le menu Démarrer"
+
+; Permet de définir le "Working directory"
+SetOutPath $INSTDIR
+
+ CreateDirectory "$SMPROGRAMS\SqueakBot"
+
+ CreateShortCut "$SMPROGRAMS\SqueakBot\Lancer SqueakBot @SQUEAKBOT_VERSION@.lnk" "$INSTDIR\Squeak.exe" "squeakbot.image" "$INSTDIR\uninstall.exe" 0 SW_SHOWMAXIMIZED
+
+ CreateShortCut "$SMPROGRAMS\SqueakBot\Désinstaller.lnk" "$INSTDIR\uninstall.exe" "" "$INSTDIR\uninstall.exe" 0
+ 
+SectionEnd
+
+Section "Raccourcis sur le bureau"
+
+
+ 
+ CreateShortCut "$DESKTOP\Lancer SqueakBot @SQUEAKBOT_VERSION@.lnk" "$INSTDIR\Squeak.exe" "squeakbot.image" "$INSTDIR\uninstall.exe" 0 SW_SHOWMAXIMIZED
+
+SectionEnd
+
+;--------------------------------
+
+; Uninstaller
+
+Section "Uninstall"
+ 
+ ; Remove registry keys
+ DeleteRegKey HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\SqueakBot"
+ DeleteRegKey HKLM SOFTWARE\SqueakBot
+
+ ; Remove files and uninstaller
+ Delete $INSTDIR\*.*
+
+ ; Remove shortcuts, if any
+ Delete "$SMPROGRAMS\SqueakBot\*.*"
+ Delete "$DESKTOP\Lancer SqueakBot2.lnk"
+
+ ; Remove directories used
+ RMDir "$SMPROGRAMS\SqueakBot"
+ RMDir "$INSTDIR"
+
+;the driver for the ASPIC board is not removed yet (not really necessary).
+
+SectionEnd
+
+;--------------------------------
+

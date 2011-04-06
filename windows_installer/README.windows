@@ -1,0 +1,8 @@
+Le fichier squeakbot.nsi (généré à partir de squeakbot.nsi.in par le script de
+bootstrap) permet de générer squeakbot.exe pour Windows.
+
+Il requiert NSIS (Nullsoft Scriptable Install System [1]) (qui fonctionne sous Windows
+ou avec Wine sous Linux)
+
+
+[1] http://nsis.sourceforge.net

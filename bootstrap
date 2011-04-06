@@ -26,6 +26,7 @@ then
 	tar xf $ETOYS_BASE.tar.gz
 fi
 
+echo "Installation de $SQUEAKBOT..."
 mkdir $SQUEAKBOT
 #mv $ETOYS_BASE/Content $SQUEAKBOT
 cp -r $ETOYS_BASE/Content/* $SQUEAKBOT
@@ -43,8 +44,16 @@ do
 	msgfmt ${pofile} -o locale/fr/LC_MESSAGES/`basename ${pofile} .po`.mo
 done
 
+echo "Configuration du script de l'installeur pour Windows..."
+
+cd ../windows_installer
+sed "s/@SQUEAKBOT@/${SQUEAKBOT}/" squeakbot.nsi.in > squeakbot.nsi.tmp
+sed "s/@SQUEAKBOT_VERSION@/${SQUEAKBOT_VERSION}/" squeakbot.nsi.tmp > squeakbot.nsi
+rm squeakbot.nsi.tmp
+
 cd ..
 
+echo
 echo "L'image vierge EToys pour $SQUEAKBOT est prête dans ./$SQUEAKBOT."
 
 echo "Pour finir la préparation, il faut déposer par drag&drop tous les fichiers"
