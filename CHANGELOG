@@ -1,0 +1,136 @@
+SqueakBot
+=========
+
+Nouveautés de la version 2.1 (Avril 2011)
+-----------------------------------------
+
+
+Nouveautés de la version 2 (Juillet 2010)
+----------------------------------------------
+
+- Tout est basé sur Physical Etoys. Cela signifie (outre le fait que la carte Arduino marche nickel) qu'on
+a aussi le support des briques Lego NXT et plusieurs autres robots "tout fait".
+- Pour l'instant, pas de SMEC ou de carte ASPIC. Ca reviendra peut-être.
+- Nono n'est plus là non plus. Il reviendra aussi, espérons.
+
+Nouveautés de la version 1.9beta3&4 (Nov 2009)
+----------------------------------------------
+
+- Début du support de l'Arduino
+- Les SMECs sont presque à nouveau fonctionnel
+- Nouvelle traduction française, bien meilleure
+- Mise à jour de l'image Etoys de base (basé sur Etoys 4.0 2336). Pas mal de bugs d'affichage ont été réglés
+- Essai du mode "verrouillé" : la plupart des menus "avancés" ne sont plus accessible, evitant ainsi bcp de fausses manips
+- Pas mal de petits bugs corrigés, espérons-le.
+
+
+Nouveautés de la version 1.9beta2 (Juin 2009)
+---------------------------------------------
+
+- Toutes les modifications introduites dans la version beta1 ont été proprement transférés dans une image propre d'Etoys, ce qui a permis un gros nettoyage de l'image (qui avait plein de "vieux" objets qui trainaient).
+
+- Nouvelle méthode pour générer une image prête à être diffusée, basée sur ce qui se fait pour OLPC:
+  - copier squeakbot-dev.image vers squeakbot.image
+  - faire dans un Transcript: ReleaseBuilderSqueakland new prepareReleaseImageForSqueakBot.
+- les interfaces ont désormais leurs briques directement accessibles dans le visualisateur (dans la catégorie "Briques de bases"). Idem pour le joystick.
+
+Nouveautés de la version 1.9beta1 (Mai 2009)
+--------------------------------------------
+
+- SqueakBot est désormais basé sur l'image Etoys-4.0 (image développé pour le projet OLPC, 100% libre). L'interface a complètement changée, et devrait être nettement plus intuitive.
+- Nouvelle traduction française
+- réorganisation des catégories (suppression de SqueakBot-UI, répartie sur les différentes interfaces. Idem pour Squeakbot-ASPIC et SqueakBot-SMEC qui sont maintenant dans SqueakBot-Modules)
+- Internationalisation
+- Pour simplifier, quand on crée une carte ASPIC, l'adresse I2C est mise à 1 par défaut. Ce réglage ne peut pas être facilement changé par l'utilisateur. SI ça pose problème, faites-le remonter !
+
+Changements plus techniques :
+- "SqueakBot initialize" can be call in a fresh Etoys image to set up the SqueakBot environment.
+- Modules should now inherit from GenericModule and GenericModuleMorph. These classes provide nice connection, disconnection, reconnection routines. It handles disconnection and reconnection when a module is deleted or restored from the bin for instance.
+- new graphics for Aspic & Porkepic
+- new code for the serial port, compatible with Linux and MacOS.
+- lots lots of cleanups
+
+Pending TODOs:
+- handle the click on "Cancel" in the dialogs for module conenction.
+
+Nouveautés de la version 1.5.2 (Avril 2009)
+-------------------------------------------
+* Ajout des primitives pour le port série permettant le fonctionnement sous Linux et Mac OS (ATTENTION: requiert une version spéciale de la machine virtuelle -> si vous êtes intéressés, contactez Séverin)
+* Correction d'un bug qui empêchait l'affichage des Aspic et SMEC par glisser-déposer
+
+Nouveautés de la version 1.5.1 (Avril 2009)
+-------------------------------------------
+
+* Les SMECs fonctionnent à nouveau
+
+Participants
+------------
+* Séverin Lemaignan severin.lemaignan@planete-sciences.org
+* Gwénaël Forestier gwenael.forestier@hotmail.fr
+* Guillaume Genty guillaume.genty@planete-sciences.org
+
+Nouveautés de la version 1.5
+----------------------------
+
+* En cas de déconnexion, il est possible de reconnecter la carte Aspic en cliquant dessus et en tapant "ReconnecteMoi"
+
+Participants
+------------
+* Séverin Lemaignan severin.lemaignan@planete-sciences.org
+* Julien Bourdon
+
+TODO
+----
+* Reconnexion de la carte Aspic : tester automatiquement avec le port précédent, et si échec, redemander le numero de port
+Nouveautés de la version 1.4
+----------------------------
+
+* Introduction du port série : tout le code de communication passe maintenant par une liaison série, à travers une connection USB (Moebus USB). Le code pour la gestion logicielle de l'I2C est toujours là, mais non testé.
+
+* Travail important sur la carte ASPIC qui est maintenant entièrement gérée (ViewerCategory, etc.) et beaucoup plus simple à mettre en oeuvre (glisser-déposer depuis le tiroir "SqueakBot").
+
+* Les images des cartes sont maintenant stockées dans l'image, ce qui évite d'avoir à se ballader avec des GIF/PNG.
+
+* Mise à jour de la documentation intégrée.
+
+* Mise à jour du package Windows, qui contient le driver pour la carte Aspic.
+
+* Quelques réglages dans l'image pour la rendre plus conviviale.
+
+Participants
+------------
+* Séverin Lemaignan severin.lemaignan@planete-sciences.org
+* Julien Bourdon
+* Serge Stinckwich Serge.Stinckwich@info.unicaen.fr
+* Guillaume Gentil
+
+TODO
+----
+
+* Intégration du SMEC via la carte Aspic (le SMEC devrait toujours être utilisable via l'I2C logiciel, mais c'est non testé.
+
+* Meilleure gestion des erreurs (qui devraient systématiquement être catchées), en particulier liées aux problèmes de connection.
+
+* Implémentation de la détection automatique des cartes (c'est fait sur la carte Aspic, il faut l'implémenter côté Squeak).
+
+
+Nouveautés de la version 1.2
+----------------------------
+
+    *  Modification de la classe Moebus pour la rendre générique, non liée aux SMECs.
+    * méthode "traduit:" dans la classe SMEC. Ca permet d'écrire " sensVert:'vrai' " dans les bulles des SMECs, en plus du classique "sensVert:true". J'ai pas trouvé de moyen d'écrire "sensVert:vrai" : je suis preneur d'idées !
+    * Rajout du code permettant d'accéder aux fonctions du SMEC dans son visualisateur (ajout d'une méthode additionsToViewer dans la classe SmecMorph + ajout d'un protocle *SqueakBot dans la classe Player pour piloter tout ça).
+    * Réécriture d'AspicMorph. Maintenant, la carte Aspic devrait être a nouveau gérée. J'ai pas de carte sous la main pour tester. Mais dès que possible, je vérifie que ça marche. 
+
+TODO
+----
+    
+* Si on crée un projet avec dedans un SMEC, qu'on enregistre l'image, qu'on ferme Squeak, et qu'on ré-ouvre Squeak, la machine virtuelle crashe sous Windows car la reconnexion avec le Moebus n'est pas assurée, et l'appel à la bibliothèque externe fait planter Squeak.
+
+De plus, si je ré-ouvre cette image sous Linux, j'évite le crash, mais le projet n'est plus utilisable car l'objet Moebus qui a été créé sous Windows est lié à la classe ParallelPortWin.
+
+En bref, il faudrait pouvoir, au démarrage de Squeak, re-créer la connection (en fait, re-créer un objet Moebus associé aux interfaces).
+
+* ViewerCategory pour la carte Aspic 
+
+SqueakBot1.2-script du package Windows 
