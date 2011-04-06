@@ -1,5 +1,14 @@
 #! /bin/sh
 
+# Ce script télécharge une image EToys 'fraiche' et crée à partir de ça une pré-image 
+# SqueakBot.
+#
+# En particulier, le script installe les fichiers utiles dans squeakbot-x.y, renomme ce
+# qui est nécessaire, compile les dernières traductions, prépare le script d'installation
+# pour Windows.
+#
+# Auteur: Séverin Lemaignan <severin.lemaignan@planete-sciences.org>
+
 SQUEAKBOT_VERSION=2.1
 
 ETOYS_BASE=etoys-4.1.2390
