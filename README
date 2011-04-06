@@ -1,1 +1,105 @@
-SqueakBot, une image Squeak basée sur EToys pour la robotique
+SqueakBot
+=========
+
+SqueakBot est une image Squeak basée sur EToys pour la robotique.
+
+SqueakBot is a modification of Physical Etoys by:
+Lic. Gonzalo Zabala - Sebastián Blanco - Ricardo Moran
+Centro de Altos Estudios en Tecnología Informática
+Universidad Abierta Interamericana
+http://tecnodacta.com.ar/gira
+
+Many thanks to them!!
+
+Copyright Planète Sciences 2010-2011 for the modifications
+
+SqueakBot is distributed under the MIT license. See LICENSE for details.
+
+Préparer une image SqueakBot à partir d'une image EToys
+-------------------------------------------------------
+
+- Récupérer une image Etyos fraiche ici:
+http://download.sugarlabs.org/sources/sucrose/glucose/etoys/
+
+- appliquer (par drag and drop) les différents changesets :
+ - NamedSerialPort
+ - PhysicalEtoys
+ - Arduino-core
+ - Arduino-compiler
+ - Arduino-etoys
+ - Nono
+
+- importer les projets d'accueil (drag and drop des différents ``.pr``)
+
+Processus d'initialisation d'un composant
+-----------------------------------------
+
+[section à mettre à jour avec la Arduino]
+Que se passe t-il lorsque qu'on glisse par exemple une carte ASPIC sur l'espace de travail ?
+
+Pile d'appel (avec uniquement les appels significatifs):
+
+AspicMorph openInWorld
+|-Aspic new
+|  |-(GenericModule) new
+|  |-aspic initialize
+|  |-aspic disconnect
+|-AspicMorph new
+|-aspicmorph initialize
+|-aspicmorph openInWorld
+|-(GenericModuleMorph) intoWorld
+
+
+Lors de la connection:
+
+aspic connect
+(genericmodule) connect
+   |-(genericmodule) connectOn:with:
+      |-SerialHandler new
+      |-protocol = Aspic getProtocolForComHandler:
+      |-serialhandler initialize:forProtocol:protocol
+      |-protocol connectWith: serialhandler
+      |-aspic onConnection
+
+Astuces diverses
+----------------
+
+1) Pour rajouter des entrées dans le tiroir SqueakBot
+ - Ouvrir la classe Flaps, puis accéder à la méthode de classe 
+   ``defaultsQuadsDefiningSqueakBotFlap``
+ - Ajouter autant d'entrées que nécessaire, sous la forme:
+   ``{#ClasseDeLObjetCible. #Selecteur. 'Etiquette en anglais' translated. 'Description en anglais' translated. [en option, Form qui sert d'icône]}``
+ - Pour voir les changements, dans le transcript, appeler successivement 
+   ``Flaps destroyFlapDotDotDot`` pour détruire le tiroir SqueakBot précédent, 
+   ``PartsBin clearThumbnailCache`` et ``Flaps initializeSqueakBotFlap``. 
+   Si la nouvelle entrée n'apparait pas, c'est sans doute que la classe cible 
+   spécifiée pour l'icone n'existe pas.
+
+2) Pour ajouter des choses dans le menu d'un Morph :
+ - tout se passe dans la méthode ``addCustomMenuItems``. Cf ``AspicMorph``, par 
+   exemple.
+ - Ne pas oublier d'ajouter ce qui va bien dans la classe ``Player``!!!
+
+3) Pour ajouter des briques de script à un module :
+ - tout se passe dans la méthode ``additionsToViewerCategory``, dans la classe du 
+   morph du module (par exemple ``ArduinoMorph``)
+
+4) Pour construire etoys.image à partir de l'image de dev :
+   ``ReleaseBuilderSqueakland new prepareReleaseImageForSqueakBot.``
+
+5) Pour rajouter un bitmap dans l'image :
+ - glisser-déposer le bitmap dans Squeak
+ - inspecter le morph créé, puis la proriété ``originalForm``
+ - Appeler ``SugarLibrary mimeStringFor:self`` sur le Form (afficher le résultat
+   avec Alt+P), puis copier la string base64. Si le bitmap est trop gros (200, 
+   300 pix de côté), la string ne sera pas complète (elle finit par ...etc...). 
+   Dans ce cas, faire :  
+   ``(FileStream newFileNamed: 'temp.txt') nextPutAll:(SugarLibrary mimeStringFor:self)``
+   Ca va écrire le contenu de la string encodé base64 dans un fichier temp.txt 
+   dont on peut copier-coller le contenu. 
+ - Ouvrir la classe ``SqueakBotBitmapLibrary`` et créer une nouvelle méthode de 
+   classe sur le modèle de squeakBotIcon (en faisant attention de changer le nom
+    de la méthode !) (changer aussi la dimension du bitmap)
+ - On peut tester le nouveau bitmap avec cette commande dans le transcript 
+   (enregistrer avant l'image, les crashs sont fréquents...) :  
+   ``(SketchMorph withForm:SqueakBotBitmapLibrary squeakBotIcon) openInWorld``
