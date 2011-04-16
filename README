@@ -15,8 +15,20 @@ Copyright Planète Sciences 2010-2011 for the modifications
 
 SqueakBot is distributed under the MIT license. See LICENSE for details.
 
-Préparer une image SqueakBot à partir d'une image EToys
--------------------------------------------------------
+
+Installation
+------------
+
+Automatique
++++++++++++
+
+> ./bootstrap
+
+Et voila!
+
+Manuel : Préparer une image SqueakBot à partir d'une image EToys
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 
 - Récupérer une image Etyos fraiche ici:
 http://download.sugarlabs.org/sources/sucrose/glucose/etoys/
