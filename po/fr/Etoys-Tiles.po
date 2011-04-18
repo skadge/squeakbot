@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: eToys\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-12-19 23:09-0000\n"
-"PO-Revision-Date: 2010-12-21 18:02+0100\n"
+"PO-Revision-Date: 2011-04-17 16:12+0100\n"
 "Last-Translator: Séverin Lemaignan <skadge@gmail.com>\n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -18,31 +18,31 @@ msgstr ""
 #: Arduino-Etoys,ArduinoMorph_class>>additionsToViewerCategories,ArduinoMorph_class>>additionsToViewerCategories,ArduinoMorph_class>>additionsToViewerCategories,ArduinoMorph_class>>additionsToViewerCategories,ArduinoMorph_class>>additionsToViewerCategories,ArduinoMorph_class>>additionsToViewerCategories,ArduinoMorph_class>>additionsToViewerCategories,ArduinoMorph_class>>additionsToViewerCategories,ArduinoMorph_class>>additionsToViewerCategories,ArduinoMorph_class>>additionsToViewerCategories,ArduinoMorph_class>>additionsToViewerCategories,ArduinoMorph_class>>additionsToViewerCategories,ArduinoMorph_class>>additionsToViewerCategories,ArduinoMorph_class>>additionsToViewerCategories,ArduinoMorph_class>>additionsToViewerCategories,ArduinoMorph_class>>additionsToViewerCategories,ArduinoMorph_class>>additionsToViewerCategories,ArduinoMorph_class>>additionsToViewerCategories,ArduinoMorph_class>>additionsToViewerCategories,ArduinoMorph_class>>additionsToViewerCategories,ArduinoMorph_class>>additionsToViewerCategories,ArduinoMorph_class>>additionsToViewerCategories,ArduinoMorph_class>>additionsToViewerCategories,ArduinoMorph_class>>additionsToViewerCategories,ArduinoMorph_class>>additionsToViewerCategories,ArduinoMorph_class>>additionsToViewerCategories,ArduinoMorph_class>>additionsToViewerCategories,ArduinoMorph_class>>additionsToViewerCategories,ArduinoMorph_class>>additionsToViewerCategories,ArduinoMorph_class>>additionsToViewerCategories,ArduinoMorph_class>>additionsToViewerCategories,ArduinoMorph_class>>additionsToViewerCategories,ArduinoMorph_class>>additionsToViewerCategories,ArduinoMorph_class>>additionsToViewerCategories,ArduinoMorph_class>>additionsToViewerCategories,ArduinoMorph_class>>additionsToViewerCategories,ArduinoMorph_class>>additionsToViewerCategories,ArduinoMorph_class>>additionsToViewerCategories,ArduinoMorph_class>>additionsToViewerCategories,ArduinoMorph_class>>additionsToViewerCategories,ArduinoMorph_class>>additionsToViewerCategories,BuzzerMorph_class>>additionsToViewerCategories,LightDiodeMorph_class>>additionsToViewerCategories,PhotoresistorMorph_class>>additionsToViewerCategories,PotentiometerMorph_class>>additionsToViewerCategories,PushButtonMorph_class>>additionsToViewerCategories,PwmLightDiodeMorph_class>>additionsToViewerCategories,ServoMorph_class>>additionsToViewerCategories,SwitchMorph_class>>additionsToViewerCategories,ThermistorMorph_class>>additionsToViewerCategories,TiltSwitchMorph_class>>additionsToViewerCategories
 #: Arduino-Etoys,ArduinoMorph_class>>additionsToViewerCategories
 msgid "analog pin 0"
-msgstr "Port analogique 0"
+msgstr "port analogique 0"
 
 #: Arduino-Etoys,ArduinoMorph_class>>additionsToViewerCategories
 msgid "analog pin 1"
-msgstr "Port analogique 1"
+msgstr "port analogique 1"
 
 #: Arduino-Etoys,ArduinoMorph_class>>additionsToViewerCategories
 msgid "analog pin 2"
-msgstr "Port analogique 2"
+msgstr "port analogique 2"
 
 #: Arduino-Etoys,ArduinoMorph_class>>additionsToViewerCategories
 msgid "analog pin 3"
-msgstr "Port analogique 3"
+msgstr "port analogique 3"
 
 #: Arduino-Etoys,ArduinoMorph_class>>additionsToViewerCategories
 msgid "analog pin 4"
-msgstr "Port analogique 4"
+msgstr "port analogique 4"
 
 #: Arduino-Etoys,ArduinoMorph_class>>additionsToViewerCategories
 msgid "analog pin 5"
-msgstr "Port analogique 5"
+msgstr "port analogique 5"
 
 #: Arduino-Etoys,ArduinoMorph_class>>additionsToViewerCategories
 msgid "arduino - analog pins"
-msgstr "Arduino - Ports analogiques"
+msgstr "Ports analogiques"
 
 #: Arduino-Etoys,ArduinoMorph_class>>additionsToViewerCategories
 msgid "arduino - connection"
@@ -50,11 +50,26 @@ msgstr "Connection Arduino"
 
 #: Arduino-Etoys,ArduinoMorph_class>>additionsToViewerCategories
 msgid "arduino - digital pins"
-msgstr "Arduino - Ports digitaux"
+msgstr "Ports digitaux"
 
 #: Arduino-Etoys,ArduinoMorph_class>>additionsToViewerCategories
 msgid "arduino - digital pins mode"
-msgstr "Arduino - Direction des ports digitaux"
+msgstr "Direction des ports digitaux"
+
+msgid "forward"
+msgstr "vers l'avant"
+
+msgid "backward"
+msgstr "vers l'arrière"
+
+msgid "running"
+msgstr "en marche"
+
+msgid "stopped"
+msgstr "à l'arrêt"
+
+msgid "state"
+msgstr "état"
 
 #: Arduino-Etoys,ArduinoMorph_class>>additionsToViewerCategories
 msgid "board type"
@@ -66,99 +81,99 @@ msgstr "connecter"
 
 #: Arduino-Etoys,ArduinoMorph_class>>additionsToViewerCategories
 msgid "digital pin 10"
-msgstr "Port digital 10"
+msgstr "port digital 10"
 
 #: Arduino-Etoys,ArduinoMorph_class>>additionsToViewerCategories
 msgid "digital pin 10 mode"
-msgstr "Mode du port digital 10"
+msgstr "direction du port 10"
 
 #: Arduino-Etoys,ArduinoMorph_class>>additionsToViewerCategories
 msgid "digital pin 11"
-msgstr "Port digital 11"
+msgstr "port digital 11"
 
 #: Arduino-Etoys,ArduinoMorph_class>>additionsToViewerCategories
 msgid "digital pin 11 mode"
-msgstr "Mode du port digital 11"
+msgstr "direction du port 11"
 
 #: Arduino-Etoys,ArduinoMorph_class>>additionsToViewerCategories
 msgid "digital pin 12"
-msgstr "Port digital 12"
+msgstr "port digital 12"
 
 #: Arduino-Etoys,ArduinoMorph_class>>additionsToViewerCategories
 msgid "digital pin 12 mode"
-msgstr "Mode du port digital 12"
+msgstr "direction du port 12"
 
 #: Arduino-Etoys,ArduinoMorph_class>>additionsToViewerCategories
 msgid "digital pin 13"
-msgstr "Port digital 13"
+msgstr "port digital 13"
 
 #: Arduino-Etoys,ArduinoMorph_class>>additionsToViewerCategories
 msgid "digital pin 13 mode"
-msgstr "Mode du port digital 13"
+msgstr "direction du port 13"
 
 #: Arduino-Etoys,ArduinoMorph_class>>additionsToViewerCategories
 msgid "digital pin 2"
-msgstr "Port digital 2"
+msgstr "port digital 2"
 
 #: Arduino-Etoys,ArduinoMorph_class>>additionsToViewerCategories
 msgid "digital pin 2 mode"
-msgstr "Mode du port digital 2"
+msgstr "direction du port 2"
 
 #: Arduino-Etoys,ArduinoMorph_class>>additionsToViewerCategories
 msgid "digital pin 3"
-msgstr "Port digital 3"
+msgstr "port digital 3"
 
 #: Arduino-Etoys,ArduinoMorph_class>>additionsToViewerCategories
 msgid "digital pin 3 mode"
-msgstr "Mode du port digital 3"
+msgstr "direction du port 3"
 
 #: Arduino-Etoys,ArduinoMorph_class>>additionsToViewerCategories
 msgid "digital pin 4"
-msgstr "Port digital 4"
+msgstr "port digital 4"
 
 #: Arduino-Etoys,ArduinoMorph_class>>additionsToViewerCategories
 msgid "digital pin 4 mode"
-msgstr "Mode du port digital 4"
+msgstr "direction du port 4"
 
 #: Arduino-Etoys,ArduinoMorph_class>>additionsToViewerCategories
 msgid "digital pin 5"
-msgstr "Port digital 5"
+msgstr "port digital 5"
 
 #: Arduino-Etoys,ArduinoMorph_class>>additionsToViewerCategories
 msgid "digital pin 5 mode"
-msgstr "Mode du port digital 5"
+msgstr "direction du port 5"
 
 #: Arduino-Etoys,ArduinoMorph_class>>additionsToViewerCategories
 msgid "digital pin 6"
-msgstr "Port digital 6"
+msgstr "port digital 6"
 
 #: Arduino-Etoys,ArduinoMorph_class>>additionsToViewerCategories
 msgid "digital pin 6 mode"
-msgstr "Mode du port digital 6"
+msgstr "direction du port 6"
 
 #: Arduino-Etoys,ArduinoMorph_class>>additionsToViewerCategories
 msgid "digital pin 7"
-msgstr "Port digital 7"
+msgstr "port digital 7"
 
 #: Arduino-Etoys,ArduinoMorph_class>>additionsToViewerCategories
 msgid "digital pin 7 mode"
-msgstr "Mode du port digital 7"
+msgstr "direction du port 7"
 
 #: Arduino-Etoys,ArduinoMorph_class>>additionsToViewerCategories
 msgid "digital pin 8"
-msgstr "Port digital 8"
+msgstr "port digital 8"
 
 #: Arduino-Etoys,ArduinoMorph_class>>additionsToViewerCategories
 msgid "digital pin 8 mode"
-msgstr "Mode du port digital 8"
+msgstr "direction du port 8"
 
 #: Arduino-Etoys,ArduinoMorph_class>>additionsToViewerCategories
 msgid "digital pin 9"
-msgstr "Port digital 9"
+msgstr "port digital 9"
 
 #: Arduino-Etoys,ArduinoMorph_class>>additionsToViewerCategories
 msgid "digital pin 9 mode"
-msgstr "Mode du port digital 9"
+msgstr "direction du port 9"
 
 #: Arduino-Etoys,ArduinoMorph_class>>additionsToViewerCategories
 msgid "disconnect"
@@ -190,7 +205,7 @@ msgstr "port analogique 5 actif"
 
 #: Arduino-Etoys,ArduinoMorph_class>>additionsToViewerCategories
 msgid "is connected"
-msgstr "est connecté"
+msgstr "est connecté(e)"
 
 #: Arduino-Etoys,ArduinoMorph_class>>additionsToViewerCategories
 msgid "port name"
