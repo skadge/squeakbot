@@ -1,19 +1,23 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: eToys\n"
-"POT-Creation-Date: 2010-08-27 15:37-0000\n"
-"PO-Revision-Date: 2010-12-21 18:22+0100\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-31 22:08-0000\n"
+"PO-Revision-Date: 2011-09-05 18:04+0100\n"
 "Last-Translator: Séverin Lemaignan <skadge@gmail.com>\n"
 "Language-Team: \n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Etoys-SystemVersion: etoys4.1 of 29 April 2010 update 2383 (repo v1295 of 25 August 2010)\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Pootle 2.0.3\n"
 "X-Etoys-Domain: System\n"
+"X-Etoys-SystemVersion: etoys4.1.2 of 31 August 2011 update 2397\n"
 
 #: System-Changes,ChangeSet_class>>currentChangeSetString,SmalltalkImage>>currentChangeSetString,SystemDictionary>>currentChangeSetString
 msgid "Current Change Set: "
-msgstr "Jeu de modifications actuel : "
+msgstr "Jeu de Modifications Actuel : "
 
 #: System-Changes,ChangeSet_class>>defaultName,Project>>doWeWantToRename,SystemDictionary>>makeSqueaklandReleasePhaseCleanup
 msgid "Unnamed"
@@ -59,7 +63,7 @@ msgstr "Chargement en cours "
 
 #: System-Localization,Locale_class>>switchAndInstallFontToID:gently:
 msgid "Cannot load additional fonts"
-msgstr ""
+msgstr "Impossible de charger les polices additionnelles"
 
 #: System-Localization,Locale_class>>switchAndInstallFontToID:gently:
 msgid "cancel"
@@ -67,11 +71,11 @@ msgstr "annuler"
 
 #: System-Localization,Locale_class>>switchAndInstallFontToID:gently:
 msgid "enable Pango"
-msgstr ""
+msgstr "activer Pango"
 
 #: System-Localization,Locale_class>>switchAndInstallFontToID:gently:
 msgid "load font"
-msgstr ""
+msgstr "charger une police"
 
 #: System-Localization,Locale_class>>switchAndInstallFontToID:gently:
 msgid ""
@@ -83,7 +87,7 @@ msgstr ""
 
 #: System-Object_Storage,DiskProxy>>printOn:
 msgid "{1} (not loaded yet)"
-msgstr ""
+msgstr "{1} (pas encore chargée)"
 
 #: System-Object_Storage,SmartRefStream>>writeClassRenameMethod:was:fromInstVars:
 msgid ""
@@ -113,15 +117,15 @@ msgstr "pas d'aide disponible"
 
 #: System-Preferences,Preference>>isDisabledOnStartupString
 msgid "disable preference on startup"
-msgstr ""
+msgstr "désactiver les Préférences au démarrage"
 
 #: System-Preferences,Preference>>isEnabledOnStartupString
 msgid "enable preference on startup"
-msgstr ""
+msgstr "activer les Préférences au démarrage"
 
 #: System-Preferences,Preference>>isNotSetOnStartupString
 msgid "do not set preference on startup"
-msgstr ""
+msgstr "Ne pas définir de préférences au démarrage"
 
 #: System-Preferences,Preference>>isProjectLocalString
 msgid "each project has its own setting"
@@ -198,12 +202,30 @@ msgid ""
 "set to true, which it currently is not"
 msgstr ""
 "notez que cela aura un effet remarquable uniquement\n"
-"si l'option tuileUniverselle est positionnée\n"
+"si l'option universalTiles est positionnée\n"
 "à vrai, ce qui n'est pas le cas actuellement"
+
+#: System-Preferences,Preferences_class>>deletePersistedPreferences
+msgid ""
+"This will remove {1} stored preferences.\n"
+"Are you sure?"
+msgstr ""
+"Ceci va supprimer {1} préférences.\n"
+"Êtes vous sûr(e) ?"
 
 #: System-Preferences,Preferences_class>>disable:,Preferences_class>>enable:
 msgid "this preference was added idiosyncratically and has no help message."
 msgstr "cette préférence a été ajoutée de manière idiosyncratique et n'a pas de message d'aide."
+
+#: System-Preferences,Preferences_class>>ensurePersistedPreferencesAccessible
+msgid ""
+"{1} is in secure mode.\n"
+"You cannot access the persistent preferences now.\n"
+"To change them, start {1} without loading a project."
+msgstr ""
+"{1} est en mode \"protégé\".\n"
+"Vous ne pouvez pas accéder à cette préférence pour le moment.\n"
+"Pour la changer, démarrer {1} sans charger de projet."
 
 #: System-Preferences,Preferences_class>>giveHelpWithPreferences
 msgid "About Preferences"
@@ -230,6 +252,16 @@ msgid ""
 "\n"
 "Also, you can use \"themes\" to set multiple preferences all at once; click on the \"change theme...\" button in the Squeak flap or in the Preferences panel, or seek out the themes item in the Appearance menu."
 msgstr ""
+"La plupart des comportements de EToys peuvent être changés à travers les Préférences.\n"
+"\n"
+"Cliquez sur n'importe laquelle des catégories en haut de la fenêtre pour afficher, pour cette catégorie, toutes les options disponibles.\n"
+"Vous pouvez aussi taper quelques lettres dans le champ de recherche, puis cliquer sur \"Rechercher\" pour trouver toutes les préférences dont le nom ou la bulle d'aide contient la chaîne de caractère que vous cherchez.\n"
+"\n"
+"Pour en savoir plus sur une préférence particulière, laissez la souris quelques instants dessus. Une bulle d'aide va apparaitre. Par ailleurs, la liste complète des préférences disponibles, avec leur aide, est incluse ci-dessous.\n"
+"\n"
+"Les préférences apparaissant en caractère gras sont spécifiques à unprojet, et peuvent changer d'un projet à l'autre. Les autres préférences sont globales, partagées par tous les projets.\n"
+"\n"
+"Cliquez sur le nom d'une préférence pour faire apparaitre un menu permettant de choisir si la valeur de la préférence doit être globale ou locale à un projet. Ce même menu permet d'obtenir la liste des méthodes utilisant cette préférence, toutes les catégories auxquelles cette préférence appartient, ainsi qu'un bouton que vous pouvez placer n'importe où et permettant de changer la valeur de cette préférence."
 
 #: System-Preferences,Preferences_class>>initializePreferencePanel:in:
 msgid "Use the ? category to find preferences by keyword; the results of your search will show up here"
@@ -539,13 +571,6 @@ msgstr "Souvenez-vous de sauvegarder votre image pour rendre ce paramètre perma
 msgid "Yes, Update\\No, Not now\\Don't ask again"
 msgstr "Oui, mettre à jour\\Non, pas maintenant\\Ne pas me redemander"
 
-#: System-Support,BooleanPreferenceView>>offerPersistenceMenu
-msgid ""
-"{1} is in secure mode.\n"
-"You cannot access the persistent preferences now.\n"
-"To change them, start {1} without loading a project."
-msgstr ""
-
 #: System-Support,BooleanPreferenceView>>offerPreferenceNameMenu:with:in:
 msgid "Allows you to find out which category, or categories, this preference belongs to."
 msgstr "Vous permet de trouver à quel catégorie, ou à quelles catégories, cette préférence se rapporte."
@@ -572,11 +597,11 @@ msgstr "Certaines préférences s'appliquent de préférence de manière uniform
 
 #: System-Support,BooleanPreferenceView>>offerPreferenceNameMenu:with:in:
 msgid "Store a value for this preference on file. On startup, it will be automatically restored."
-msgstr ""
+msgstr "Sauvegarder la valeur de cette préférence dans un fichier. Elle sera automatiquement chargée au démarrage."
 
 #: System-Support,BooleanPreferenceView>>offerPreferenceNameMenu:with:in:
 msgid "set automatically on startup..."
-msgstr ""
+msgstr "chargée automatiquement au démarrage..."
 
 #: System-Support,BooleanPreferenceView>>offerPreferenceNameMenu:with:in:
 msgid "show category..."
@@ -659,6 +684,10 @@ msgid "Preferences Panel"
 msgstr "Panneau de Préférences"
 
 #: System-Support,PreferencesPanel>>addHelpItemsTo:
+msgid "Click here to delete all the preferences saved on file. On the next start, they will have their original value."
+msgstr "Cliquez ici pour supprimer toutes les préférences sauvegardées. Au prochain démarrage, elles prendront leurs valeurs par défaut."
+
+#: System-Support,PreferencesPanel>>addHelpItemsTo:
 msgid "Click here to get some hints on use of this Preferences Panel"
 msgstr "Cliquer ici pour obtenir des conseils sur l'utilisation de ce Panneau de Préférences"
 
@@ -695,6 +724,10 @@ msgid "Inspect Parameters"
 msgstr "Inspecter la liste des paramètres"
 
 #: System-Support,PreferencesPanel>>addHelpItemsTo:
+msgid "Reset preferences on startup"
+msgstr "Réinitialiser les préférences au démarrage"
+
+#: System-Support,PreferencesPanel>>addHelpItemsTo:
 msgid "Restore all Default Preference Settings"
 msgstr "Rétablir toutes les valeurs par défaut"
 
@@ -708,7 +741,7 @@ msgstr "Charger la configuration depuis le disque"
 
 #: System-Support,PreferencesPanel>>addHelpItemsTo:
 msgid "Save Current Settings as my Personal Preferences"
-msgstr "Sauvegarder comme configuration personnelle"
+msgstr "Sauvegarder la configuration actuelle comme configuration personnelle"
 
 #: System-Support,PreferencesPanel>>addHelpItemsTo:
 msgid "Save Current Settings to Disk"
@@ -788,7 +821,7 @@ msgstr "Je ne peux pas localiser le projet\\"
 
 #: System-Support,Project>>decideAboutCreatingBlank:
 msgid "Yes, make it up\\No, skip it"
-msgstr ""
+msgstr "Oui, crée-le\\Non, ignore-le"
 
 #: System-Support,Project>>decideAboutCreatingBlank:
 msgid "\\Would you like me to create a new project\\with that name?"
@@ -988,7 +1021,7 @@ msgstr "Chercher un serveur\\Annuler"
 
 #: System-Support,Project>>useLocaleString
 msgid "use localized language"
-msgstr ""
+msgstr "utiliser la langue locale"
 
 #: System-Support,Project>>windowReqNewLabel:
 msgid "Sorry that name is already used"
@@ -1066,7 +1099,7 @@ msgstr "Nouveau nom de Fichier ?"
 msgid "{1} already exists. Overwrite?"
 msgstr "{1} existe déjà. Écraser ?"
 
-#: System-Support,SmalltalkImage>>lastUpdateString
+#: System-Support,SmalltalkImage>>lastUpdateStringTranslated
 msgid "latest update: #"
 msgstr "dernière mise à jour: #"
 
@@ -1112,7 +1145,7 @@ msgstr "Voulez-vous vraiment vider la corbeille ?"
 
 #: System-Support,Utilities_class>>offerCommonRequestsInMorphic
 msgid "Common Requests"
-msgstr "Raccourcis pratiques"
+msgstr "Expressions usuelles"
 
 #: System-Support,Utilities_class>>offerCommonRequestsInMorphic
 msgid "edit this list"
@@ -1124,7 +1157,7 @@ msgstr "Action des raccourcis clavier"
 
 #: System-Support,Utilities_class>>readServerUpdatesThrough:saveLocally:updateImage:
 msgid "Load the latest packages from the default repository?"
-msgstr ""
+msgstr "Voulez-vous charger les dernières versions des paquets depuis le dépôt par défaut ?"
 
 #: System-Support,Utilities_class>>readServerUpdatesThrough:saveLocally:updateImage:
 msgid "No new updates on the server\n"
@@ -1194,11 +1227,11 @@ msgstr "  ({1} pages)"
 
 #: System-Support,Utilities_class>>trashTitle
 msgid "T R A S H"
-msgstr "Poubelle"
+msgstr "P O U B E L L E"
 
 #: System-Support,Utilities_class>>updateFromDefaultRepository
 msgid "Repository unavailable"
-msgstr ""
+msgstr "Dépôt non disponible"
 
 #: System-Support,Utilities_class>>updateFromDefaultRepository
 msgid ""
@@ -1206,4 +1239,7 @@ msgid ""
 "System version is now:\n"
 "{1}"
 msgstr ""
+"Mise à jour complète.\n"
+"La version du système est maintenant :\n"
+"{1}"
 

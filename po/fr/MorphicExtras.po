@@ -1,16 +1,19 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: eToys\n"
-"POT-Creation-Date: 2010-08-27 15:37-0000\n"
-"PO-Revision-Date: 2010-08-27 15:37-0000\n"
-"Last-Translator: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-31 22:08-0000\n"
+"PO-Revision-Date: 2011-01-20 01:27+0200\n"
+"Last-Translator: Séverin Lemaignan <skadge@gmail.com>\n"
 "Language-Team: \n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Etoys-SystemVersion: etoys4.1 of 29 April 2010 update 2383 (repo v1295 of 25 August 2010)\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Pootle 2.0.3\n"
 "X-Etoys-Domain: MorphicExtras\n"
-
+"X-Etoys-SystemVersion: etoys4.1.2 of 31 August 2011 update 2397\n"
 
 #: MorphicExtras-AdditionalMorphs,FlexMorph>>addCustomMenuItems:hand:
 msgid "border color..."
@@ -33,7 +36,8 @@ msgid ""
 "cyan - full view\n"
 "white - enter the project completely"
 msgstr ""
-"C'est le cadre pour un projet incorporé. Cliquer sur les boites de couleurs: bleu - étirer ou reduire\n"
+"C'est le cadre pour un projet incorporé. Cliquer sur les boites de couleurs: "
+"bleu - étirer ou reduire\n"
 "jaune - vue application\n"
 "rouge - vue usine\n"
 "cyan - vue complète\n"
@@ -155,7 +159,11 @@ msgstr "un outil pour jeter des objets"
 
 #: MorphicExtras-AdditionalWidgets,TrashCanMorph>>initialize
 msgid "To remove an object, drop it on any trash can. To view, and maybe retrieve, items that have been thrown away, double-click on any trash-can.  Things are retained in the trash-can if the \"preserveTrash\" preference is set, otherwise they are purged immediately"
-msgstr "Pour se débarasser d'un objet, le déposer sur la corbeille.  Pour visualiser ou récupérer des objets jetés, double-cliquer sur la corbeille.  Les objets sont retenus dans la corbeille si la préférence \"garderCorbeille\" est cochée, sinon, les objets sont détruits immédiatement."
+msgstr ""
+"Pour se débarasser d'un objet, le déposer sur la corbeille.  Pour visualiser "
+"ou récupérer des objets jetés, double-cliquer sur la corbeille.  Les objets "
+"sont retenus dans la corbeille si la préférence \"garderCorbeille\" est "
+"cochée, sinon, les objets sont détruits immédiatement."
 
 #: MorphicExtras-Books,BooklikeMorph>>addBookMenuItemsTo:hand:,BookMorph>>addBookMenuItemsTo:hand:
 msgid "hide page controls"
@@ -283,7 +291,9 @@ msgstr "Avancé..."
 
 #: MorphicExtras-Books,BookMorph>>addAdvancedItemsTo:
 msgid "Choose a color to assign as the background color for all of this book's pages"
-msgstr "Choisissez une couleur à affecter à la couleur de fond pour toutes les pages de ce livre"
+msgstr ""
+"Choisissez une couleur à affecter à la couleur de fond pour toutes les pages "
+"de ce livre"
 
 #: MorphicExtras-Books,BookMorph>>addAdvancedItemsTo:
 msgid "clear new-page template"
@@ -295,7 +305,9 @@ msgstr "quitte le mode plein écran"
 
 #: MorphicExtras-Books,BookMorph>>addAdvancedItemsTo:
 msgid "Make all the pages of this book be the same size as the page currently showing."
-msgstr "Donner à toutes les pages de ce livre la même taille que la page actuellement affichée."
+msgstr ""
+"Donner à toutes les pages de ce livre la même taille que la page "
+"actuellement affichée."
 
 #: MorphicExtras-Books,BookMorph>>addAdvancedItemsTo:
 msgid "make a thread of projects in this book"
@@ -355,11 +367,11 @@ msgstr "garder dans un seul fichier"
 
 #: MorphicExtras-Books,BookMorph>>addBookMenuItemsTo:hand:,BookMorph>>addSaveAndRevertItemsTo:
 msgid "mark entire book to be revertible"
-msgstr ""
+msgstr "Marquer l'ensemble du livre comme pouvant être repris"
 
 #: MorphicExtras-Books,BookMorph>>addBookMenuItemsTo:hand:,BookMorph>>addSaveAndRevertItemsTo:
 msgid "mark this page to be revertible"
-msgstr ""
+msgstr "Marquer cette page comme pouvant être repris"
 
 #: MorphicExtras-Books,BookMorph>>addBookMenuItemsTo:hand:
 msgid "next page"
@@ -411,11 +423,11 @@ msgstr "arrêter à la dernière page"
 
 #: MorphicExtras-Books,BookMorph>>addBookMenuItemsTo:hand:
 msgid "unmark entire book to be revertible"
-msgstr ""
+msgstr "Supprimer le marquage de l'ensemble du livre comme pouvant être repris"
 
 #: MorphicExtras-Books,BookMorph>>addBookMenuItemsTo:hand:
 msgid "unmark this page to be revertible"
-msgstr ""
+msgstr "Supprimer le marquage de cette page comme pouvant être reprise"
 
 #: MorphicExtras-Books,BookMorph>>addBookMenuItemsTo:hand:
 msgid "visual effect for all pages"
@@ -431,31 +443,45 @@ msgstr "boucler après la dernière page"
 
 #: MorphicExtras-Books,BookMorph>>addBookToggleItemsTo:
 msgid "If on, page controls (when present), will appear at the the top of the book; if off, they will appear at its bottom"
-msgstr "Si coché, les contrôles de la page (quand ils sont présent), apparaîtrons en haut du livre, si décoché ils apparaîtront en bas"
+msgstr ""
+"Si coché, les contrôles de la page (quand ils sont présent), apparaîtrons en "
+"haut du livre, si décoché ils apparaîtront en bas"
 
 #: MorphicExtras-Books,BookMorph>>addBookToggleItemsTo:
 msgid "If set, a row of page controls will appear at the top of the book"
-msgstr "Si positionné, une ligne de contrôles de la page apparaîtra en haut du livre"
+msgstr ""
+"Si positionné, une ligne de contrôles de la page apparaîtra en haut du livre"
 
 #: MorphicExtras-Books,BookMorph>>addBookToggleItemsTo:
 msgid "If set, stop-step-go buttons within the page's interior will govern only scripts for objects  residing within the page"
-msgstr "Si positionné, les boutons arrêt-pas à pas-avancer dans l'intérieur de la page contrôle uniquement les objets hébergé dans la page"
+msgstr ""
+"Si positionné, les boutons arrêt-pas à pas-avancer dans l'intérieur de la "
+"page contrôle uniquement les objets hébergé dans la page"
 
 #: MorphicExtras-Books,BookMorph>>addBookToggleItemsTo:
 msgid "If set, the book page occupies the entire screen"
-msgstr "Si positionné, la première page du livre occupera la totalité de l'écran"
+msgstr ""
+"Si positionné, la première page du livre occupera la totalité de l'écran"
 
 #: MorphicExtras-Books,BookMorph>>addBookToggleItemsTo:
 msgid "If set, the first page in the book will be considered to be the next page after the last page, so that continuallly pressing the next or previous buttons will continually cycle through all pages of the book"
-msgstr "Si actif, la première page dans le livre sera considérée comme la prochaine page après la dernière page, ainsi l'appui continu sur les boutons suivant et précédent permettront de faire défiler toutes les pages du livre de manière cyclique"
+msgstr ""
+"Si actif, la première page dans le livre sera considérée comme la prochaine "
+"page après la dernière page, ainsi l'appui continu sur les boutons suivant "
+"et précédent permettront de faire défiler toutes les pages du livre de "
+"manière cyclique"
 
 #: MorphicExtras-Books,BookMorph>>addBookToggleItemsTo:
 msgid "If set, the shorter form of page controls will be used when page controls are showing"
-msgstr "Si actif, le formulaire le plus petit des contrôles de la page sera utilisé quand les contrôles de la page sont affichés"
+msgstr ""
+"Si actif, le formulaire le plus petit des contrôles de la page sera utilisé "
+"quand les contrôles de la page sont affichés"
 
 #: MorphicExtras-Books,BookMorph>>addBookToggleItemsTo:
 msgid "If set, when you resize the book, all of its pages get automatically resized."
-msgstr "Si actif, toutes les pages du livre seront redimensionnées automatiquement, en même temps que le livre lui-même."
+msgstr ""
+"Si actif, toutes les pages du livre seront redimensionnées automatiquement, "
+"en même temps que le livre lui-même."
 
 #: MorphicExtras-Books,BookMorph>>addSaveAndRevertItemsTo:
 msgid "save for later revert..."
@@ -463,11 +489,15 @@ msgstr "enregistre pour annuler ultérieurement..."
 
 #: MorphicExtras-Books,BookMorph>>addTransitionItemsTo:
 msgid "Establish a sound-effect that should be used whenever there is a transition between any two pages of this book."
-msgstr "Etablir un effet sonore qui peut être utilisé quand il y a une transition entre deux page de ce livre."
+msgstr ""
+"Etablir un effet sonore qui peut être utilisé quand il y a une transition "
+"entre deux page de ce livre."
 
 #: MorphicExtras-Books,BookMorph>>addTransitionItemsTo:
 msgid "Establish a visual -effect that should be used for all transitions between pages of this book"
-msgstr "Etablir un effet visuel qui peut être utilisé pour toutes les transitions entre les pages de ce livre."
+msgstr ""
+"Etablir un effet visuel qui peut être utilisé pour toutes les transitions "
+"entre les pages de ce livre."
 
 #: MorphicExtras-Books,BookMorph>>addTransitionItemsTo:
 msgid "set sound effect for all pages"
@@ -490,7 +520,7 @@ msgid "visual and sound effects..."
 msgstr "effets sonores et visuels..."
 
 #: MorphicExtras-Books,BookMorph>>bookMenu
-msgid "add a new page just like this one to0 the book."
+msgid "add a new page just like this one to the book."
 msgstr "ajouter une nouvelle page comme celle-ci au livre."
 
 #: MorphicExtras-Books,BookMorph>>bookMenu,BookMorph>>invokeShortBookMenu,BookMorph_class>>descriptionForPartsBin,BookMorph_class>>registerInFlapsRegistry,BookMorph_class>>registerInFlapsRegistry,Flaps_class>>defaultsQuadsDefiningPlugInSuppliesFlap,Flaps_class>>defaultsQuadsDefiningSuppliesFlap,Flaps_class>>newLoneSuppliesFlap
@@ -531,7 +561,9 @@ msgstr "Donne-moi une miniature de cette page"
 
 #: MorphicExtras-Books,BookMorph>>bookMenu
 msgid "make a bookmark object which, when clicked, will make the book turn to this page."
-msgstr "faire un marque-page qui, en cliquant dessus, fera ouvrir le livre sur cette page."
+msgstr ""
+"faire un marque-page qui, en cliquant dessus, fera ouvrir le livre sur cette "
+"page."
 
 #: MorphicExtras-Books,BookMorph>>bookMenu
 msgid "open a tool allowing you to arrange the pages of the book."
@@ -539,7 +571,8 @@ msgstr "Lance un outil qui te permettra de réorganiser les pages de ce livre."
 
 #: MorphicExtras-Books,BookMorph>>bookMenu
 msgid "restore all pages of this book to their initial condition if possible."
-msgstr "Restaurer toutes les pages de ce livre à leur état initial, si possible."
+msgstr ""
+"Restaurer toutes les pages de ce livre à leur état initial, si possible."
 
 #: MorphicExtras-Books,BookMorph>>bookMenu
 msgid "restore this page to its initial condition, if possible."
@@ -654,7 +687,9 @@ msgstr "j'en ai juste eu un !"
 
 #: MorphicExtras-Books,BookMorph>>saveIndexOfOnly:
 msgid ".bo size mismatch.  Please tell Ted what you just did to this book."
-msgstr "la taille du fichier .bo est erronée. Veuillez dire à Ted ce que vous venez de faire à ce livre."
+msgstr ""
+"la taille du fichier .bo est erronée. Veuillez dire à Ted ce que vous venez "
+"de faire à ce livre."
 
 #: MorphicExtras-Books,BookMorph>>saveOnUrlPage:
 msgid ""
@@ -713,7 +748,9 @@ msgstr ""
 msgid ""
 "words to search for.  Order is not important.\n"
 "Beginnings of words are OK."
-msgstr "mots à chercher (l'ordre n'est pas important et des préfixes de mots suffisent)"
+msgstr ""
+"mots à chercher (l'ordre n'est pas important et des préfixes de mots "
+"suffisent)"
 
 #: MorphicExtras-Books,BookMorph>>usingPrivatePresenterString
 msgid "scripting area"
@@ -721,7 +758,9 @@ msgstr "zone de scripting"
 
 #: MorphicExtras-Books,BookPageSorterMorph>>addControls
 msgid "Accept the changes made here as the new page-order for this book"
-msgstr "Accepter les changements réalisés ici comme étant le nouvel ordre des pages de ce livre"
+msgstr ""
+"Accepter les changements réalisés ici comme étant le nouvel ordre des pages "
+"de ce livre"
 
 #: MorphicExtras-Books,BookPageSorterMorph>>addControls,GraphicalMenu>>initializeFor:withForms:coexist:,ProjectSorterMorph>>addControls,TabSorterMorph>>addControls
 msgid "Cancel"
@@ -797,7 +836,9 @@ msgstr "Objets rigolos"
 
 #: MorphicExtras-Demo,BouncingAtomsMorph_class>>descriptionForPartsBin
 msgid "The original, intensively-optimized bouncing-atoms simulation by John Maloney"
-msgstr "La simulation originale d'atomes rebondissants très optimisés, de John Maloney"
+msgstr ""
+"La simulation originale d'atomes rebondissants très optimisés, de John "
+"Maloney"
 
 #: MorphicExtras-Demo,BouncingAtomsMorph_class>>registerInFlapsRegistry,Flaps_class>>defaultsQuadsDefiningWidgetsFlap
 msgid "Atoms, mate"
@@ -873,7 +914,9 @@ msgstr "Nombre d'images par seconde"
 
 #: MorphicExtras-Demo,MagnifierMorph_class>>supplementaryPartsDescriptions
 msgid "A magnifying glass that also shows Morphs in the Hand and displays the Hand position."
-msgstr "Une loupe qui permet également de voir les morphs contrôlés par la main ainsi que sa position exacte."
+msgstr ""
+"Une loupe qui permet également de voir les morphs contrôlés par la main "
+"ainsi que sa position exacte."
 
 #: MorphicExtras-Demo,MagnifierMorph_class>>supplementaryPartsDescriptions
 msgid "A round magnifying glass"
@@ -957,7 +1000,9 @@ msgstr "détacher"
 
 #: MorphicExtras-Demo,StickyPadMorph_class>>descriptionForPartsBin
 msgid "A translucent, borderless rectangle of a standard size, delivered in a predictable sequence of pastel colors"
-msgstr "Un rectangle transparent, sans bordure, de taille standard, proposé en couleurs pastelles"
+msgstr ""
+"Un rectangle transparent, sans bordure, de taille standard, proposé en "
+"couleurs pastelles"
 
 #: MorphicExtras-Demo,StickyPadMorph_class>>descriptionForPartsBin,StickyPadMorph_class>>registerInFlapsRegistry,StickyPadMorph_class>>registerInFlapsRegistry
 msgid "Sticky Pad"
@@ -965,7 +1010,9 @@ msgstr "Note autocollante"
 
 #: MorphicExtras-Demo,StickyPadMorph_class>>registerInFlapsRegistry,StickyPadMorph_class>>registerInFlapsRegistry
 msgid "Each time you obtain one of these pastel, translucent, borderless rectangles, it will be a different color from the previous time."
-msgstr "Chaque fois que vous afficherez un de ces rectangles pastels transparents et sans bords, il sera d'une couleur différente de la fois précédente."
+msgstr ""
+"Chaque fois que vous afficherez un de ces rectangles pastels transparents et "
+"sans bords, il sera d'une couleur différente de la fois précédente."
 
 #: MorphicExtras-Demo,ZASMCameraMarkMorph>>addCustomMenuItems:hand:
 msgid "Go to this mark"
@@ -1007,7 +1054,7 @@ msgstr "Accessoires"
 msgid "Supplies Flap"
 msgstr "Tiroir d'accessoires"
 
-#: MorphicExtras-Flaps,Flaps_class>>addLocalFlap,FlapTab>>acquirePlausibleFlapID
+#: MorphicExtras-Flaps,Flaps_class>>addLocalFlap,Flaps_class>>defaultsQuadsDefiningPlugInSuppliesFlap,FlapTab>>acquirePlausibleFlapID,FlapTab_class>>descriptionForPartsBin,FlapTab_class>>registerInFlapsRegistry
 msgid "Flap"
 msgstr "Tiroir"
 
@@ -1033,7 +1080,9 @@ msgstr "Palette de peinture"
 
 #: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningPlugInSuppliesFlap
 msgid "A button to use with tile scripting; its script will be a method of its containing playfield"
-msgstr "Un bouton à utiliser avec les briques de script ;  son script sera une méthode de la scène contenant le bouton"
+msgstr ""
+"Un bouton à utiliser avec les briques de script ;  son script sera une "
+"méthode de la scène contenant le bouton"
 
 #: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningPlugInSuppliesFlap,Flaps_class>>defaultsQuadsDefiningWidgetsFlap,Flaps_class>>newLoneSuppliesFlap,RecordingControlsMorph_class>>formerDescriptionForPartsBin,RecordingControlsMorph_class>>registerInFlapsRegistry
 msgid "A device for making sound recordings."
@@ -1073,7 +1122,8 @@ msgstr "A outil listant tous les objets scriptés dans le projet."
 
 #: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningPlugInSuppliesFlap
 msgid "A tool that lets you browse the catalog of available objects"
-msgstr "Un outil permettant de naviguer dans le catalogue des objets disponibles"
+msgstr ""
+"Un outil permettant de naviguer dans le catalogue des objets disponibles"
 
 #: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningPlugInSuppliesFlap,Flaps_class>>defaultsQuadsDefiningScriptingFlap,Flaps_class>>defaultsQuadsDefiningWidgetsFlap,Flaps_class>>newLoneSuppliesFlap
 msgid "All Scripts"
@@ -1137,7 +1187,10 @@ msgstr "Étoile"
 
 #: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningPlugInSuppliesFlap
 msgid "Stop, Step, and Go buttons for controlling all your scripts at once.  The tool can also be \"opened up\" to control each script in your project individually."
-msgstr "Les boutons Arrêt, Pas et Départ contrôlent tous les scripts à la fois.  L'outil peut aussi être \"décortiqué\" pour contrôler chacun des scripts de façon individuelle."
+msgstr ""
+"Les boutons Arrêt, Pas et Départ contrôlent tous les scripts à la fois.  "
+"L'outil peut aussi être \"décortiqué\" pour contrôler chacun des scripts de "
+"façon individuelle."
 
 #: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningPlugInSuppliesFlap,Flaps_class>>defaultsQuadsDefiningSuppliesFlap,Flaps_class>>newLoneSuppliesFlap,TextMorph_class>>supplementaryPartsDescriptions
 msgid "Text"
@@ -1153,11 +1206,15 @@ msgstr "Corbeille"
 
 #: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningScriptingFlap
 msgid "A  data field which will have a different value on every card of the background"
-msgstr "Un champ de donnée qui aura une valeur différente sur toute les cartes du fond"
+msgstr ""
+"Un champ de donnée qui aura une valeur différente sur toute les cartes du "
+"fond"
 
 #: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningScriptingFlap,Morph_class>>supplementaryPartsDescriptions,StandardScriptingSystem_class>>registerInFlapsRegistry
 msgid "A confined place for drawing and scripting, with its own private stop/step/go buttons."
-msgstr "Un espace réservé au dessin et aux scripts, avec ses propres boutons stop/pas à pas/départ."
+msgstr ""
+"Un espace réservé au dessin et aux scripts, avec ses propres boutons "
+"stop/pas à pas/départ."
 
 #: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningScriptingFlap,Flaps_class>>defaultsQuadsDefiningStackToolsFlap
 msgid "A multi-card data base"
@@ -1173,7 +1230,9 @@ msgstr "Un bouton scriptable"
 
 #: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningScriptingFlap
 msgid "A scrolling data field which will have a different value on every card of the background"
-msgstr "Un champ de donnée scrollable qui aura une valeur différente sur toutes les cartes du fond"
+msgstr ""
+"Un champ de donnée scrollable qui aura une valeur différente sur toutes les "
+"cartes du fond"
 
 #: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningScriptingFlap,Morph_class>>supplementaryPartsDescriptions
 msgid "A tile that will produce a random number in a given range"
@@ -1181,7 +1240,9 @@ msgstr "Une brique qui produit un nombre aléatoire dans un intervalle donné"
 
 #: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningScriptingFlap,Flaps_class>>newLoneSuppliesFlap
 msgid "A tool that lets you control all the running scripts in your world"
-msgstr "Un outil vous permettant de contrôler tous les scripts s'exécutant dans votre monde"
+msgstr ""
+"Un outil vous permettant de contrôler tous les scripts s'exécutant dans "
+"votre monde"
 
 #: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningScriptingFlap
 msgid "Background Field"
@@ -1215,7 +1276,7 @@ msgstr "Palette"
 msgid "Random"
 msgstr "Nombre au hasard"
 
-#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningScriptingFlap,Flaps_class>>defaultsQuadsDefiningWidgetsFlap,Flaps_class>>reinstateDefaultFlaps,Morph_class>>supplementaryPartsDescriptions,Morph_class>>supplementaryPartsDescriptions,Morph_class>>supplementaryPartsDescriptions,Morph_class>>supplementaryPartsDescriptions,Morph_class>>supplementaryPartsDescriptions,PasteUpMorph_class>>supplementaryPartsDescriptions,StandardScriptingSystem_class>>registerInFlapsRegistry
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningScriptingFlap,Flaps_class>>defaultsQuadsDefiningWidgetsFlap,Flaps_class>>reinstateDefaultFlaps,FlapTab_class>>descriptionForPartsBin,Morph_class>>supplementaryPartsDescriptions,Morph_class>>supplementaryPartsDescriptions,Morph_class>>supplementaryPartsDescriptions,Morph_class>>supplementaryPartsDescriptions,Morph_class>>supplementaryPartsDescriptions,PasteUpMorph_class>>supplementaryPartsDescriptions,StandardScriptingSystem_class>>registerInFlapsRegistry
 msgid "Scripting"
 msgstr "Scripts"
 
@@ -1249,7 +1310,8 @@ msgstr "Un bouton qui permet de passer à la carte précédente dans la pile"
 
 #: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningStackToolsFlap
 msgid "A button whose script will be a method of the background Player"
-msgstr "Un bouton dont le script sera une méthode du séquenceur (Player) de fond"
+msgstr ""
+"Un bouton dont le script sera une méthode de l'acteur d'arrière-plan"
 
 #: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningStackToolsFlap
 msgid "A text field with a rounded shadowed border, with a fancy font."
@@ -1261,7 +1323,8 @@ msgstr "texte fantaisiste"
 
 #: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningStackToolsFlap,ScrollableField_class>>registerInFlapsRegistry
 msgid "Holds any amount of text; has a scroll bar"
-msgstr "Peut stocker n'importe quelle quantité de texte ; a une barre de défilement"
+msgstr ""
+"Peut stocker n'importe quelle quantité de texte ; a une barre de défilement"
 
 #: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningStackToolsFlap
 msgid "Next Card"
@@ -1329,39 +1392,55 @@ msgstr "Bibliothèque"
 
 #: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningToolsFlap
 msgid "A Browser is a tool that allows you to view all the code of all the classes in the system"
-msgstr "Un Navigateur est un outil qui permet de visualiser le code de toutes les classes du système"
+msgstr ""
+"Un navigateur est un outil qui permet de visualiser le code de toutes les "
+"classes du système"
 
 #: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningToolsFlap
 msgid "A File List is a tool for browsing folders and files on disks and FTP servers."
-msgstr "Une Liste de Fichiers est un outil pour parcourir des dossiers et fichiers sur le disque dur ou sur des serveurs FTP."
+msgstr ""
+"Une navigateur de fichier est un outil pour parcourir des dossiers et fichiers "
+"sur le disque dur ou sur des serveurs FTP."
 
 #: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningToolsFlap
 msgid "A message browser that tracks the most recently-submitted methods"
-msgstr "Un navigateur de messages gardant la trace des méthodes les plus récemment soumises"
+msgstr ""
+"Un navigateur de messages gardant la trace des méthodes les plus récemment "
+"soumises"
 
 #: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningToolsFlap
 msgid "A Process Browser shows you all the running processes"
-msgstr "Un visionneuse de Processus montre l'ensemble des processus lancés"
+msgstr "Un visualisateur de Processus montre l'ensemble des processus lancés"
 
 #: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningToolsFlap
 msgid "A Transcript is a window usable for logging and debugging; browse references to #Transcript for examples of how to write to it."
-msgstr "Un Transcript est une fenêtre utilisable pour tracer et déboguer ; explorer les références à #Transcript pour des exemples sur la manière d'y écrire."
+msgstr ""
+"Un Transcript est une fenêtre utilisable pour afficher des message et déboguer ; explorer "
+"les références à #Transcript pour des exemples sur la manière d'y écrire."
 
 #: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningToolsFlap,SelectorBrowser_class>>registerInFlapsRegistry
 msgid "A tool for discovering methods by providing sample values for arguments and results"
-msgstr "Un outil permettant de trouver des méthodes en fournissant des exemples de valeurs pour leurs arguments et leurs résultats"
+msgstr ""
+"Un outil permettant de trouver des méthodes en fournissant des exemples de "
+"valeurs pour leurs arguments et leurs résultats"
 
 #: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningToolsFlap,MessageNames_class>>registerInFlapsRegistry
 msgid "A tool for finding, viewing, and editing all methods whose names contain a given character sequence."
-msgstr "Un outil pour chercher, visualiser, et éditer toutes les méthodes dont le nom contient une certaine séquence de caractères."
+msgstr ""
+"Un outil pour chercher, visualiser, et éditer toutes les méthodes dont le "
+"nom contient une certaine séquence de caractères."
 
 #: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningToolsFlap
 msgid "A tool that allows you to view and manipulate all the code changes in a single change set"
-msgstr "Un outil qui vous permet de voir et de manipuler tous les changements de code dans un jeu de modifications (change set)"
+msgstr ""
+"Un outil qui vous permet de voir et de manipuler tous les changements de "
+"code dans un jeu de modifications (change set)"
 
 #: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningToolsFlap,Workspace_class>>registerInFlapsRegistry
 msgid "A Workspace is a simple window for editing text.  You can later save the contents to a file if you desire."
-msgstr "Un espace de travail est une simple fenêtre d'édition de texte. Il est possible d'enregistrer son contenu dans un fichier."
+msgstr ""
+"Un espace de travail est une simple fenêtre d'édition de texte. Il est "
+"possible d'enregistrer son contenu dans un fichier."
 
 #: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningToolsFlap
 msgid "Allows you to control numerous options"
@@ -1369,7 +1448,9 @@ msgstr "Vous permet de contrôler de nombreuses options"
 
 #: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningToolsFlap
 msgid "Allows you to specify the annotations to be shown in the annotation panes of browsers, etc."
-msgstr "Vous permet de spécifier les annotations à afficher sur le panneau des annotations des navigateurs, etc"
+msgstr ""
+"Vous permet de spécifier les annotations à afficher sur le panneau des "
+"annotations des navigateurs, etc"
 
 #: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningToolsFlap
 msgid "Annotations"
@@ -1401,7 +1482,10 @@ msgstr "Recherche de méthode"
 
 #: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningToolsFlap,PackagePaneBrowser_class>>registerInFlapsRegistry
 msgid "Package Browser:  like a System Browser, except that if has extra level of categorization in the top-left pane, such that class-categories are further organized into groups called \"packages\""
-msgstr "Navigateur de groupes : comme un navigateur classes, excepté qu'il a un niveau supplémentaire de catégorisation dans le panneau supérieur gauche, de sorte que les catégories de classes sont elle mêmes organisées en groupes."
+msgstr ""
+"Navigateur de groupes : comme un navigateur classes, excepté qu'il a un "
+"niveau supplémentaire de catégorisation dans le panneau supérieur gauche, de "
+"sorte que les catégories de classes sont elle mêmes organisées en groupes."
 
 #: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningToolsFlap,PackagePaneBrowser_class>>registerInFlapsRegistry
 msgid "Packages"
@@ -1432,8 +1516,10 @@ msgid "Workspace"
 msgstr "Espace de travail"
 
 #: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningWidgetsFlap
-msgid "A confined place for drawing and scripting. with its own private stop/step/go buttons."
-msgstr "Un espace réservé au dessin et aux scripts, avec ses propres boutons stop/pas à pas/départ."
+msgid "A confined place for drawing and scripting with its own private stop/step/go buttons."
+msgstr ""
+"Un espace réservé au dessin et aux scripts, avec ses propres boutons "
+"stop/pas à pas/départ."
 
 #: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningWidgetsFlap,Flaps_class>>newLoneSuppliesFlap,MagnifierMorph_class>>descriptionForPartsBin,MagnifierMorph_class>>registerInFlapsRegistry
 msgid "A magnifying glass"
@@ -1457,7 +1543,9 @@ msgstr "Un outil permettant de naviguer dans le catalogue des objets"
 
 #: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningWidgetsFlap
 msgid "A tool that lets you see and control all the running scripts in your project"
-msgstr "Un outil permettant de voir et contrôler l'ensemble des scripts en fonctionnement dans votre projet"
+msgstr ""
+"Un outil permettant de voir et contrôler l'ensemble des scripts en "
+"fonctionnement dans votre projet"
 
 #: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningWidgetsFlap,StandardScriptingSystem_class>>registerInFlapsRegistry
 msgid "Alphabet"
@@ -1582,11 +1670,22 @@ msgid ""
 "\n"
 " Besides the three standard flaps delivered with the default system, there are two other flaps readily available on demand from the 'flaps' menu -- one is called 'Stack Tools', which provides some tools useful for building stack-like content, the other is called 'Painting', which provides a quick way to make a new painting.  Simply clicking on the appropriate checkbox in the 'flaps' menu will toggle the corresponding flap between being visible and not being visible in the project."
 msgstr ""
-"Les tiroirs sont comme de vrais tiroirs, installés tout autour de l'écran : ils peuvent être ouverts en cliquant dessus, faisant apparaître leur contenu, et fermés lorsqu'on en n'a plus besoin. Ils ont beaucoup d'utilisations possibles, et les tiroirs présents au démarrage vont nous permettre d'en illustrer quelques unes.\n"
+"Les tiroirs sont comme de vrais tiroirs, installés tout autour de l'écran : "
+"ils peuvent être ouverts en cliquant dessus, faisant apparaître leur "
+"contenu, et fermés lorsqu'on en n'a plus besoin. Ils ont beaucoup "
+"d'utilisations possibles, et les tiroirs présents au démarrage vont nous "
+"permettre d'en illustrer quelques unes.\n"
 "\n"
-"Les « tiroirs partagés » sont disponibles dans tous les projets, et restent normalement visibles lorsque on passe d'un projet à l'autre. Il y a cependant une option qui permet de régler, projet par projet, quels tiroirs partagés doivent être visibles, et il est aussi possible de supprimer temporairement l'affiche de l'ensemble des tiroirs.\n"
+"Les « tiroirs partagés » sont disponibles dans tous les projets, et restent "
+"normalement visibles lorsque on passe d'un projet à l'autre. Il y a "
+"cependant une option qui permet de régler, projet par projet, quels tiroirs "
+"partagés doivent être visibles, et il est aussi possible de supprimer "
+"temporairement l'affiche de l'ensemble des tiroirs.\n"
 "\n"
-"Pour démarrer avec les tiroirs, affiche le menu du Monde et clique sur « Tiroirs... ». Clique sur « Maintenir le menu visible », ça sera plus pratique. Si une liste de noms de tiroirs (comme « Squeak », « Outils », etc.) apparaît, cela signifie que les tiroirs par"
+"Pour démarrer avec les tiroirs, affiche le menu du Monde et clique sur « "
+"Tiroirs... ». Clique sur « Maintenir le menu visible », ça sera plus "
+"pratique. Si une liste de noms de tiroirs (comme « Squeak », « Outils », "
+"etc.) apparaît, cela signifie que les tiroirs par"
 
 #: MorphicExtras-Flaps,Flaps_class>>explainFlaps
 msgid "Flaps"
@@ -1618,7 +1717,9 @@ msgstr "À propos de ce système"
 
 #: MorphicExtras-Flaps,Flaps_class>>newSqueakFlap
 msgid "Check the Squeak server for any new code updates, and load any that are found."
-msgstr "Rechercher si des mises à jour sont disponibles sur le serveur Squeak et les charger si c'est le cas."
+msgstr ""
+"Rechercher si des mises à jour sont disponibles sur le serveur Squeak et les "
+"charger si c'est le cas."
 
 #: MorphicExtras-Flaps,Flaps_class>>newSqueakFlap
 msgid "click here to find out version information"
@@ -1660,6 +1761,17 @@ msgstr "Menu"
 msgid "flap tab"
 msgstr "Étiquette du tiroir"
 
+#: MorphicExtras-Flaps,FlapTab_class>>helpMessage
+msgid "A flap to hold objects. For example, you can add a description of your project, or keep versions of sketches for later use. Use the flap tab's halo menu to adjust its properties."
+msgstr ""
+"Un tiroir pouvant contenir des objets. Par exemple, différentes versions "
+"d'un dessin, pour s'en resservir plus tard. Utilise l'icône Menu du halo "
+"pour changer les paramètres de ce tiroir. "
+
+#: MorphicExtras-Flaps,FlapTab_class>>newStandAlone
+msgid "My Flap"
+msgstr "Mon tiroir"
+
 #: MorphicExtras-Flaps,FlapTab>>addCustomMenuItems:hand:,ViewerFlapTab>>addCustomMenuItems:hand:
 msgid "destroy this flap"
 msgstr "Supprimer ce tiroir"
@@ -1669,8 +1781,10 @@ msgid "flap color..."
 msgstr "Couleur du tiroir..."
 
 #: MorphicExtras-Flaps,FlapTab>>addCustomMenuItems:hand:
-msgid "If checked, this flap will be available in all morphic projects; if not, it will be private to this project.,"
-msgstr "Si cochée, ce tiroir sera disponible dans tous les projets, sinon il sera réservé à ce projet."
+msgid "If checked, this flap will be available in all morphic projects; if not, it will be private to this project."
+msgstr ""
+"Si cochée, ce tiroir sera disponible dans tous les projets, sinon il sera "
+"réservé à ce projet."
 
 #: MorphicExtras-Flaps,FlapTab>>addCustomMenuItems:hand:
 msgid "tab color..."
@@ -1678,15 +1792,20 @@ msgstr "Couleur de l'étiquette..."
 
 #: MorphicExtras-Flaps,FlapTab>>balloonTextForFlapsMenu
 msgid "A flap housing the paint palette.  Click on the closed tab to make make a new painting"
-msgstr "Un tiroir hébergeant la palette de dessin. Cliquez sur l'étiquette pour faire un nouveau dessin"
+msgstr ""
+"Un tiroir hébergeant la palette de dessin. Cliquez sur l'étiquette pour "
+"faire un nouveau dessin"
 
 #: MorphicExtras-Flaps,FlapTab>>balloonTextForFlapsMenu
 msgid "A flap providing documentation, tutorials, and other help"
-msgstr "Un tiroir fournissant de la documentation, des tutoriaux et d'autres aides"
+msgstr ""
+"Un tiroir fournissant de la documentation, des tutoriaux et d'autres aides"
 
 #: MorphicExtras-Flaps,FlapTab>>balloonTextForFlapsMenu
 msgid "A quick way to get browsers, change sorters, file lists, etc."
-msgstr "Accès rapide aux navigateurs, trieurs de modifications, listes de fichers, etc"
+msgstr ""
+"Accès rapide aux navigateurs, trieurs de modifications, listes de fichers, "
+"etc"
 
 #: MorphicExtras-Flaps,FlapTab>>balloonTextForFlapsMenu
 msgid "A variety of controls and media tools"
@@ -1694,19 +1813,26 @@ msgstr "Une variété de contrôles et d'outils de gestion de media"
 
 #: MorphicExtras-Flaps,FlapTab>>balloonTextForFlapsMenu
 msgid "Has a few generally-useful controls; it is also a place where you can \"park\" objects"
-msgstr "Possède quelque contrôles généralement utiles; c'est aussi l'endroit où vous pouvez stocker des objets"
+msgstr ""
+"Possède quelque contrôles généralement utiles; c'est aussi l'endroit où vous "
+"pouvez stocker des objets"
 
 #: MorphicExtras-Flaps,FlapTab>>balloonTextForFlapsMenu
 msgid "Project navigator:  includes controls for navigating through linked projects.  Also supports finding, loading and publishing projects in a shared environment"
-msgstr "Navigateur de projet :  contient des boutons pour naviguer entre projets liés.  S'occupe aussi de chercher, charger et publier des projets dans un environment partagé."
+msgstr ""
+"Navigateur de projet :  contient des boutons pour naviguer entre projets "
+"liés.  S'occupe aussi de chercher, charger et publier des projets dans un "
+"environment partagé."
 
 #: MorphicExtras-Flaps,FlapTab>>balloonTextForFlapsMenu
 msgid "Tools for building stacks.  Caution!  Powerful but young and underdocumented"
-msgstr "Outil pour construire des piles. Attention ! Puissant mais récent et peu documenté"
+msgstr ""
+"Outil pour construire des piles. Attention ! Puissant mais récent et peu "
+"documenté"
 
 #: MorphicExtras-Flaps,FlapTab>>balloonTextForFlapsMenu
 msgid "Tools useful when doing tile scripting"
-msgstr "Outils utiles pour créer des scripts pour les tuiles"
+msgstr "Outils utiles pour créer des scripts avec des briques"
 
 #: MorphicExtras-Flaps,FlapTab>>changeColor
 msgid ""
@@ -1828,7 +1954,7 @@ msgstr "Tiroir sans nom"
 
 #: MorphicExtras-Flaps,ViewerFlapTab_class>>defaultNameStemForInstances
 msgid "viewerFlapTab"
-msgstr ""
+msgstr "visualisateurTiroir"
 
 #: MorphicExtras-GeeMail,GeeMailMorph_class>>initialize
 msgid "scrolledIntoView"
@@ -2028,7 +2154,9 @@ msgstr "CHERCHER"
 
 #: MorphicExtras-Navigators,ProjectNavigationMorph>>buttonFind
 msgid "Find (load) another project. Hold mouse button down for further options."
-msgstr "Trouver (charger) un autre projet. Garder appuyé le bouton pour plus d'options."
+msgstr ""
+"Trouver (charger) un autre projet. Garder appuyé le bouton pour plus "
+"d'options."
 
 #: MorphicExtras-Navigators,ProjectNavigationMorph>>buttonFlaps,ProjectNavigationMorph>>buttonFlaps
 msgid "Hide tabs"
@@ -2100,7 +2228,9 @@ msgstr "Faire un dessin !"
 
 #: MorphicExtras-Navigators,ProjectNavigationMorph>>buttonPrev
 msgid "Previous project"
-msgstr "Clique ici pour revenir au projet précédent. Ton projet en cours ne sera pas perdu !"
+msgstr ""
+"Clique ici pour revenir au projet précédent. Ton projet en cours ne sera pas "
+"perdu !"
 
 #: MorphicExtras-Navigators,ProjectNavigationMorph>>buttonPrev
 msgid "< PREV"
@@ -2114,15 +2244,16 @@ msgstr "PUBLIER !"
 msgid ""
 "Publish (save) this project.\n"
 "Hold mouse button down for further options"
-msgstr "Publier (sauver) ce projet. Garder le bouton appuyé pour plus d'options."
+msgstr ""
+"Publier (sauver) ce projet. Garder le bouton appuyé pour plus d'options."
 
 #: MorphicExtras-Navigators,ProjectNavigationMorph>>buttonQuit
 msgid "QUIT"
-msgstr "QUITTER"
+msgstr "Quitter"
 
 #: MorphicExtras-Navigators,ProjectNavigationMorph>>buttonQuit
 msgid "Quit Etoys (without saving)"
-msgstr ""
+msgstr "Quitter EToys (sans enregistrer)"
 
 #: MorphicExtras-Navigators,ProjectNavigationMorph>>buttonTell
 msgid "Tell a friend about this project"
@@ -2302,21 +2433,32 @@ msgid ""
 "\n"
 "When you drag an icon from the Objects Catalog, it will result in a new copy of it in your hand; the new object will be deposited wherever you next click."
 msgstr ""
-"Le « catalogue des objets » vous permet de naviguer et obtenir des copies de nombreux types d'objets.\n"
+"Le « catalogue des objets » vous permet de naviguer et obtenir des copies de "
+"nombreux types d'objets.\n"
 "\n"
 "Vous trouverez le catalogue des objets dans le tiroir Accessoires.\n"
 "\n"
-"Il y a trois manières d'utiliser le catalogue des objets, correspondant aux trois onglets visibles en haut :\n"
+"Il y a trois manières d'utiliser le catalogue des objets, correspondant aux "
+"trois onglets visibles en haut :\n"
 "\n"
-"Alphabétique - affiche des boutons séparés pour a, b, c, etc.  Cliquez sur un boutons quelconque et vous verrez les icônes de tous les objets dont le nom commence par cette lettre.\n"
+"Alphabétique - affiche des boutons séparés pour a, b, c, etc.  Cliquez sur "
+"un boutons quelconque et vous verrez les icônes de tous les objets dont le "
+"nom commence par cette lettre.\n"
 "\n"
-"Rechercher - affiche un champ de recherche.  Saisissez les premières lettres, et les icônes de tous les objets dont le nom commence par ce que vous avez entré apparaîtront dans le paneau du bas.\n"
+"Rechercher - affiche un champ de recherche.  Saisissez les premières "
+"lettres, et les icônes de tous les objets dont le nom commence par ce que "
+"vous avez entré apparaîtront dans le paneau du bas.\n"
 "\n"
-"Catégories- affiche des boutons représentant les catégories d'éléments reliés. Cliquez sur n'importe quel bouton pour afficher les icônes de tous les objets dans cette catégorie.\n"
+"Catégories- affiche des boutons représentant les catégories d'éléments "
+"reliés. Cliquez sur n'importe quel bouton pour afficher les icônes de tous "
+"les objets dans cette catégorie.\n"
 "\n"
-"Quand le curseur survole l'icône d'un objet, vous obtiendrez une bulle d'aide pour cet élément.\n"
+"Quand le curseur survole l'icône d'un objet, vous obtiendrez une bulle "
+"d'aide pour cet élément.\n"
 "\n"
-"Quand vous déplacez à la souris un icône du catalogue d'objets, vous en obtiendrez une nouvelle copie dans votre main. Ce nouvel objet sera déposé à l'emplacement ou vous cliquerez."
+"Quand vous déplacez à la souris un icône du catalogue d'objets, vous en "
+"obtiendrez une nouvelle copie dans votre main. Ce nouvel objet sera déposé à "
+"l'emplacement ou vous cliquerez."
 
 #: MorphicExtras-PartsBin,ObjectsTool>>modeTabs
 msgid "A separate tab for each letter of the alphabet"
@@ -2332,7 +2474,9 @@ msgstr "Permet de trouver un objet en tapant un bout de son nom."
 
 #: MorphicExtras-PartsBin,ObjectsTool>>newSearchPane
 msgid "Type here and all entries that match will be shown."
-msgstr "Tape ici le nom de l'objet que tu cherches, les objets correspondant s'afficheront en-dessous."
+msgstr ""
+"Tape ici le nom de l'objet que tu cherches, les objets correspondant "
+"s'afficheront en-dessous."
 
 #: MorphicExtras-PartsBin,ObjectsTool>>presentHelp
 msgid "Objects Catalog"
@@ -2386,17 +2530,9 @@ msgstr "enregistrer la bibliothèque sur disque..."
 msgid "save sound on disk..."
 msgstr "enregistrer le son sur disque..."
 
-#: MorphicExtras-SoundInterface,EnvelopeEditorMorph>>addCustomMenuItems:hand:
-msgid "turn reverb off"
-msgstr "désactiver reverbération"
-
-#: MorphicExtras-SoundInterface,EnvelopeEditorMorph>>addCustomMenuItems:hand:
-msgid "turn reverb on"
-msgstr "activer réverbération"
-
 #: MorphicExtras-SoundInterface,EnvelopeEditorMorph>>adjustScale:
 msgid "Enter the new full-scale value..."
-msgstr ""
+msgstr "Entrer le nouvelle valeur de pleine échelle..."
 
 #: MorphicExtras-SoundInterface,EnvelopeEditorMorph>>editSound:
 msgid ""
@@ -2800,7 +2936,10 @@ msgstr "panneau verticale"
 
 #: MorphicExtras-Widgets,GraphMorph_class>>descriptionForPartsBin
 msgid "A graph of numbers, normalized so the full range of values just fits my height.  I support a movable cursor that can be dragged with the mouse."
-msgstr "Un graphique de nombres, normalisés afin que l'ensemble des valeurs rentrent dans ma hauteur. Je dispose aussi d'un curseur mobile qui peut glisser à l'aide de la souris."
+msgstr ""
+"Un graphe de valeurs, normalisés afin que l'ensemble des valeurs rentrent "
+"dans ma hauteur. Je dispose aussi d'un curseur mobile qui peut glisser à "
+"l'aide de la souris."
 
 #: MorphicExtras-Widgets,GraphMorph_class>>descriptionForPartsBin
 msgid "Graph"
@@ -2820,7 +2959,9 @@ msgstr "Texte éditable et déroulant"
 
 #: MorphicExtras-Widgets,SimpleSliderMorph_class>>descriptionForPartsBin
 msgid "A scriptable control that allows you to choose a numeric value by dragging a knob."
-msgstr "Un objet qui permet de choisir une valeur numérique en déplaçant un curseur avec la souris."
+msgstr ""
+"Un objet qui permet de choisir une valeur numérique en déplaçant un curseur "
+"avec la souris."
 
 #: MorphicExtras-Widgets,SimpleSliderMorph>>addCustomMenuItems:hand:,StringButtonMorph>>addCustomMenuItems:hand:
 msgid "change arguments"
@@ -2866,7 +3007,9 @@ msgstr ""
 msgid ""
 "Please type the arguments to be sent to the target\n"
 "when this button is pressed separated by periods"
-msgstr "Tapez les arguments à envoyer à la cible lorsque ce bouton est appuyé, séparés par des points"
+msgstr ""
+"Tapez les arguments à envoyer à la cible lorsque ce bouton est appuyé, "
+"séparés par des points"
 
 #: MorphicExtras-Widgets,SimpleSliderMorph>>setLabel
 msgid "Please a new label for this button"
@@ -3066,7 +3209,9 @@ msgstr "Courbe"
 
 #: Morphic-Basic,CurveMorph_class>>supplementaryPartsDescriptions
 msgid "A curved line with an arrowhead.  Shift-click to get handles and move the points."
-msgstr "Une ligne courbe avec des flèches.  Maj-cliquer pour obtenir des poignées et déplacer les points."
+msgstr ""
+"Une ligne courbe avec des flèches.  Maj-cliquer pour obtenir des poignées et "
+"déplacer les points."
 
 #: Morphic-Basic,CurveMorph_class>>supplementaryPartsDescriptions
 msgid "Curvy Arrow"
@@ -3086,11 +3231,17 @@ msgstr "Ellipse"
 
 #: Morphic-Basic,PolygonMorph_class>>supplementaryPartsDescriptions
 msgid "A line with an arrowhead.  Shift-click to get handles and move the ends."
-msgstr "Un ligne avec une flèche. Maj-cliquer pour obtenir des poignées et déplacer les extrémités."
+msgstr ""
+"Un ligne avec une flèche. Maj-cliquer pour obtenir des poignées et déplacer "
+"les extrémités."
 
 #: Morphic-Basic,PolygonMorph_class>>supplementaryPartsDescriptions
 msgid "A smooth wiggly curve, or a curved solid.  Shift-click to get handles and move the points.  Using the halo menu, can be coverted into a polygon, and can be made \"open\" rather than closed."
-msgstr "Une courbe ondulée, ou une courbe continue. Clique en appuyant sur la touche Maj. pour afficher les poignées et déplacer les points. Dans le menu de l'objet, tu pourras le convertir en un polygone et en faire une courbe ouverte plutôt que fermée."
+msgstr ""
+"Une courbe ondulée, ou une courbe continue. Clique en appuyant sur la touche "
+"Maj. pour afficher les poignées et déplacer les points. Dans le menu de "
+"l'objet, tu pourras le convertir en un polygone et en faire une courbe "
+"ouverte plutôt que fermée."
 
 #: Morphic-Basic,PolygonMorph_class>>supplementaryPartsDescriptions
 msgid "A three-sided polygon."
@@ -3158,11 +3309,13 @@ msgstr "Crée un nouveau tiroir. Tu pourra ensuite le partager."
 
 #: Morphic-Kernel,TheWorldMenu>>formulateFlapsMenu:
 msgid "Create the default set of shared flaps used by successive versions of the Squeak development platform"
-msgstr "Crée et installe les tiroirs par défaut (« Outils », « Accessoires », etc.)."
+msgstr ""
+"Crée et installe les tiroirs par défaut (« Outils », « Accessoires », etc.)."
 
 #: Morphic-Kernel,TheWorldMenu>>formulateFlapsMenu:
 msgid "Destroy all the shared flaps and disable their use in all projects."
-msgstr "Supprime tous les tiroirs partagés, et les désactive dans tous les projets."
+msgstr ""
+"Supprime tous les tiroirs partagés, et les désactive dans tous les projets."
 
 #: Morphic-Kernel,TheWorldMenu>>formulateFlapsMenu:
 msgid "destroy all shared flaps"
@@ -3202,7 +3355,9 @@ msgstr "Créer un nouveau tiroir..."
 
 #: Morphic-Kernel,TheWorldMenu>>formulateFlapsMenu:
 msgid "Put up the default etoy flaps: a custom Supplies flap and the Navigator flap"
-msgstr "Lever les tiroirs Etoy par défaut: un tiroir Accessoires personalisé et le tiroir de Navigation"
+msgstr ""
+"Installe les tiroirs EToys par défaut: un tiroir Accessoires personalisé et le "
+"tiroir de Navigation"
 
 #: Morphic-Kernel,TheWorldMenu>>formulateFlapsMenu:
 msgid "put shared flaps on bottom"
@@ -3232,3 +3387,13 @@ msgstr "Un endroit pour stocker d'autres images dans une animation."
 msgid "Are you sure you want to quit Etoys?"
 msgstr "Es-tu sûr(e) de vouloir partir ?"
 
+#~ msgid "A confined place for drawing and scripting. with its own private stop/step/go buttons."
+#~ msgstr ""
+#~ "Un espace réservé au dessin et aux scripts, avec ses propres boutons "
+#~ "stop/pas à pas/départ."
+
+#~ msgid "turn reverb off"
+#~ msgstr "désactiver reverbération"
+
+#~ msgid "turn reverb on"
+#~ msgstr "activer réverbération"

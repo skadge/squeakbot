@@ -1,16 +1,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: eToys\n"
-"POT-Creation-Date: 2010-09-02 23:20-0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-31 22:08-0000\n"
 "PO-Revision-Date: 2010-09-02 23:20-0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Etoys-SystemVersion: etoys4.1 of 29 April 2010 update 2384\n"
+"X-Generator: Translate Toolkit 1.6.0\n"
 "X-Etoys-Domain: DrGeoII-Core\n"
-
+"X-Etoys-SystemVersion: etoys4.1.2 of 31 August 2011 update 2397\n"
 
 #: DrGeoII-Core-App,DrGeoPresenter>>angleButtonData
 msgid "Angle"
@@ -34,7 +35,9 @@ msgstr "Cercle"
 
 #: DrGeoII-Core-App,DrGeoPresenter>>circleButtonData
 msgid "Circle defined by its center and a point or by its center and radius, a value."
-msgstr "Cercle défini par son centre et un point sur le cercle ou par son centre et son rayon, une valeur."
+msgstr ""
+"Cercle défini par son centre et un point sur le cercle ou par son centre et "
+"son rayon, une valeur."
 
 #: DrGeoII-Core-App,DrGeoPresenter>>coordinatesButtonData,DrGeoPresenter>>pointByCoordinatesButtonData
 msgid "Coordinates"
@@ -74,7 +77,9 @@ msgstr "Supprimer"
 
 #: DrGeoII-Core-App,DrGeoPresenter>>freePointButtonData
 msgid "Click to create a point: free point on the background, on a curve or on two curves intersection."
-msgstr "Un clic où vous souhaitez créer un point : point libre sur le fond, sur une ligne ou à l'intersection de deux lignes."
+msgstr ""
+"Un clic où vous souhaitez créer un point : point libre sur le fond, sur une "
+"ligne ou à l'intersection de deux lignes."
 
 #: DrGeoII-Core-App,DrGeoPresenter>>freePointButtonData
 msgid "Point"
@@ -106,7 +111,10 @@ msgstr "Coller à la grille."
 
 #: DrGeoII-Core-App,DrGeoPresenter>>groupButtonData
 msgid "Create a selection group. To do a selection: i. set moving object mode, ii. select a zone by shift+drag over a backgroudn area."
-msgstr "Créer un groupement à partir d'une sélection. Pour faire une sélection : i. se placer en mode déplacement d'objet, ii. sélectionner une zone par un shift+drag sur une zone de fond écran."
+msgstr ""
+"Créer un groupement à partir d'une sélection. Pour faire une sélection : i. "
+"se placer en mode déplacement d'objet, ii. sélectionner une zone par un "
+"shift+drag sur une zone de fond écran."
 
 #: DrGeoII-Core-App,DrGeoPresenter>>groupButtonData
 msgid "Create Group"
@@ -118,7 +126,10 @@ msgstr "Homothétie"
 
 #: DrGeoII-Core-App,DrGeoPresenter>>homothetyButtonData
 msgid "Object transformation by homothety: select a point, a value and a geometric object.The first selected point is the homothety center."
-msgstr "Objet transformé par une homothétie : sélectionner un point, une valeur et un objet géométrique. Le premier point sélectionné est le centre de l'homothétie."
+msgstr ""
+"Objet transformé par une homothétie : sélectionner un point, une valeur et "
+"un objet géométrique. Le premier point sélectionné est le centre de "
+"l'homothétie."
 
 #: DrGeoII-Core-App,DrGeoPresenter>>horizontalWheel
 msgid "Horizontal shift"
@@ -146,7 +157,8 @@ msgstr "Construire une macro"
 
 #: DrGeoII-Core-App,DrGeoPresenter>>macroBuildButtonData
 msgid "Construct a macro-construction with input and output items."
-msgstr "Construire une macro-construction avec des items en entrée et en sortie."
+msgstr ""
+"Construire une macro-construction avec des items en entrée et en sortie."
 
 #: DrGeoII-Core-App,DrGeoPresenter>>macroDeleteButtonData
 msgid "Delete a macro-construction from the registry."
@@ -158,7 +170,8 @@ msgstr "Effacer une macro"
 
 #: DrGeoII-Core-App,DrGeoPresenter>>macroExecuteButtonData
 msgid "Execute a pre-built macro-construction on selected input items."
-msgstr "Jouer une macro-construction pré-existante sur des items à sélectionner."
+msgstr ""
+"Jouer une macro-construction pré-existante sur des items à sélectionner."
 
 #: DrGeoII-Core-App,DrGeoPresenter>>macroExecuteButtonData
 msgid "Execute Macro"
@@ -186,11 +199,14 @@ msgstr "Création multiple"
 
 #: DrGeoII-Core-App,DrGeoPresenter>>multipleModeButtonData
 msgid "Toggle between the build of several geometric objects and the build of one geometric object then move it."
-msgstr "Basculer entre la construction en séquence d'objets géométriques et la construction d'un objet puis son déplacement."
+msgstr ""
+"Basculer entre la construction en séquence d'objets géométriques et la "
+"construction d'un objet puis son déplacement."
 
 #: DrGeoII-Core-App,DrGeoPresenter>>parallelButtonData
 msgid "Line passing through one point and parallel to a line, half-line, etc."
-msgstr "Droite passant par un point et parallèle à une droite, une demi-droite, etc."
+msgstr ""
+"Droite passant par un point et parallèle à une droite, une demi-droite, etc."
 
 #: DrGeoII-Core-App,DrGeoPresenter>>parallelButtonData
 msgid "Parallel"
@@ -198,7 +214,8 @@ msgstr "Droite parallèle"
 
 #: DrGeoII-Core-App,DrGeoPresenter>>perpendicularButtonData
 msgid "Line passing through one point and orthogonal to a line, half-line, etc."
-msgstr "Droite passant par un point et orthogonale à une droite, demi-droite, etc."
+msgstr ""
+"Droite passant par un point et orthogonale à une droite, demi-droite, etc."
 
 #: DrGeoII-Core-App,DrGeoPresenter>>perpendicularButtonData
 msgid "Perpendicular"
@@ -206,7 +223,9 @@ msgstr "Droite perpendiculaire"
 
 #: DrGeoII-Core-App,DrGeoPresenter>>pointByCoordinatesButtonData
 msgid "Point defined by its coordinates. Select two numbers for the abscissa and the ordinate."
-msgstr "Point défini par ses coordonnées. Sélectionner deux nombres pour l'abscisse et l'ordonnée."
+msgstr ""
+"Point défini par ses coordonnées. Sélectionner deux nombres pour l'abscisse "
+"et l'ordonnée."
 
 #: DrGeoII-Core-App,DrGeoPresenter>>polygonButtonData
 msgid "Polygon"
@@ -214,7 +233,9 @@ msgstr "Polygone"
 
 #: DrGeoII-Core-App,DrGeoPresenter>>polygonButtonData
 msgid "Polygon defined by n points. Last choosen point must be the initial point to terminate the selection."
-msgstr "Polygone défini par n points. Le dernier point sélectionné doit être le point initial pour terminer la sélection."
+msgstr ""
+"Polygone défini par n points. Le dernier point sélectionné doit être le "
+"point initial pour terminer la sélection."
 
 #: DrGeoII-Core-App,DrGeoPresenter>>propertyButtonData
 msgid "Edit an object property."
@@ -226,7 +247,9 @@ msgstr "Propriété"
 
 #: DrGeoII-Core-App,DrGeoPresenter>>rayButtonData
 msgid "Half-Line defined by two points, the first selected point is the origin."
-msgstr "Demi-droite définie par deux points, le premier point sélectionné est l'origine."
+msgstr ""
+"Demi-droite définie par deux points, le premier point sélectionné est "
+"l'origine."
 
 #: DrGeoII-Core-App,DrGeoPresenter>>rayButtonData
 msgid "Ray"
@@ -242,7 +265,9 @@ msgstr "Refaire la dernière opération."
 
 #: DrGeoII-Core-App,DrGeoPresenter>>reflectionButtonData
 msgid "Object transformation by reflexion: select a line and a geometric object. Reflexion axe will be the first selected line."
-msgstr "Objet transformé par une réflexion : sélectionner une droite et un objet géométrique. La première droite sélectionnée est l'axe de la réflexion."
+msgstr ""
+"Objet transformé par une réflexion : sélectionner une droite et un objet "
+"géométrique. La première droite sélectionnée est l'axe de la réflexion."
 
 #: DrGeoII-Core-App,DrGeoPresenter>>reflectionButtonData
 msgid "Reflection"
@@ -250,7 +275,10 @@ msgstr "Réflexion (Symétrie axiale)"
 
 #: DrGeoII-Core-App,DrGeoPresenter>>rotationButtonData
 msgid "Object transformation by rotation: select a point, a value and a geometric object.The first selected point is the rotation center."
-msgstr "Objet transformé par une rotation : sélectionner un point, une valeur et un objet géométrique. Le premier point sélectionné est le centre de la rotation."
+msgstr ""
+"Objet transformé par une rotation : sélectionner un point, une valeur et un "
+"objet géométrique. Le premier point sélectionné est le centre de la "
+"rotation."
 
 #: DrGeoII-Core-App,DrGeoPresenter>>rotationButtonData
 msgid "Rotation"
@@ -290,7 +318,9 @@ msgstr "Éditer le style"
 
 #: DrGeoII-Core-App,DrGeoPresenter>>symmetryButtonData
 msgid "Object transformation by central symmetry: select a point and a geometric object. The first selected point is the symmetry center."
-msgstr "Objet tranformé par une symétrie : sélectionner un point et un objet géométrique. Le premier point sélectioné est le centre de la symétrie."
+msgstr ""
+"Objet tranformé par une symétrie : sélectionner un point et un objet "
+"géométrique. Le premier point sélectioné est le centre de la symétrie."
 
 #: DrGeoII-Core-App,DrGeoPresenter>>symmetryButtonData
 msgid "Symmetry"
@@ -298,7 +328,9 @@ msgstr "Symétrie centrale"
 
 #: DrGeoII-Core-App,DrGeoPresenter>>translationButtonData
 msgid "Object transformation by translation: select a vector and a geometric object."
-msgstr "Objet transformé par une translation : sélectionner un vecteur et un objet géométrique."
+msgstr ""
+"Objet transformé par une translation : sélectionner un vecteur et un objet "
+"géométrique."
 
 #: DrGeoII-Core-App,DrGeoPresenter>>translationButtonData
 msgid "Translation"
@@ -338,7 +370,10 @@ msgstr "Grossissement"
 
 #: DrGeoII-Core-App,DrGService_class>>descriptionForPartsBin
 msgid "An interactive geometry canvas to draw dynamic geometric sketch. Open the Morph menu to get access to the construction tools and more."
-msgstr "Un canevas de géométrie interactive pour construire des figures géométriaques dynamiques. Ouvrez le menu de l'objet (halo rouge) pour accéder aux outils et d'autres choses."
+msgstr ""
+"Un canevas de géométrie interactive pour construire des figures "
+"géométriaques dynamiques. Ouvrez le menu de l'objet (halo rouge) pour "
+"accéder aux outils et d'autres choses."
 
 #: DrGeoII-Core-App,DrGService>>addCustomMenuItems:hand:,DrGService>>popupMenu
 msgid "Dr. Geo tools"
@@ -554,7 +589,9 @@ msgstr "Choisissez un objet"
 
 #: DrGeoII-Core-Tool,DrGDynamicToolState>>handleMouseAt:,DrGEditGroupToolStateNeutral>>handleMouseAt:
 msgid "Several objects can be selected. Please, select one clicking the mouse."
-msgstr "Plusieurs objets peuvent être attrapés. Vous pouvez en choisir un en pressant le bouton souris."
+msgstr ""
+"Plusieurs objets peuvent être attrapés. Vous pouvez en choisir un en "
+"pressant le bouton souris."
 
 #: DrGeoII-Core-Tool,DrGFlyPointBuildToolState>>handleMouseAt:
 msgid "This intersection"
@@ -673,4 +710,3 @@ msgstr "Nom du script :"
 #: DrGeoII-Core-UI,DrGWizardScript>>secondPage
 msgid "Select a script then the figure items"
 msgstr "Choisir un script puis des items de la figure"
-

@@ -1,15 +1,19 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: eToys\n"
-"POT-Creation-Date: 2010-08-27 15:37-0000\n"
-"PO-Revision-Date: 2010-12-21 18:17+0100\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-31 22:08-0000\n"
+"PO-Revision-Date: 2011-01-19 23:17+0200\n"
 "Last-Translator: Séverin Lemaignan <skadge@gmail.com>\n"
 "Language-Team: \n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Etoys-SystemVersion: etoys4.1 of 29 April 2010 update 2383 (repo v1295 of 25 August 2010)\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Pootle 2.0.3\n"
 "X-Etoys-Domain: Morphic\n"
+"X-Etoys-SystemVersion: etoys4.1.2 of 31 August 2011 update 2397\n"
 
 #: Balloon-Fills,BitmapFillStyle>>addFillStyleMenuItems:hand:from:
 msgid "choose new graphic"
@@ -45,11 +49,17 @@ msgstr "Modifier l'origine"
 
 #: Morphic-Basic,AlignmentMorph_class>>columnPrototype
 msgid "Things dropped into here will automatically be organized into a column. Once you have added your own items here, you will want to remove the sample colored rectangles that this started with, and you will want to change this balloon help message to one of your own!"
-msgstr "Tout ce qui sera placé ici sera automatiquement organisé en colonne. Une fois les items ajoutés, il est possible de retirer les rectangles colorés donnés en exemple. Cette bulle d'aide peut aussi être modifiée."
+msgstr ""
+"Tout ce qui sera placé ici sera automatiquement organisé en colonne. Une "
+"fois les items ajoutés, il est possible de retirer les rectangles colorés "
+"donnés en exemple. Cette bulle d'aide peut aussi être modifiée."
 
 #: Morphic-Basic,AlignmentMorph_class>>rowPrototype
 msgid "Things dropped into here will automatically be organized into a row. Once you have added your own items here, you will want to remove the sample colored eggs that this started with, and you will want to change this balloon help message to one of your own!"
-msgstr "Tout ce qui sera placé ici sera automatiquement organisé en ligne. Une fois les items ajoutés, il est possible de retirer les rectangles colorés donnés en exemple. Cette bulle d'aide peut aussi être modifiée."
+msgstr ""
+"Tout ce qui sera placé ici sera automatiquement organisé en ligne. Une fois "
+"les items ajoutés, il est possible de retirer les rectangles colorés donnés "
+"en exemple. Cette bulle d'aide peut aussi être modifiée."
 
 #: Morphic-Basic,CircleMorph_class>>supplementaryPartsDescriptions
 msgid "A circular shape"
@@ -77,7 +87,11 @@ msgstr "Contact"
 
 #: Morphic-Basic,CurveMorph_class>>formerDescriptionForPartsBin
 msgid "A smooth wiggly curve, or a curved solid.  Shift-click to get handles and move the points.  Using the halo menu, can be coverted into a polygon, and can be made \"open\" rather than closed."
-msgstr "Une courbe ondulée, ou une courbe continue. Clique en appuyant sur la touche Maj. pour afficher les poignées et déplacer les points. Dans le menu de l'objet, tu pourras le convertir en un polygone et en faire une courbe ouverte plutôt que fermée."
+msgstr ""
+"Une courbe ondulée, ou une courbe continue. Clique en appuyant sur la touche "
+"Maj. pour afficher les poignées et déplacer les points. Dans le menu de "
+"l'objet, tu pourras le convertir en un polygone et en faire une courbe "
+"ouverte plutôt que fermée."
 
 #: Morphic-Basic,CurveMorph_class>>formerDescriptionForPartsBin,EllipseMorph_class>>descriptionForPartsBin,JoystickMorph_class>>descriptionForPartsBin,PasteUpMorph_class>>descriptionForPartsBin,PolygonMorph_class>>descriptionForPartsBin,RectangleMorph_class>>descriptionForPartsBin
 msgid "Basic"
@@ -97,7 +111,9 @@ msgstr "Ellipse"
 
 #: Morphic-Basic,ImageMorph_class>>descriptionForPartsBin
 msgid "A non-editable picture.  If you use the Paint palette to make a picture, you can edit it afterwards."
-msgstr "Une image non modifiable.  Une image crée avec la palette de Peinture peut être modifiée ensuite."
+msgstr ""
+"Une image non modifiable.  Une image crée avec la palette de Peinture peut "
+"être modifiée ensuite."
 
 #: Morphic-Basic,ImageMorph_class>>descriptionForPartsBin
 msgid "Image"
@@ -121,7 +137,9 @@ msgstr "Merci de taper le nom de fichier de l'image"
 
 #: Morphic-Basic,LineMorph_class>>descriptionForPartsBin
 msgid "A straight line.  Shift-click to get handles and move the ends."
-msgstr "Une ligne droite. Maj-cliquer pour obtenir des poignées et déplacer les extrémités."
+msgstr ""
+"Une ligne droite. Maj-cliquer pour obtenir des poignées et déplacer les "
+"extrémités."
 
 #: Morphic-Basic,LineMorph_class>>descriptionForPartsBin
 msgid "Line"
@@ -157,7 +175,10 @@ msgstr "arrêter de jouer"
 
 #: Morphic-Basic,PolygonMorph_class>>descriptionForPartsBin
 msgid "A series of connected line segments, which may be a closed solid, or a zig-zag line.  Shift-click to get handles and move the points."
-msgstr "Une série de segments connectés, qui peuvent former un polygone, ou une ligne en zig-zag. Maj-cliquer pour obtenir les boîtes de contrôle et bouger les points."
+msgstr ""
+"Une série de segments connectés, qui peuvent former un polygone, ou une "
+"ligne en zig-zag. Maj-cliquer pour obtenir les boîtes de contrôle et bouger "
+"les points."
 
 #: Morphic-Basic,PolygonMorph_class>>descriptionForPartsBin
 msgid "Polygon"
@@ -206,11 +227,12 @@ msgid ""
 "The major dash will have the normal border color.\n"
 "A blank response will remove the dash specification.\n"
 "[Note: You may give 5 items as, eg, {10. 5. Color white. 0. 3}\n"
-"where the 4th ityem is zero, and the 5th is the number of pixels\n"
+"where the 4th item is zero, and the 5th is the number of pixels\n"
 "by which the dashes will move in each step of animation]"
 msgstr ""
 "Entre la définition de tes pointillés sous la forme \n"
-"{ taille tiret principal. taille tiret secondaire. couleur tiret secondaire (en anglais !) }\n"
+"{ taille tiret principal. taille tiret secondaire. couleur tiret secondaire "
+"(en anglais !) }\n"
 "Le tiret principal aura la couleur normale de la bordure.\n"
 "Une réponse vide supprimera la définition des pointillés.\n"
 "[Note : tu peux fournir 5 éléments. Par exemple, {10. 5. Color white. 0. 3}\n"
@@ -263,7 +285,7 @@ msgstr "c'était déjà votre GraphiqueDeBase"
 
 #: Morphic-Basic,SketchMorph>>collapse
 msgid "A collapsed version of {1}.  Click to open it back up."
-msgstr ""
+msgstr "Une version miniaturisée de {1}. Clique dessus pour le ré-ouvrir."
 
 #: Morphic-Basic,SketchMorph>>recolorPixelsOfColor:
 msgid "choose the color you want to replace"
@@ -300,8 +322,10 @@ msgid "change font"
 msgstr "modifier la police"
 
 #: Morphic-Basic,TextMorph_class>>registerInFlapsRegistry
-msgid "A  data field which will have a different value on every card of the background"
-msgstr "Un champ de donnée qui aura une valeur différente sur toute les cartes du fond"
+msgid "A data field which will have a different value on every card of the background"
+msgstr ""
+"Un champ de donnée qui aura une valeur différente sur toute les cartes du "
+"fond"
 
 #: Morphic-Basic,TextMorph_class>>registerInFlapsRegistry
 msgid "A piece of text that will occur on every card of the background"
@@ -385,15 +409,21 @@ msgstr "couleur du texte..."
 
 #: Morphic-Basic,TextMorph>>addFitAndWrapItemsTo:
 msgid "When checked, bounds are automatically adjusted to fit the contents."
-msgstr "Si la case est cochée, les limites sont automatiquement ajustées pour s'adapter au contenu."
+msgstr ""
+"Si la case est cochée, les limites sont automatiquement ajustées pour "
+"s'adapter au contenu."
 
 #: Morphic-Basic,TextMorph>>addFitAndWrapItemsTo:
 msgid "When checked, contents will automatically be translated upon a locale change"
-msgstr "Si la case est cochée, le contenu sera automatiquement traduit lorsque la langue changera"
+msgstr ""
+"Si la case est cochée, le contenu sera automatiquement traduit lorsque la "
+"langue changera"
 
 #: Morphic-Basic,TextMorph>>addFitAndWrapItemsTo:
 msgid "When checked, text is automatically wrapped to fit horizontally within the boundaries specifed."
-msgstr "Si la case est cochée, le texte sera automatiquement enveloppé pour s'adapter horizontalement aux limites spécifiées."
+msgstr ""
+"Si la case est cochée, le texte sera automatiquement enveloppé pour "
+"s'adapter horizontalement aux limites spécifiées."
 
 #: Morphic-Basic,TextMorph>>addTextMenuItemsTo:event:
 msgid "font for entire text..."
@@ -443,7 +473,7 @@ msgstr "activer le lissage"
 
 #: Morphic-Books,QuickGuideHolderMorph>>load
 msgid "guide is missing"
-msgstr ""
+msgstr "Le guide est introuvable"
 
 #: Morphic-Books,QuickGuideMorph>>loadPages,QuickGuideMorph>>showDescriptionMenu:
 msgid "Index"
@@ -451,7 +481,11 @@ msgstr "Index"
 
 #: Morphic-Books,QuickGuideMorph>>loadPages
 msgid "index"
-msgstr ""
+msgstr "index"
+
+#: Morphic-Books,QuickGuideMorph>>shortControlSpecs
+msgid "Jump to..."
+msgstr "Aller à..."
 
 #: Morphic-Books,QuickGuideMorph>>shortControlSpecs
 msgid "Menu to see another Guide"
@@ -571,11 +605,17 @@ msgstr "Vous permet de changer la police utilisée pour l'affichage des nombres.
 
 #: Morphic-Demo,WatchMorph>>addCustomMenuItems:hand:
 msgid "Allows you to specify a new color for the hands of the watch.  Note that actual *watch* color can be changed simply by using the halo's recoloring handle."
-msgstr "Permet de changer la couleur des aiguilles de la montre. Remarque : pour changer la couleur de la *montre* elle-même il suffit d'utiliser la poignée de changement de couleur du halo."
+msgstr ""
+"Permet de changer la couleur des aiguilles de la montre. Remarque : pour "
+"changer la couleur de la *montre* elle-même il suffit d'utiliser la poignée "
+"de changement de couleur du halo."
 
 #: Morphic-Demo,WatchMorph>>addCustomMenuItems:hand:
 msgid "Allows you to specify a new color to be used during PM hours for the center portion of the watch; during AM hours, a lighter shade of the same color will be used."
-msgstr "Permet de changer la couleur utilisée pour la partie centrale de l'horloge l'après-midi. Pour les heure de la matinée, c'est une nuance plus claire de cette couleur qui sera utilisée."
+msgstr ""
+"Permet de changer la couleur utilisée pour la partie centrale de l'horloge "
+"l'après-midi. Pour les heure de la matinée, c'est une nuance plus claire de "
+"cette couleur qui sera utilisée."
 
 #: Morphic-Demo,WatchMorph>>addCustomMenuItems:hand:
 msgid "change center color..."
@@ -619,7 +659,9 @@ msgstr "Action: "
 
 #: Morphic-Experimental,ButtonPropertiesMorph>>paneForButtonTargetReport
 msgid "Drop another morph here to change the target and action of this button. (Only some morphs will work)"
-msgstr "Déposer un autre morph ici pour changer la cible et l'action de ce bouton (ne fonctionne que pour certains morphs)."
+msgstr ""
+"Déposer un autre morph ici pour changer la cible et l'action de ce bouton "
+"(ne fonctionne que pour certains morphs)."
 
 #: Morphic-Experimental,ButtonPropertiesMorph>>paneForButtonTargetReport
 msgid "Target: "
@@ -631,7 +673,9 @@ msgstr " Allure pour Souris-presse "
 
 #: Morphic-Experimental,ButtonPropertiesMorph>>paneForChangeMouseDownLook
 msgid "Drop another morph here to change the visual appearance of this button when the mouse is clicked in it."
-msgstr "Lâcher un autre morph ici pour changer l'apparence visuelle de ce bouton lorsqu'on cliquera dessus à l'aide de la souris."
+msgstr ""
+"Lâcher un autre morph ici pour changer l'apparence visuelle de ce bouton "
+"lorsqu'on cliquera dessus à l'aide de la souris."
 
 #: Morphic-Experimental,ButtonPropertiesMorph>>paneForChangeMouseEnterLook
 msgid " Mouse-enter look "
@@ -639,7 +683,9 @@ msgstr " Allure pour Souris-entre "
 
 #: Morphic-Experimental,ButtonPropertiesMorph>>paneForChangeMouseEnterLook
 msgid "Drop another morph here to change the visual appearance of this button when the mouse enters it."
-msgstr "Lâchez un autre morph ici pour changer l'apparence visuelle de ce bouton quand la souris le traversera."
+msgstr ""
+"Lâchez un autre morph ici pour changer l'apparence visuelle de ce bouton "
+"quand la souris le traversera."
 
 #: Morphic-Experimental,ButtonPropertiesMorph>>paneForChangeVisibleMorph
 msgid " Change morph "
@@ -647,7 +693,9 @@ msgstr " Changer le morph "
 
 #: Morphic-Experimental,ButtonPropertiesMorph>>paneForChangeVisibleMorph
 msgid "Drop another morph here to change the visual appearance of this button. Or click here to get a menu of possible replacement morphs."
-msgstr "Dépose un autre objet ici pour changer l'apparence visuelle de ce bouton. Ou alors, clique ici pour afficher tous les objets que tu peux utiliser."
+msgstr ""
+"Dépose un autre objet ici pour changer l'apparence visuelle de ce bouton. Ou "
+"alors, clique ici pour afficher tous les objets que tu peux utiliser."
 
 #: Morphic-Experimental,ButtonPropertiesMorph>>paneForMouseDownColorPicker
 msgid "mouse-down halo color"
@@ -663,7 +711,9 @@ msgstr "Couleur du halo souris-sur"
 
 #: Morphic-Experimental,ButtonPropertiesMorph>>paneForRepeatingInterval
 msgid "Drag in here to change how often the button repeats while the mouse is down"
-msgstr "Clique et déplace la souris changer la vitesse à laquelle le bouton répète son action quand on reste appuyé dessus."
+msgstr ""
+"Clique et déplace la souris changer la vitesse à laquelle le bouton répète "
+"son action quand on reste appuyé dessus."
 
 #: Morphic-Experimental,ButtonPropertiesMorph>>paneForWantsFiringWhileDownToggle
 msgid " Mouse-down repeating "
@@ -671,7 +721,8 @@ msgstr " Rendre Souris-presse répétitif "
 
 #: Morphic-Experimental,ButtonPropertiesMorph>>paneForWantsFiringWhileDownToggle
 msgid "Turn repeating while mouse is held down on or off"
-msgstr "Activer/désactiver la répétition lorsque le bouton de la souris est pressé"
+msgstr ""
+"Activer/désactiver la répétition lorsque le bouton de la souris est pressé"
 
 #: Morphic-Experimental,ButtonPropertiesMorph>>paneForWantsRolloverToggle
 msgid " Mouse-over highlighting"
@@ -747,7 +798,9 @@ msgstr "intervalle : "
 
 #: Morphic-Experimental,EtoyDAVLoginMorph>>buildPanel
 msgid "Etoys is trying to open your web browser.\\If it does not work, you can sign up at:\\\\"
-msgstr "Etoys tente d'ouvrir votre navigateur web.\\Si cela ne fonctionne pas, connectez vous à :\\\\"
+msgstr ""
+"Etoys tente d'ouvrir votre navigateur web.\\Si cela ne fonctionne pas, "
+"connectez vous à :\\\\"
 
 #: Morphic-Experimental,EtoyDAVLoginMorph>>cancelButton
 msgid "Cancel this login operation."
@@ -885,11 +938,18 @@ msgid ""
 "\n"
 "If you are having trouble, you can use the command menu to 'show cipher hints'.  That will display how many of each letter occurs, which is often a help in solving ciphers."
 msgstr ""
-"La Boite à Codes affiche un message crypté. Le cryptage est un simple code de substitution; chaque lettre de l'alphabet est remplacée par une autre lettre.\n"
+"La Boite à Codes affiche un message crypté. Le cryptage est un simple code "
+"de substitution; chaque lettre de l'alphabet est remplacée par une autre "
+"lettre.\n"
 "\n"
-"Vous pouvez résoudre le cryptage en cliquant sur n'importe quelle lettre du cryptage et en saisissant la lettre que vous pensez qu'elle remplace. Le Panneau de cryptage fait automatiquement la substitution partout ailleurs où la lettre apparaît dans le message crypté.\n"
+"Vous pouvez résoudre le cryptage en cliquant sur n'importe quelle lettre du "
+"cryptage et en saisissant la lettre que vous pensez qu'elle remplace. Le "
+"Panneau de cryptage fait automatiquement la substitution partout ailleurs où "
+"la lettre apparaît dans le message crypté.\n"
 "\n"
-"Si vous avez un problème, vous pouvez utiliser la commande 'afficher les conseils sur le cryptage'. Cela affichera combien de fois chaque lettre apparaît, ce qui est souvent une aide pour résoudre un problème de cryptage."
+"Si vous avez un problème, vous pouvez utiliser la commande 'afficher les "
+"conseils sur le cryptage'. Cela affichera combien de fois chaque lettre "
+"apparaît, ce qui est souvent une aide pour résoudre un problème de cryptage."
 
 #: Morphic-Games,CipherPanel>>showHintsWindow
 msgid ""
@@ -900,12 +960,15 @@ msgid ""
 "\n"
 "The message you are trying to decode has the following specific statistics:"
 msgstr ""
-"La plupart des textes en anglais suivent un modèle général d'utilisation des lettres de l'alphabet.  Voici les lettres les plus utilisés dans leur ordre de fréquence approximatif:\n"
+"La plupart des textes en anglais suivent un modèle général d'utilisation des "
+"lettres de l'alphabet.  Voici les lettres les plus utilisés dans leur ordre "
+"de fréquence approximatif:\n"
 "\tE  T  A  O  N  I  R  S  H\n"
 "Voici les digrammes les plus fréquents:\n"
 "\tEN  ER  RE  NT  TH  ON  IN\n"
 "\n"
-"Le message que vous essayez de décoder à les statistiques spécifiques suivantes:"
+"Le message que vous essayez de décoder à les statistiques spécifiques "
+"suivantes:"
 
 #: Morphic-Games,CipherPanel>>showHintsWindow
 msgid "Some Useful Statistics"
@@ -927,7 +990,9 @@ msgstr "Mots croisés (en anglais)"
 
 #: Morphic-Games,CrosticPanel_class>>descriptionForPartsBin
 msgid "The Crostic Panel: A classic word diagram game, by Dan Ingalls"
-msgstr "Les Mots Croisés : un jeu de mots croisés classique, par Dan Ingalls. Attention ! le jeu est en anglais !"
+msgstr ""
+"Les Mots Croisés : un jeu de mots croisés classique, par Dan Ingalls. "
+"Attention ! le jeu est en anglais !"
 
 #: Morphic-Games,CrosticPanel>>addMenuItemsTo:hand:
 msgid "clear crostic typing"
@@ -985,9 +1050,18 @@ msgid ""
 "\n"
 "Have fun."
 msgstr ""
-"Le Panneau Crostique propose un puzzle acrostique à résoudre. Quand vous tapez vos réponses pour les indices, les lettres apparaissent également dans le texte de la citation cachée. Inversement, lorsque vous proposez des mots dans la citation, leurs lettres remplissents les espaces manquants dans votre réponse. De plus, les premières lettres de toutes les réponses permettent de reconstituer le nom de l'auteur et le titre du travail dont la citation est extraite.\n"
+"Le Panneau Crostique propose un puzzle acrostique à résoudre. Quand vous "
+"tapez vos réponses pour les indices, les lettres apparaissent également dans "
+"le texte de la citation cachée. Inversement, lorsque vous proposez des mots "
+"dans la citation, leurs lettres remplissents les espaces manquants dans "
+"votre réponse. De plus, les premières lettres de toutes les réponses "
+"permettent de reconstituer le nom de l'auteur et le titre du travail dont la "
+"citation est extraite.\n"
 "\n"
-"Si vous voulez faire un autre puzzle acrostique, suivez le format de fichier utilisé dans la méthode sampleFile. Si vous voulez imprimer un acrostique pour y travailler sur papier, changez la méthode oldStyle pour qu'elle retourne true. Cela permettra de croiser correctement toutes les cellules.\n"
+"Si vous voulez faire un autre puzzle acrostique, suivez le format de fichier "
+"utilisé dans la méthode sampleFile. Si vous voulez imprimer un acrostique "
+"pour y travailler sur papier, changez la méthode oldStyle pour qu'elle "
+"retourne true. Cela permettra de croiser correctement toutes les cellules.\n"
 "\n"
 "Amusez-vous bien."
 
@@ -1008,7 +1082,8 @@ msgid "Good luck!"
 msgstr "Bonne chance !"
 
 #: Morphic-Games,CrosticPanel>>showHintsWindow
-msgid "The five longest answers are...\n"
+msgid ""
+"The five longest answers are...\n"
 msgstr "Les cinq plus longues réponses sont...\n"
 
 #: Morphic-Games,FreeCell_class>>descriptionForPartsBin
@@ -1027,11 +1102,16 @@ msgid ""
 "\n"
 "When moving a card to another stack, it must have a value that is one less than the exposed card and of a different color."
 msgstr ""
-"L'objectif de FreeCell est de déplacer toutes les cartes sur les quatre \"cases maison\" dans le coin haut droit. Chaque case maison devra contenir une suite de carte qui doit être remplies en démarrant par l'As.\n"
+"L'objectif de FreeCell est de déplacer toutes les cartes sur les quatre "
+"\"cases maison\" dans le coin haut droit. Chaque case maison devra contenir "
+"une suite de carte qui doit être remplies en démarrant par l'As.\n"
 "\n"
-"Il y a quatre \"cases libres\" dans le coin haut gauche qui peuvent chacune contenir une carte. Les cartes peuvent être déplacées depuis le haut de la pile vers une case libre ou vers une autre pile.  \n"
+"Il y a quatre \"cases libres\" dans le coin haut gauche qui peuvent chacune "
+"contenir une carte. Les cartes peuvent être déplacées depuis le haut de la "
+"pile vers une case libre ou vers une autre pile.  \n"
 "\n"
-"Quand on déplace une carte vers une autre pile, elle doit avoir une valeur inférieure de un à la pile d'arrivée et doit être d'une autre couleur."
+"Quand on déplace une carte vers une autre pile, elle doit avoir une valeur "
+"inférieure de un à la pile d'arrivée et doit être d'une autre couleur."
 
 #: Morphic-Games,FreeCell>>help
 msgid "FreeCell Help"
@@ -1158,11 +1238,27 @@ msgid ""
 "David A. Smith\n"
 "dastrs@bellsouth.net"
 msgstr ""
-"Mines est une petite reproduction du jeu de Démineur de Windows. Je l'ai utilisé pour apprendre Squeak. Je l'ai librement adapté de l'exemple <SameGame> ainsi le code peut vous paraître familier bien que comme tous les projets il s'est rapidement ...transformé... pour refléter ma propre excentricité. Notez en particulier l'absence de structure de code propres à Squeak - je n'avais simplement pas encore appris à les utiliser.\n"
+"Mines est une petite reproduction du jeu de Démineur de Windows. Je l'ai "
+"utilisé pour apprendre Squeak. Je l'ai librement adapté de l'exemple "
+"<SameGame> ainsi le code peut vous paraître familier bien que comme tous les "
+"projets il s'est rapidement ...transformé... pour refléter ma propre "
+"excentricité. Notez en particulier l'absence de structure de code propres à "
+"Squeak - je n'avais simplement pas encore appris à les utiliser.\n"
 "\n"
-"Mines est un jeu très simple à jour mais extrémement frustrant. Les règles sont celles-ci: il y à 99 mines disseminées sur la carte. Découvrez-les sans \"\"tomber\"\" sur elles. Votre première tuile est gratuite - cliquez n'importe-où. La tuile vous indique combien de mines se trouvent à côté, en incluant les diagonales. Si vous découvrez le nombre '2', vous savez qu'il y a deux mines cachées sur les tuiles adjacentes. Si vous pensez avoir trouver une mine, vous pouvez y déposer un drapeau, soit en cliquant sur la touche 'shift', soit en cliquant sur le bouton 'jaune' de la souris. Une fois que vous avez mis un drapeau toutes les mines adjacentes à une tuile numérotée, vous pouvez cliquer sur la tuile à nouveau pour découvrir le reste. Bien sûr vous pouvez aussi vous être trompé... \n"
+"Mines est un jeu très simple à jour mais extrémement frustrant. Les règles "
+"sont celles-ci: il y à 99 mines disseminées sur la carte. Découvrez-les sans "
+"\"\"tomber\"\" sur elles. Votre première tuile est gratuite - cliquez "
+"n'importe-où. La tuile vous indique combien de mines se trouvent à côté, en "
+"incluant les diagonales. Si vous découvrez le nombre '2', vous savez qu'il y "
+"a deux mines cachées sur les tuiles adjacentes. Si vous pensez avoir "
+"trouver une mine, vous pouvez y déposer un drapeau, soit en cliquant sur la "
+"touche 'shift', soit en cliquant sur le bouton 'jaune' de la souris. Une "
+"fois que vous avez mis un drapeau toutes les mines adjacentes à une tuile "
+"numérotée, vous pouvez cliquer sur la tuile à nouveau pour découvrir le "
+"reste. Bien sûr vous pouvez aussi vous être trompé... \n"
 "\n"
-"Vous gagnez lorsque vous avez découvert toutes les tuiles qui ne contiennent pas de mine. Bonne chance...\n"
+"Vous gagnez lorsque vous avez découvert toutes les tuiles qui ne contiennent "
+"pas de mine. Bonne chance...\n"
 "\n"
 "David A. Smith\n"
 "dastrs@bellsouth.net"
@@ -1189,7 +1285,9 @@ msgstr "déplacer carte"
 
 #: Morphic-Games,SameGame_class>>descriptionForPartsBin
 msgid "A board game implementedby Tim Olson, based on a game originally written for UNIX by Eiji Fukumoto."
-msgstr "Un jeu de société développé par Tim Olson, basé sur un jeu écrit pour Unix par Eiji Fukumoto."
+msgstr ""
+"Un jeu de société développé par Tim Olson, basé sur un jeu écrit pour Unix "
+"par Eiji Fukumoto."
 
 #: Morphic-Games,SameGame_class>>descriptionForPartsBin
 msgid "Same"
@@ -1211,15 +1309,31 @@ msgid ""
 "\n"
 "SameGame was originally written by Eiji Fukumoto for UNIX and X; this version is based upon the same game concept, but was rewritten from scratch."
 msgstr ""
-"L'objet de SameGame est de maximiser votre score en supprimant les tuiles de la carte. Les tuiles peuvent être sélectionnées et supprimées en cliquant sur une tuile qui a au moins une tuile adjacente de la même couleur (adjacent signifiant haut, bas, gauche ou droite).\n"
+"L'objet de SameGame est de maximiser votre score en supprimant les tuiles de "
+"la carte. Les tuiles peuvent être sélectionnées et supprimées en cliquant "
+"sur une tuile qui a au moins une tuile adjacente de la même couleur "
+"(adjacent signifiant haut, bas, gauche ou droite).\n"
 "\n"
-"Le premier click sélectionne un group de tuiles adjacentes, un second click dans ce groupe le supprimera de la carte en faisant glisser les tuiles en bas et à droite pour remplir l'espace laissé libre par le groupe supprimé. Si vous désirez sélectionner un groupe différent, cliquez simplement sur celui-ci à la place.\n"
+"Le premier click sélectionne un group de tuiles adjacentes, un second click "
+"dans ce groupe le supprimera de la carte en faisant glisser les tuiles en "
+"bas et à droite pour remplir l'espace laissé libre par le groupe supprimé. "
+"Si vous désirez sélectionner un groupe différent, cliquez simplement sur "
+"celui-ci à la place.\n"
 "\n"
-"Le score est incrémenté de \"(selection - 2) au carré\", ainsi vous devez maximiser la taille de la sélection autant que possible. Cependant, faire de petites sélections stratégiques peut vous permettre d'augmenter la taille d'une sélection ultèrieure.\n"
+"Le score est incrémenté de \"(selection - 2) au carré\", ainsi vous devez "
+"maximiser la taille de la sélection autant que possible. Cependant, faire de "
+"petites sélections stratégiques peut vous permettre d'augmenter la taille "
+"d'une sélection ultèrieure.\n"
 "\n"
-"Si vous avez des difficultés à trouver un groupe, le bouton \"Conseil\" vous permettra d'en trouver un et le sélectionnera pour vous (bien que cela ne sera pas nécessairement le meilleur groupe à sélectionner!).\n"
+"Si vous avez des difficultés à trouver un groupe, le bouton \"Conseil\" vous "
+"permettra d'en trouver un et le sélectionnera pour vous (bien que cela ne "
+"sera pas nécessairement le meilleur groupe à sélectionner!).\n"
 "\n"
-"Quand il n'y a plus de groupes disponible, le score se mettra à clignoter avec votre score final. Votre score final est réduit de 1 pour chaque tuile restante sur la carte. Si vous réussissez à supprimer toutes les tuiles, votre score final s'augmentera d'un bonus de 5 fois le nombre de tuiles sur toute la carte.\n"
+"Quand il n'y a plus de groupes disponible, le score se mettra à clignoter "
+"avec votre score final. Votre score final est réduit de 1 pour chaque tuile "
+"restante sur la carte. Si vous réussissez à supprimer toutes les tuiles, "
+"votre score final s'augmentera d'un bonus de 5 fois le nombre de tuiles sur "
+"toute la carte.\n"
 "\n"
 "Allez-y, vous pouvez battre le dernier score! Cliquer \"Nouveau jeu\" ;-)\n"
 "\n"
@@ -1505,15 +1619,21 @@ msgstr "créer un frère"
 
 #: Morphic-Kernel,Morph>>addHaloActionsTo:
 msgid "Open a property sheet for me. Allows changing lots of stuff at once."
-msgstr "Ouvrir une feuille permettant de gérer mes propriétés. Permet de changer beaucoup de choses en une seule fois."
+msgstr ""
+"Ouvrir une feuille permettant de gérer mes propriétés. Permet de changer "
+"beaucoup de choses en une seule fois."
 
 #: Morphic-Kernel,Morph>>addHaloActionsTo:
 msgid "Open a tool that will facilitate tile scripting of this object."
-msgstr "Ouvre un outil qui facilitera l'écriture de script à l'aide de briques pour cet objet."
+msgstr ""
+"Ouvre un outil qui facilitera l'écriture de script à l'aide de briques pour "
+"cet objet."
 
 #: Morphic-Kernel,Morph>>addHaloActionsTo:
 msgid "Open a Viewer that will allow everything about this object to be seen and controlled."
-msgstr "Ouvrir un visualiseur permettant de voir et de contrôler tous les aspects de l'objet."
+msgstr ""
+"Ouvrir un visualiseur permettant de voir et de contrôler tous les aspects de "
+"l'objet."
 
 #: Morphic-Kernel,Morph>>addHaloActionsTo:
 msgid "Open an Inspector on this object"
@@ -1521,7 +1641,9 @@ msgstr "Ouvrir un inspecteur sur cet objet"
 
 #: Morphic-Kernel,Morph>>addHaloActionsTo:
 msgid "Pick this object up -- warning, since this removes it from its container, it can have adverse effects."
-msgstr "Prendre cet objet -- attention : comme cela l'enlève de son conteneur, cette action peut avoir des effets négatifs"
+msgstr ""
+"Prendre cet objet -- attention : comme cela l'enlève de son conteneur, cette "
+"action peut avoir des effets négatifs"
 
 #: Morphic-Kernel,Morph>>addHaloActionsTo:
 msgid "property sheet"
@@ -1677,7 +1799,9 @@ msgstr "Inclus dans..."
 
 #: Morphic-Kernel,Morph>>addStandardHaloMenuItemsTo:hand:
 msgid "present a menu of potential embeddeding targets for this object, and embed it in the one chosen."
-msgstr "afficher un menu des objets qui peuvent potentiellement embarquer cet objet, et l'embarquer dans celui qui est choisi."
+msgstr ""
+"afficher un menu des objets qui peuvent potentiellement embarquer cet objet, "
+"et l'embarquer dans celui qui est choisi."
 
 #: Morphic-Kernel,Morph>>addTableLayoutMenuItems:hand:
 msgid "cell positioning"
@@ -1729,23 +1853,33 @@ msgstr "ancrage du texte"
 
 #: Morphic-Kernel,Morph>>addToggleItemsToHaloMenu:
 msgid "when \"locked\", I am inert to all user interactions"
-msgstr "Quand je suis \"verrouillé\", je devient insensible à toutes les actions de utilisateur."
+msgstr ""
+"Quand je suis \"verrouillé\", je devient insensible à toutes les actions de "
+"utilisateur."
 
 #: Morphic-Kernel,Morph>>addToggleItemsToHaloMenu:
 msgid "whether direction handles are shown with the halo"
-msgstr "Indique si je dois afficher mon cap (flèche verte) en même temps que mon halo."
+msgstr ""
+"Indique si je dois afficher mon cap (flèche verte) en même temps que mon "
+"halo."
 
 #: Morphic-Kernel,Morph>>addToggleItemsToHaloMenu:
 msgid "whether I am open to having objects dropped into me"
-msgstr "Cette option m'autorise (ou non) à accepter d'autres objets comme « objets inclus » : ces nouveaux objets seront alors complètement lié à moi."
+msgstr ""
+"Cette option m'autorise (ou non) à accepter d'autres objets comme « objets "
+"inclus » : ces nouveaux objets seront alors complètement lié à moi."
 
 #: Morphic-Kernel,Morph>>addToggleItemsToHaloMenu:
 msgid "whether I should be reistant to easy deletion via the pink X handle"
-msgstr "Cette option empêche (ou autorise) qu'on me détruise avec l'icône rose [X] de mon halo."
+msgstr ""
+"Cette option empêche (ou autorise) qu'on me détruise avec l'icône rose [X] "
+"de mon halo."
 
 #: Morphic-Kernel,Morph>>addToggleItemsToHaloMenu:
 msgid "whether I should be resistant to a drag done by mousing down on me"
-msgstr "Indique si je dois ignorer ou non les tentatives pour me déplacer avec la souris."
+msgstr ""
+"Indique si je dois ignorer ou non les tentatives pour me déplacer avec la "
+"souris."
 
 #: Morphic-Kernel,Morph>>addToggleItemsToHaloMenu:
 msgid "whether my corners should be rounded"
@@ -1753,7 +1887,9 @@ msgstr "Indique si mes coins doivent être arrondis."
 
 #: Morphic-Kernel,Morph>>addToggleItemsToHaloMenu:
 msgid "whether the parts of objects within me that are outside my bounds should be masked."
-msgstr "Indique si je dois masquer les parties de mes objets inclus qui dépassent de mes frontières."
+msgstr ""
+"Indique si je dois masquer les parties de mes objets inclus qui dépassent de "
+"mes frontières."
 
 #: Morphic-Kernel,Morph>>adhereToEdge
 msgid "bottom"
@@ -1793,7 +1929,9 @@ msgstr "En haut à droite"
 
 #: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
 msgid "Center of rotation (hold down shift key and drag to change it)"
-msgstr "Centre de rotation (pour le déplacer, appuie sur la touche Maj et utilise la souris)"
+msgstr ""
+"Centre de rotation (pour le déplacer, appuie sur la touche Maj et utilise la "
+"souris)"
 
 #: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
 msgid "Change color (press shift for more properties)"
@@ -1981,7 +2119,9 @@ msgstr "Ouvre un visualisateur sur ce Morph plutôt que sur son acteur."
 
 #: Morphic-Kernel,Morph>>buildDebugMenu:
 msgid "Opens a viewer on my Player -- this is the same thing you get if you click on the cyan \"View\" halo handle"
-msgstr "Ouvrir un visualiseur sur mon acteur -- correspond à un clic sur l'icône « Oeil » (couleur cyan) du halo"
+msgstr ""
+"Ouvrir un visualiseur sur mon acteur -- correspond à un clic sur l'icône « "
+"Oeil » (couleur cyan) du halo"
 
 #: Morphic-Kernel,Morph>>buildDebugMenu:,Morph>>buildMetaMenu:
 msgid "save morph in file"
@@ -2204,8 +2344,7 @@ msgid ""
 "url of a place to store this object.\n"
 "Must begin with file:// or ftp://"
 msgstr ""
-"url d'un endroit où stocker cet objet.\\n"
-"\n"
+"url d'un endroit où stocker cet objet.\\n\n"
 "Doit commencer avec file:// ou ftp://"
 
 #: Morphic-Kernel,Morph>>setArrowheads
@@ -2222,7 +2361,7 @@ msgstr "prenable"
 
 #: Morphic-Kernel,Morph>>targetFromMenu:popupAt:
 msgid "Target for {1}"
-msgstr ""
+msgstr "Cible pour {1}"
 
 #: Morphic-Kernel,Morph>>undoGrabCommand
 msgid "move "
@@ -2242,7 +2381,9 @@ msgstr "ouvrir un éditeur"
 
 #: Morphic-Kernel,TheWorldMenu_class>>registerStandardInternetApps
 msgid "A tool that lets you browse and load packages from SqueakMap, an index of Squeak code available on the internet"
-msgstr "Un outil qui vous permet de parcourir et de charger les packages depuis SqueakMap, un index du code Squeak disponible sur internet"
+msgstr ""
+"Un outil qui vous permet de parcourir et de charger les packages depuis "
+"SqueakMap, un index du code Squeak disponible sur internet"
 
 #: Morphic-Kernel,TheWorldMenu_class>>registerStandardInternetApps
 msgid "Package Loader"
@@ -2258,19 +2399,27 @@ msgstr "appliquer une texture ressemblant à du papier quadrillé en fond d'écr
 
 #: Morphic-Kernel,TheWorldMenu>>appearanceMenu
 msgid "Choose the standard fonts to use for code, lists, menus, window titles, etc."
-msgstr "Choisir les polices standards à utiliser pour le code, les listes, les menus, les titres de fenêtres, etc."
+msgstr ""
+"Choisir les polices standards à utiliser pour le code, les listes, les "
+"menus, les titres de fenêtres, etc."
 
 #: Morphic-Kernel,TheWorldMenu>>appearanceMenu
 msgid "Choose which color should be used for text highlighting in Morphic."
-msgstr "Choisir quelle couleur doit être utilisée pour la surbrillance du texte dans Morphic."
+msgstr ""
+"Choisir quelle couleur doit être utilisée pour la surbrillance du texte dans "
+"Morphic."
 
 #: Morphic-Kernel,TheWorldMenu>>appearanceMenu
 msgid "Choose which color to use for highlighting which pane has the keyboard focus"
-msgstr "Choisir quelle couleur utiliser pour mettre le paneau qui a le focus en surbrillance"
+msgstr ""
+"Choisir quelle couleur utiliser pour mettre le paneau qui a le focus en "
+"surbrillance"
 
 #: Morphic-Kernel,TheWorldMenu>>appearanceMenu
 msgid "Choose which color to use for the text insertion point in Morphic."
-msgstr "Choisir la couleur à utiliser pour le curseur textuel dans l'interface morphique."
+msgstr ""
+"Choisir la couleur à utiliser pour le curseur textuel dans l'interface "
+"morphique."
 
 #: Morphic-Kernel,TheWorldMenu>>appearanceMenu
 msgid "choose a uniform color to use as desktop background."
@@ -2282,11 +2431,14 @@ msgstr "choisir le nombre de bits par pixel."
 
 #: Morphic-Kernel,TheWorldMenu>>appearanceMenu
 msgid "choose second color to use as gradient for desktop background."
-msgstr "choisir une seconde couleur à utiliser comme un gradient pour le fond du bureau."
+msgstr ""
+"choisir une seconde couleur à utiliser comme un gradient pour le fond du "
+"bureau."
 
 #: Morphic-Kernel,TheWorldMenu>>appearanceMenu
 msgid "choose the shape to be used in arrowheads on pen trails."
-msgstr "choisir la forme à utiliser comme têtes de flèces des marques de crayon."
+msgstr ""
+"choisir la forme à utiliser comme têtes de flèces des marques de crayon."
 
 #: Morphic-Kernel,TheWorldMenu>>appearanceMenu
 msgid "choose theme..."
@@ -2306,11 +2458,14 @@ msgstr "plein écran"
 
 #: Morphic-Kernel,TheWorldMenu>>appearanceMenu
 msgid "Governs whether menu colors should be derived from the desktop color."
-msgstr "Déterminer si les couleurs des menus doivent être basées sur celle du bureau."
+msgstr ""
+"Déterminer si les couleurs des menus doivent être basées sur celle du "
+"bureau."
 
 #: Morphic-Kernel,TheWorldMenu>>appearanceMenu
 msgid "Governs whether morphic windows and menus should have rounded corners."
-msgstr "Détermine si les fenêtres et les menus doivent avoir des coins arrondis."
+msgstr ""
+"Détermine si les fenêtres et les menus doivent avoir des coins arrondis."
 
 #: Morphic-Kernel,TheWorldMenu>>appearanceMenu
 msgid "if in full-screen mode, takes you out of it."
@@ -2330,11 +2485,17 @@ msgstr "Permet de choisir les couleur des fenêtres système standards."
 
 #: Morphic-Kernel,TheWorldMenu>>appearanceMenu
 msgid "Opens a \"Preferences Panel\" which allows you to alter many settings"
-msgstr "Ouvre un \"Panneau de Préférences\" qui permet de modifier beaucoup de paramètres"
+msgstr ""
+"Ouvre un \"Panneau de Préférences\" qui permet de modifier beaucoup de "
+"paramètres"
 
 #: Morphic-Kernel,TheWorldMenu>>appearanceMenu
 msgid "Presents you with a menu of themes; each item's balloon-help will tell you about the theme.  If you choose a theme, many different preferences that come along with that theme are set at the same time; you can subsequently change any settings by using a Preferences Panel"
-msgstr "Présenter un menu de thèmes ; chaque bulle d'aide d'un item décrit le thème. Si vous choisissez un thème, beaucoup de préférences différentes qui vont avec ce thème seront définies en même temps ; vous pouvez par la suite changer n'importe quelles préférences en utilisant le Panneau de Préférences"
+msgstr ""
+"Présenter un menu de thèmes ; chaque bulle d'aide d'un item décrit le thème. "
+"Si vous choisissez un thème, beaucoup de préférences différentes qui vont "
+"avec ce thème seront définies en même temps ; vous pouvez par la suite "
+"changer n'importe quelles préférences en utilisant le Panneau de Préférences"
 
 #: Morphic-Kernel,TheWorldMenu>>appearanceMenu
 msgid "pen-trail arrowhead size..."
@@ -2346,7 +2507,9 @@ msgstr "se placer en mode pleine écran, si ce n'est pas déjà le cas."
 
 #: Morphic-Kernel,TheWorldMenu>>appearanceMenu
 msgid "remove any pigment laid down on the desktop by objects moving with their pens down."
-msgstr "supprimer n'importe quelle couleur tracée sur le bureau par des objets se déplaçant avec leurs crayons baissés."
+msgstr ""
+"supprimer n'importe quelle couleur tracée sur le bureau par des objets se "
+"déplaçant avec leurs crayons baissés."
 
 #: Morphic-Kernel,TheWorldMenu>>appearanceMenu
 msgid "set desktop color..."
@@ -2438,15 +2601,21 @@ msgstr "Projets..."
 
 #: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
 msgid "put up a menu offering many controls over appearance."
-msgstr "ouvrir un menu offrant de nombreuses possibilités pour contrôler l'apparence visuelle."
+msgstr ""
+"ouvrir un menu offrant de nombreuses possibilités pour contrôler l'apparence "
+"visuelle."
 
 #: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
 msgid "put up an editible list of convenient expressions, and evaluate the one selected."
-msgstr "Affiche une liste d'expression SmallTalk usuelles, et permet d'en exécuter une."
+msgstr ""
+"Affiche une liste d'expression SmallTalk usuelles, et permet d'en exécuter "
+"une."
 
 #: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
 msgid "puts up a menu of useful items for updating the system, determining what version you are running, and much else"
-msgstr "Affiche un menu contenant des options utiles pour la mise à jour du système (par ex. déterminer la version utilisée, etc.)"
+msgstr ""
+"Affiche un menu contenant des options utiles pour la mise à jour du système "
+"(par ex. déterminer la version utilisée, etc.)"
 
 #: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
 msgid "windows..."
@@ -2454,7 +2623,9 @@ msgstr "Fenêtres..."
 
 #: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
 msgid "give the current image a new version-stamped name and save it under that name on disk."
-msgstr "donner à l'image courante un nouveau nom accompagné du numéro de version et effectuer une sauvegarde sur disque sous ce nom."
+msgstr ""
+"donner à l'image courante un nouveau nom accompagné du numéro de version et "
+"effectuer une sauvegarde sur disque sous ce nom."
 
 #: Morphic-Kernel,TheWorldMenu>>buildWorldMenu,TheWorldMenu>>projectMenu
 msgid "jump to project..."
@@ -2486,7 +2657,9 @@ msgstr "Quitter Squeak."
 
 #: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
 msgid "repaint the screen -- useful for removing unwanted display artifacts, lingering cursors, etc."
-msgstr "Actualise l'affichage. Utile pour éliminer des erreurs d'affichage, traces de curseur oubliées, etc."
+msgstr ""
+"Actualise l'affichage. Utile pour éliminer des erreurs d'affichage, traces "
+"de curseur oubliées, etc."
 
 #: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
 msgid "restore display (r)"
@@ -2526,7 +2699,9 @@ msgstr "enregistrer l'image Squeak actuelle sur le disque"
 
 #: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
 msgid "save the current version of the image on disk under a new name."
-msgstr "Enregistre la version courante de l'image sur le disque, mais sous un nouveau nom."
+msgstr ""
+"Enregistre la version courante de l'image sur le disque, mais sous un "
+"nouveau nom."
 
 #: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
 msgid "save this project on a file"
@@ -2538,7 +2713,9 @@ msgstr "Écrit le monde dans un fichier PostScript"
 
 #: Morphic-Kernel,TheWorldMenu>>changesMenu,TheWorldMenu>>windowsMenu
 msgid "Brings an open change sorter to the front, creating one if necessary, and makes it the active window"
-msgstr "Placer au premier plan le trieur de modifications, en créer un si nécessaire, et en faire la fenêtre active"
+msgstr ""
+"Placer au premier plan le trieur de modifications, en créer un si "
+"nécessaire, et en faire la fenêtre active"
 
 #: Morphic-Kernel,TheWorldMenu>>changesMenu
 msgid "browse changed methods"
@@ -2550,11 +2727,16 @@ msgstr "Examiner les changements récents"
 
 #: Morphic-Kernel,TheWorldMenu>>changesMenu
 msgid "Check the current change set for halts, references to the Transcript, etc., and if any such thing is found, open up a message-list browser detailing all possible slips."
-msgstr "Vérifie l'ensemble de changement courant pour les scories (arrêts, références au Transcript, etc.) et si une telle chose est trouvée, ouvre un navigateur de liste de messages qui détaille toutes les scories possibles."
+msgstr ""
+"Vérifie l'ensemble de changement courant pour les scories (arrêts, "
+"références au Transcript, etc.) et si une telle chose est trouvée, ouvre un "
+"navigateur de liste de messages qui détaille toutes les scories possibles."
 
 #: Morphic-Kernel,TheWorldMenu>>changesMenu
 msgid "Create a file holding the logged changes (going as far back as you wish), and open a window on that file."
-msgstr "Créer un fichier contenant le journal des modifications (en remontant aussi loin que vous voulez), et ouvrir une fenêtre sur ce fichier."
+msgstr ""
+"Créer un fichier contenant le journal des modifications (en remontant aussi "
+"loin que vous voulez), et ouvrir une fenêtre sur ce fichier."
 
 #: Morphic-Kernel,TheWorldMenu>>changesMenu
 msgid "Create a new change set and make it the current one."
@@ -2586,7 +2768,9 @@ msgstr "Trouver les modifications récentes (R)"
 
 #: Morphic-Kernel,TheWorldMenu>>changesMenu
 msgid "Isolate this project and its subprojects from the rest of the system.  Changes to methods here will be revoked when you leave this project."
-msgstr "Isoler ce projet et tous ses sous-projets du reste du système. Tout changement apporté à des méthodes est annulé lorsque vous quittez ce projet."
+msgstr ""
+"Isoler ce projet et tous ses sous-projets du reste du système. Tout "
+"changement apporté à des méthodes est annulé lorsque vous quittez ce projet."
 
 #: Morphic-Kernel,TheWorldMenu>>changesMenu
 msgid "isolate changes of this project"
@@ -2594,7 +2778,13 @@ msgstr "Isoler les modifications effectuées dans ce projet"
 
 #: Morphic-Kernel,TheWorldMenu>>changesMenu
 msgid "Make an open recent-submissions browser be the front-window, expanding a collapsed one or creating a new one if necessary.  A recent-submissions browser is a message-list browser that shows the most recent methods that have been submitted, latest first.  If you submit changes within that browser, it will keep up-to-date, always showing the most recent submissions at the top of the browser."
-msgstr "Met au premier plan un navigateur de modifications ; si nécessaire un navigateur réduit est agrandi ou un nouveau est créé. Un navigateur de modifications récentes sert à afficher les méthodes qui ont été changées le plus récemment, en commençant par la toute dernière. Si vous soumettez des changements depuis ce navigateur, il restera néanmoins à jour, avec les soumissions les plus récentes en haut."
+msgstr ""
+"Met au premier plan un navigateur de modifications ; si nécessaire un "
+"navigateur réduit est agrandi ou un nouveau est créé. Un navigateur de "
+"modifications récentes sert à afficher les méthodes qui ont été changées le "
+"plus récemment, en commençant par la toute dernière. Si vous soumettez des "
+"changements depuis ce navigateur, il restera néanmoins à jour, avec les "
+"soumissions les plus récentes en haut."
 
 #: Morphic-Kernel,TheWorldMenu>>changesMenu
 msgid "Open a 3-paned changed-set viewing tool"
@@ -2602,19 +2792,32 @@ msgstr "Ouvre un outil de visualisation de jeux de modifications à 3 panneaux"
 
 #: Morphic-Kernel,TheWorldMenu>>changesMenu
 msgid "Open a change sorter that shows you two change sets at a time, making it easy to copy and move methods and classes between them."
-msgstr "Ouvrez un trieur de modifications qui vous montre deux ensembles de modifications à la fois, facilitant la copie et le déplacement de méthodes et de classes entre eux."
+msgstr ""
+"Ouvrez un trieur de modifications qui vous montre deux ensembles de "
+"modifications à la fois, facilitant la copie et le déplacement de méthodes "
+"et de classes entre eux."
 
 #: Morphic-Kernel,TheWorldMenu>>changesMenu
 msgid "Open a change-list browser on the latter part of the changes log.  You can use this browser to recover logged changes which were not saved in your image, in the event of a crash or other interruption."
-msgstr "Ouvre la dernier partie du journal des changement dans un navigateur de modifications. Ce navigateur peut servir à récupérer les changements présents dans le journal mais qui n'ont pas été enregistrés dans l'image après un plantage ou autre interruption."
+msgstr ""
+"Ouvre la dernier partie du journal des changement dans un navigateur de "
+"modifications. Ce navigateur peut servir à récupérer les changements "
+"présents dans le journal mais qui n'ont pas été enregistrés dans l'image "
+"après un plantage ou autre interruption."
 
 #: Morphic-Kernel,TheWorldMenu>>changesMenu
 msgid "Open a message-list browser showing all methods in the current change set"
-msgstr "Ouvrir un navigateur de liste de messages affichant toutes les méthodes du jeu de modifications actuel"
+msgstr ""
+"Ouvrir un navigateur de liste de messages affichant toutes les méthodes du "
+"jeu de modifications actuel"
 
 #: Morphic-Kernel,TheWorldMenu>>changesMenu
 msgid "Open a new recent-submissions browser.  A recent-submissions browser is a message-list browser that shows the most recent methods that have been submitted.  If you submit changes within that browser, it will keep up-to-date, always showing the most recent submissions."
-msgstr "Ouvrir un nouvel explorateur de changements récents. Cet explorateur liste les arrivées de nouvelles méthodes. Si vous effectuez un changement à partir de cet explorateur, il sera mis à jour pour toujours montrer les plus récentes arrivées."
+msgstr ""
+"Ouvrir un nouvel explorateur de changements récents. Cet explorateur liste "
+"les arrivées de nouvelles méthodes. Si vous effectuez un changement à partir "
+"de cet explorateur, il sera mis à jour pour toujours montrer les plus "
+"récentes arrivées."
 
 #: Morphic-Kernel,TheWorldMenu>>changesMenu
 msgid "propagate changes upward"
@@ -2630,7 +2833,9 @@ msgstr "Modifications récement journalisées..."
 
 #: Morphic-Kernel,TheWorldMenu>>changesMenu
 msgid "Save a file that, when reloaded, reconstitutes the current World."
-msgstr "Enregistrer un fichier qui, une fois rechargé, reconstituera le Monde courant."
+msgstr ""
+"Enregistrer un fichier qui, une fois rechargé, reconstituera le Monde "
+"courant."
 
 #: Morphic-Kernel,TheWorldMenu>>changesMenu
 msgid "save world as morph file"
@@ -2642,11 +2847,15 @@ msgstr "Navigateur de modifications"
 
 #: Morphic-Kernel,TheWorldMenu>>changesMenu
 msgid "The changes made in this isolated project will propagate to projects up to the next isolation layer."
-msgstr "Les changements effectués dans ce projet isolé se propagerons aux projets supérieurs jusqu'au prochain niveau d'isolation."
+msgstr ""
+"Les changements effectués dans ce projet isolé se propagerons aux projets "
+"supérieurs jusqu'au prochain niveau d'isolation."
 
 #: Morphic-Kernel,TheWorldMenu>>changesMenu
 msgid "Write the current change set out to a file whose name reflects the change set name and the current date & time."
-msgstr "Écrire le jeu de modifications courant dans un fichier dont le nom correspond au nom du jeu de modifications et à la date et heure courantes."
+msgstr ""
+"Écrire le jeu de modifications courant dans un fichier dont le nom "
+"correspond au nom du jeu de modifications et à la date et heure courantes."
 
 #: Morphic-Kernel,TheWorldMenu>>cleanUpWorld
 msgid ""
@@ -2703,7 +2912,10 @@ msgstr "option d'annotations..."
 
 #: Morphic-Kernel,TheWorldMenu>>helpMenu
 msgid "Click here to get a little window that will allow you to specify which types of annotations, in which order, you wish to see in the annotation panes of browsers and other tools"
-msgstr "Cliquez ici pour obtenir une petite fenêtre qui vous permet de spécifier quels types d'annotations, dans quel ordre, vous souhaitez voir dans les panneaux des navigateurs et autres outils"
+msgstr ""
+"Cliquez ici pour obtenir une petite fenêtre qui vous permet de spécifier "
+"quels types d'annotations, dans quel ordre, vous souhaitez voir dans les "
+"panneaux des navigateurs et autres outils"
 
 #: Morphic-Kernel,TheWorldMenu>>helpMenu
 msgid "choose the language in which tiles should be displayed."
@@ -2711,7 +2923,8 @@ msgstr "choisissez le langage dans lequel les briques devraient être affichées
 
 #: Morphic-Kernel,TheWorldMenu>>helpMenu
 msgid "commands for doing multi-machine \"telemorphic\" experiments"
-msgstr "commandes pour faire des expériences \"télémorphiques\" sur plusieurs machines"
+msgstr ""
+"commandes pour faire des expériences \"télémorphiques\" sur plusieurs machines"
 
 #: Morphic-Kernel,TheWorldMenu>>helpMenu
 msgid "command-key help"
@@ -2739,7 +2952,9 @@ msgstr "aide à trouver des éléments de menus perdus dans des sous-menus."
 
 #: Morphic-Kernel,TheWorldMenu>>helpMenu
 msgid "if connected to the internet, use this to look up the definition of an English word."
-msgstr "utiliser la connexion à l'Internet, si elle existe, pour rechercher la définition d'un mot."
+msgstr ""
+"utiliser la connexion à l'Internet, si elle existe, pour rechercher la "
+"définition d'un mot."
 
 #: Morphic-Kernel,TheWorldMenu>>helpMenu
 msgid "lets you view and change the system's standard library of graphics."
@@ -2755,7 +2970,9 @@ msgstr "obtenir des données à propos de la machine virtuelle (VM)."
 
 #: Morphic-Kernel,TheWorldMenu>>helpMenu
 msgid "perform a full garbage-collection and report how many bytes of space remain in the image."
-msgstr "réalise un ramassage de miettes complet et fait un rapport sur l'espace libre, en octets, dans l'image."
+msgstr ""
+"réalise un ramassage de miettes complet et fait un rapport sur l'espace "
+"libre, en octets, dans l'image."
 
 #: Morphic-Kernel,TheWorldMenu>>helpMenu
 msgid "purge undo records"
@@ -2763,7 +2980,9 @@ msgstr "purger les actions à défaire"
 
 #: Morphic-Kernel,TheWorldMenu>>helpMenu
 msgid "save space by removing all the undo information remembered in all projects."
-msgstr "gagner de la place en supprimant les informations de retour en arrière (commande \"défaire\") dans tous les projets."
+msgstr ""
+"gagner de la place en supprimant les informations de retour en arrière "
+"(commande \"défaire\") dans tous les projets."
 
 #: Morphic-Kernel,TheWorldMenu>>helpMenu
 msgid "set author initials..."
@@ -2791,7 +3010,9 @@ msgstr "résumé des noms et tailles des polices disponibles."
 
 #: Morphic-Kernel,TheWorldMenu>>helpMenu
 msgid "supply initials to be used to identify the author of code and other content."
-msgstr "spécifier les initiales à utiliser pour identifier l'auteur du code et autre contenu."
+msgstr ""
+"spécifier les initiales à utiliser pour identifier l'auteur du code et autre "
+"contenu."
 
 #: Morphic-Kernel,TheWorldMenu>>helpMenu
 msgid "telemorphic..."
@@ -2815,7 +3036,9 @@ msgstr "voir et changer diverses options."
 
 #: Morphic-Kernel,TheWorldMenu>>helpMenu
 msgid "view the global repository called ImageImports; you can easily import external graphics into ImageImports via the FileList"
-msgstr "afficher le référentiel global appelé ImageImports; il est possible d'importer des images externes dans ImageImports via la Liste de Fichiers"
+msgstr ""
+"afficher le référentiel global appelé ImageImports; il est possible "
+"d'importer des images externes dans ImageImports via la Liste de Fichiers"
 
 #: Morphic-Kernel,TheWorldMenu>>helpMenu
 msgid "vm statistics"
@@ -2871,11 +3094,14 @@ msgstr "créer un nouveau dessin"
 
 #: Morphic-Kernel,TheWorldMenu>>openMenu
 msgid "A five-paned tool that lets you see all the code in the system"
-msgstr "Un outil décomposé en 5 parties permettant de voir tout le code du système"
+msgstr ""
+"Un outil décomposé en 5 parties permettant de voir tout le code du système"
 
 #: Morphic-Kernel,TheWorldMenu>>openMenu
 msgid "A place for recording \"event movies\" using the Event Recorder"
-msgstr "Permet d'enregistrer une séquence d'actions qui pourront être rejouées plus tard. Utile pour préparer des exemples ou des démonstrations."
+msgstr ""
+"Permet d'enregistrer une séquence d'actions qui pourront être rejouées plus "
+"tard. Utile pour préparer des exemples ou des démonstrations."
 
 #: Morphic-Kernel,TheWorldMenu>>openMenu
 msgid "A tool allowing you to browse any file"
@@ -2883,7 +3109,9 @@ msgstr "Un outil vous permettant de parcourir n'importe quel type de fichier"
 
 #: Morphic-Kernel,TheWorldMenu>>openMenu
 msgid "A tool allowing you to compare and manipulate two change sets concurrently"
-msgstr "Un outil vous permettant de comparer et manipuler deux jeux de modifications en parallèle"
+msgstr ""
+"Un outil vous permettant de comparer et manipuler deux jeux de modifications "
+"en parallèle"
 
 #: Morphic-Kernel,TheWorldMenu>>openMenu
 msgid "A tool allowing you to view the methods in a single change set"
@@ -2895,7 +3123,9 @@ msgstr "Un outil pour découvrir des méthodes"
 
 #: Morphic-Kernel,TheWorldMenu>>openMenu
 msgid "A tool for finding and editing methods that contain any given keyword in their names."
-msgstr "Un outil pour trouver et éditer les méthodes contenant un certain mot dans leur nom"
+msgstr ""
+"Un outil pour trouver et éditer les méthodes contenant un certain mot dans "
+"leur nom"
 
 #: Morphic-Kernel,TheWorldMenu>>openMenu
 msgid "A window for composing text"
@@ -2955,7 +3185,10 @@ msgstr "Navigateur de paquets"
 
 #: Morphic-Kernel,TheWorldMenu>>openMenu
 msgid "Similar to the regular browser, but adds an extra pane at top-left that groups class-categories that start with the same prefix"
-msgstr "Semblable au navigateur de classes classique, mais ajoute un panneau supplémentaire en haut à gauche qui regroupe les catégories avec le même préfixe."
+msgstr ""
+"Semblable au navigateur de classes classique, mais ajoute un panneau "
+"supplémentaire en haut à gauche qui regroupe les catégories avec le même "
+"préfixe."
 
 #: Morphic-Kernel,TheWorldMenu>>openMenu
 msgid "transcript (t)"
@@ -2983,7 +3216,9 @@ msgstr "Aller au projet précédent"
 
 #: Morphic-Kernel,TheWorldMenu>>projectMenu
 msgid "Opens a window that shows names and relationships of all the projects in your system."
-msgstr "Ouvrir une fenêtre affichant les noms et relations de tous les projets de votre système."
+msgstr ""
+"Ouvrir une fenêtre affichant les noms et relations de tous les projets de "
+"votre système."
 
 #: Morphic-Kernel,TheWorldMenu>>projectMenu
 msgid "revert to saved copy"
@@ -3076,16 +3311,18 @@ msgid "VM Statistics"
 msgstr "Statistiques de la machine virtuelle"
 
 #: Morphic-Kernel,TheWorldMenu>>windowsMenu
-msgid "Brings an open fileList  to the front, creating one if necessary, and makes it the active window"
-msgstr "Placer une Liste de Fichiers au premier plan, ou en créer une si nécessaire, et rendre la fenêtre active"
+msgid "Brings an open fileList to the front, creating one if necessary, and makes it the active window"
+msgstr ""
+"Ouvre un navigateur de fichier au premier plan, ou en crée un si nécessaire."
 
 #: Morphic-Kernel,TheWorldMenu>>windowsMenu
 msgid "Brings an open MessageNames window to the front, creating one if necessary, and makes it the active window"
-msgstr "Ouvrir la fenêtre MessageNames, en créer une si necéssaire, et rendre la fenêtre active"
+msgstr ""
+"Ouvre une fenêtre MessageNames, ou en crée une si necéssaire."
 
 #: Morphic-Kernel,TheWorldMenu>>windowsMenu
 msgid "Brings an open Transcript to the front, creating one if necessary, and makes it the active window"
-msgstr "Afficher au premier plan un Transcript ouvert, en en créant un si nécessaire, et en faire la fenêtre active"
+msgstr "Affiche au premier plan un Transcript ouvert, en en créant un si nécessaire, et en faire la fenêtre active"
 
 #: Morphic-Kernel,TheWorldMenu>>windowsMenu
 msgid "Close the topmost window if possible."
@@ -3105,11 +3342,14 @@ msgstr "réduire toutes les fenêtres"
 
 #: Morphic-Kernel,TheWorldMenu>>windowsMenu
 msgid "Deletes all non-window morphs lying on the world."
-msgstr "Supprimer tous les morphs présents dans le monde qui ne sont pas des fenêtres."
+msgstr ""
+"Supprimer tous les morphs présents dans le monde qui ne sont pas des "
+"fenêtres."
 
 #: Morphic-Kernel,TheWorldMenu>>windowsMenu
 msgid "Deletes all windows that do not have unsaved text edits."
-msgstr "Détruit toutes les fenêtres sauf celles qui ont du texte non sauvegardé."
+msgstr ""
+"Détruit toutes les fenêtres sauf celles qui ont du texte non sauvegardé."
 
 #: Morphic-Kernel,TheWorldMenu>>windowsMenu
 msgid "delete both of the above"
@@ -3125,11 +3365,14 @@ msgstr "supprimer les fenêtres non modifiées"
 
 #: Morphic-Kernel,TheWorldMenu>>windowsMenu
 msgid "deletes all unchanged windows and also all non-window morphs lying on the world, other than flaps."
-msgstr "efface toutes les fenêtres non modifiées ainsi que tous les morphs qui ne sont pas des fenêtres placées sur le monde, excepté les tiroirs."
+msgstr ""
+"Efface toutes les fenêtres non modifiées ainsi que tous les morphs qui ne "
+"sont pas des fenêtres placées sur le monde, excepté les tiroirs."
 
 #: Morphic-Kernel,TheWorldMenu>>windowsMenu
 msgid "Expand all collapsed windows and other collapsed objects back to their expanded forms."
-msgstr "Etendre toutes les fenêtres réduites et les autres objets réduits à leur forme étendues."
+msgstr ""
+"Maximise toutes les fenêtres réduites et les autres objets minimisés."
 
 #: Morphic-Kernel,TheWorldMenu>>windowsMenu
 msgid "expand all"
@@ -3161,7 +3404,9 @@ msgstr "Rendre visible toutes les fenêtres sur l'écran"
 
 #: Morphic-Kernel,TheWorldMenu>>windowsMenu
 msgid "Make the topmost window become the backmost one, and activate the window just beneath it."
-msgstr "Faire passer la fenêtre du dessus en arrière plan et activer la fenêtre qui était juste dessous."
+msgstr ""
+"Faire passer la fenêtre du dessus en arrière plan et activer la fenêtre qui "
+"était juste dessous."
 
 #: Morphic-Kernel,TheWorldMenu>>windowsMenu
 msgid "move windows onscreen"
@@ -3169,19 +3414,27 @@ msgstr "placer les fenêtres dans l'écran"
 
 #: Morphic-Kernel,TheWorldMenu>>windowsMenu
 msgid "Presents a list of all windows that have unsubmitted changes; if you choose one from the list, it becomes the active window."
-msgstr "Présente une liste de toutes les fenêtres qui ont des changements non-soumis ; si vous en choisissez une, elle devient la fenêtre active."
+msgstr ""
+"Présente une liste de toutes les fenêtres qui ont des changements non-soumis "
+"; si vous en choisissez une, elle devient la fenêtre active."
 
 #: Morphic-Kernel,TheWorldMenu>>windowsMenu
 msgid "Presents a list of all windows; if you choose one from the list, it becomes the active window."
-msgstr "Affiche la liste de toutes les fenêtres; sélectionner une fenêtre de la liste pour en faire la fenêtre active."
+msgstr ""
+"Affiche la liste de toutes les fenêtres; sélectionner une fenêtre de la "
+"liste pour en faire la fenêtre active."
 
 #: Morphic-Kernel,TheWorldMenu>>windowsMenu
 msgid "Presents a list of browsers that have unsubmitted changes; if you choose one from the list, it becomes the active window."
-msgstr "Présenter une liste de navigateurs qui ont des modifications non soumises ; si vous en choisissez un de la liste, il devient la fenêtre active."
+msgstr ""
+"Présenter une liste de navigateurs qui ont des modifications non soumises ; "
+"si vous en choisissez un de la liste, il devient la fenêtre active."
 
 #: Morphic-Kernel,TheWorldMenu>>windowsMenu
 msgid "Reduce all open windows and all other objects on the desktop to labeled tabs"
-msgstr "Réduire toutes les fenêtres ouvertes et tous les autres objets sur le bureau vers les onglets libellés"
+msgstr ""
+"Réduire toutes les fenêtres ouvertes et tous les autres objets sur le bureau "
+"vers les onglets libellés"
 
 #: Morphic-Kernel,TheWorldMenu>>windowsMenu
 msgid "Reduce all open windows to collapsed forms that only show titles."
@@ -3196,7 +3449,8 @@ msgid ""
 "stagger: new windows positioned so you can see a portion of each one.\n"
 "                tile: new windows positioned so that they do not overlap others, if possible."
 msgstr ""
-"cascades : les nouvelles fenêtres sont placées de façon à voir une partie de chacunes.\n"
+"cascades : les nouvelles fenêtres sont placées de façon à voir une partie de "
+"chacunes.\n"
 "mosaïque : les nouvelles fenêtres ne se recouvrent pas, si possible."
 
 #: Morphic-Kernel,TheWorldMenu>>windowsMenu
@@ -3229,7 +3483,9 @@ msgstr "Merci d'éditer la légende"
 
 #: Morphic-Mentoring,EventPlaybackSpace>>addCustomMenuItems:hand:
 msgid "Display this event-movie in a form such that its score can be viewed and edited."
-msgstr "Afficher ce film-d'événements d'une telle manière que le score puisse être visualisé et édité."
+msgstr ""
+"Afficher ce film-d'événements d'une telle manière que le score puisse être "
+"visualisé et édité."
 
 #: Morphic-Mentoring,EventPlaybackSpace>>addCustomMenuItems:hand:
 msgid "open for score-editing"
@@ -3268,8 +3524,7 @@ msgid ""
 "The current recording has not been saved, and will be\n"
 "lost if you do this; are you sure you want to proceed?"
 msgstr ""
-"L'enregistrement courant n'a pas été sauvegardé, et sera\\n"
-"\n"
+"L'enregistrement courant n'a pas été sauvegardé, et sera\\n\n"
 "perdu si vous faites cela ; êtes-vous sûr de vouloir procéder ?"
 
 #: Morphic-Mentoring,EventRecordingSpace>>abandon
@@ -3278,11 +3533,16 @@ msgstr "oui, abandonner ce Théâtre d'Evénements"
 
 #: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
 msgid "Allows you to provide a message to be presented to a user as balloon-help when the mouse lingers over buttons that trigger playback of the tape of this event theatre"
-msgstr "Vous permet de fournir un message qui sera présenté dans une bulle d'aide à l'utilisateur quand la souris s'attarde sur les boutons qui déclenchent le playback de la bande de ce théâtre d'événements"
+msgstr ""
+"Vous permet de fournir un message qui sera présenté dans une bulle d'aide à "
+"l'utilisateur quand la souris s'attarde sur les boutons qui déclenchent la "
+"lecture de la bande de ce théâtre d'événements"
 
 #: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
 msgid "abandon any event-roll that may be associated with this theatre."
-msgstr "abandonner tous les enchaînements d'événements qui peuvent être associées à ce théâtre."
+msgstr ""
+"abandonner tous les enchaînements d'événements qui peuvent être associées à "
+"ce théâtre."
 
 #: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
 msgid "add navigator flap"
@@ -3306,7 +3566,9 @@ msgstr "Enchaînement d'événements"
 
 #: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
 msgid "open a horizontal piano-roll-like tool for the viewing and editing the events of this event theatre."
-msgstr "ouvrir un outil piano horizontal pour la visualisation et l'édition des événements de ce théâtre d'événements."
+msgstr ""
+"ouvrir un outil piano horizontal pour la visualisation et l'édition des "
+"événements de ce théâtre d'événements."
 
 #: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
 msgid "Recording Options"
@@ -3451,39 +3713,88 @@ msgid ""
 "  What you see when you play back an Event Tape.\n"
 "\n"
 msgstr ""
-"Le Théâtre des Événements fourni a cadre pour créer des \"film-d'événements\". Il utilise une version personnalisé du Navigateur, du tiroir Accessoire, du système de dessin, des onglets, des tiroirs de visualisation, etc., tous résidant à l'intérieur de l'espace limité du Théâtre.\n"
+"Le Théâtre des Événements fourni a cadre pour créer des \"film-d'événements\". "
+"Il utilise une version personnalisé du Navigateur, du tiroir Accessoire, du "
+"système de dessin, des onglets, des tiroirs de visualisation, etc., tous "
+"résidant à l'intérieur de l'espace limité du Théâtre.\n"
 "\n"
-"Pour créer un film d'événements, récupérez un nouveau Théatre d'Evénements depuis le catalogue des Objets ou depuis la branche « Ouvrir... » du menu du Monde.\n"
+"Pour créer un film d'événements, récupérez un nouveau Théatre d'Evénements "
+"depuis le catalogue des Objets ou depuis la branche « Ouvrir... » du menu du "
+"Monde.\n"
 "\n"
-"1. Redimensionner le Théatre, en utilisant le halo, à la taille désirée pour le playback.\n"
+"1. Redimensionner le Théatre, en utilisant le halo, à la taille désirée pour "
+"le playback.\n"
 "\n"
-"2. Utiliser le menu dans les panneau de configuration pour ajouter ou supprimer les tiroirs Accessoires ou Navigation comme vous le souhaitez.\n"
+"2. Utiliser le menu dans les panneau de configuration pour ajouter ou "
+"supprimer les tiroirs Accessoires ou Navigation comme vous le souhaitez.\n"
 "\n"
-"3. Editer le \"titre\" en cliquant sur le texte qui indique \"SansTitre\" et en tapant le titre désiré. Ce titre est attaché aux boutons playback, et, généralement, fourni une manière d'identifié le fim d'événements.\n"
+"3. Editer le \"titre\" en cliquant sur le texte qui indique \"SansTitre\" et en "
+"tapant le titre désiré. Ce titre est attaché aux boutons playback, et, "
+"généralement, fourni une manière d'identifié le fim d'événements.\n"
 "\n"
-"4. Positionner les \"conditions initiales\" pour le film d'événements que vous êtes en train d'enregistrer (i.e., dessiner le fond, fournir un texte d'explication, ajouter les objets que vous voulez présenter au début du film.) Quand l'enregistrement est ouvert la première fois par l'utilisateur du playback, et quand l'enregistrement est rembobiné, c'est exactement à cela qu'il ressemblera.\n"
+"4. Positionner les \"conditions initiales\" pour le film d'événements que vous "
+"êtes en train d'enregistrer (i.e., dessiner le fond, fournir un texte "
+"d'explication, ajouter les objets que vous voulez présenter au début du "
+"film.) Quand l'enregistrement est ouvert la première fois par l'utilisateur "
+"du playback, et quand l'enregistrement est rembobiné, c'est exactement à "
+"cela qu'il ressemblera.\n"
 "\n"
-"5. Quand vous êtes prêt à démarrer l'enregistrement, appuyer sur le bouton \"Enregistrer\". Une bordure rouge apparaîtra autour de l'enregistreur, pour indiquer que l'enregistrement est en cours. L'enregistrement continuera jusqu'à l'appui de la touche ESC.\n"
+"5. Quand vous êtes prêt à démarrer l'enregistrement, appuyer sur le bouton "
+"\"Enregistrer\". Une bordure rouge apparaîtra autour de l'enregistreur, pour "
+"indiquer que l'enregistrement est en cours. L'enregistrement continuera "
+"jusqu'à l'appui de la touche ESC.\n"
 "\n"
-"6. Noter que si vous voulez inclure un son à l'enregistrement, vous pouvez l'ajouter directement pendant le playback, ou vous pouvez produire un commentaire à l'extèrieur et l'ajouter plus tard en utilisant l'Enchaînement d'Evénements.\n"
+"6. Noter que si vous voulez inclure un son à l'enregistrement, vous pouvez "
+"l'ajouter directement pendant le playback, ou vous pouvez produire un "
+"commentaire à l'extèrieur et l'ajouter plus tard en utilisant l'Enchaînement "
+"d'Evénements.\n"
 "\n"
-"7. Lancer maintenant \"faire\", avec la souris et le clavier, selon ce que vous souhaitez enregistrer. Pour un meilleur résultat, tous les mouvements de souris doivent être réalisé à l'intérieur du Théatre.\n"
+"7. Lancer maintenant \"faire\", avec la souris et le clavier, selon ce que "
+"vous souhaitez enregistrer. Pour un meilleur résultat, tous les mouvements "
+"de souris doivent être réalisé à l'intérieur du Théatre.\n"
 "\n"
 "8. Appuyer ESC quand l'enregistrement est fait.\n"
 "\n"
-"9. Pour revoir ce que vous avez enregistré, appuyer sur \"Lecture\". Si vous n'étes pas satisfait du résultat, répéter les étapes 1 à 8.\n"
+"9. Pour revoir ce que vous avez enregistré, appuyer sur \"Lecture\". Si vous "
+"n'étes pas satisfait du résultat, répéter les étapes 1 à 8.\n"
 "\n"
-"10. Si vous êtes satisfait du résultat, et que vous voulez maintenant ajouter un son, ouvrez le panneau des sons, puis cliquez sur Lecture pour rejouer l'enregistremenent et quand vous désirez ajouter un bout de commentaire, cliquer sur le bouton \"Démarrer enregistrement commentaire\", et commencez à parler, quand c'est fait cliquez sur le bouton \"Arrêter enregistrement commentaire\". Une fois que le playback se termine, les commentaires deviendront une partie de la bande des événements et apparaîtront dans l'enchaînement des événements.\n"
+"10. Si vous êtes satisfait du résultat, et que vous voulez maintenant "
+"ajouter un son, ouvrez le panneau des sons, puis cliquez sur Lecture pour "
+"rejouer l'enregistremenent et quand vous désirez ajouter un bout de "
+"commentaire, cliquer sur le bouton \"Démarrer enregistrement commentaire\", et "
+"commencez à parler, quand c'est fait cliquez sur le bouton \"Arrêter "
+"enregistrement commentaire\". Une fois que le playback se termine, les "
+"commentaires deviendront une partie de la bande des événements et "
+"apparaîtront dans l'enchaînement des événements.\n"
 "\n"
-"11. Quand vous êtes satisfait du résultat, appuyez sur le bouton \"Publier\" pour obtenir le bouton playback. Il y a actuellement deux choix:\n"
+"11. Quand vous êtes satisfait du résultat, appuyez sur le bouton \"Publier\" "
+"pour obtenir le bouton playback. Il y a actuellement deux choix:\n"
 "\n"
-"a. Bouton Icône - Fourni initiallement une image de la scène initiale du film, à l'échelle x0.3, recouverte du mot CONSEIL. Quand l'utilisateur clique sur un tel bouton, le film des événements est rejoué dans un \"théâtre playback\" éphémère et, une fois que le playback est terminé, le théâtre playback revient à une échelle x0.5 de l'image *finale* de la scène du film. Les appuis suivants du bouton démarrent à nouveau le playback.\n"
+"a. Bouton Icône - Fourni initiallement une image de la scène initiale du "
+"film, à l'échelle x0.3, recouverte du mot CONSEIL. Quand l'utilisateur "
+"clique sur un tel bouton, le film des événements est rejoué dans un \"théâtre "
+"playback\" éphémère et, une fois que le playback est terminé, le théâtre "
+"playback revient à une échelle x0.5 de l'image *finale* de la scène du film. "
+"Les appuis suivants du bouton démarrent à nouveau le playback.\n"
 "\n"
-"b. Bouton Texte - Un bouton avec un simple texte, qui quand il est appuyé, déclenche le playback de la bande d'événements.\n"
+"b. Bouton Texte - Un bouton avec un simple texte, qui quand il est appuyé, "
+"déclenche le playback de la bande d'événements.\n"
 "\n"
-"12. Les boutons playback que vous obtenez quand vous \"Publiez\" peuvent être placés n'importe-où, par exemple sur une page d'un livre. Vous pouvez contrôler, via un bouton playback du menu halo, s'il doit ou non être en \"démarrage automatique\" et s'il doit ou non être en \"suppression automatique\". Quand l'utilisateur appui sur le bouton, un espace \"Playback\" sera ouvert qui rassemblera le modèle Enregistrement mais qui aura uniquement les boutons en rapport avec le playback. Un playback configuré à la fois en démarrage automatique et en suppression automatique apparaîtra sans aucun contrôle.\n"
+"12. Les boutons playback que vous obtenez quand vous \"Publiez\" peuvent être "
+"placés n'importe-où, par exemple sur une page d'un livre. Vous pouvez "
+"contrôler, via un bouton playback du menu halo, s'il doit ou non être en "
+"\"démarrage automatique\" et s'il doit ou non être en \"suppression "
+"automatique\". Quand l'utilisateur appui sur le bouton, un espace \"Playback\" "
+"sera ouvert qui rassemblera le modèle Enregistrement mais qui aura "
+"uniquement les boutons en rapport avec le playback. Un playback configuré à "
+"la fois en démarrage automatique et en suppression automatique apparaîtra "
+"sans aucun contrôle.\n"
 "\n"
-"13. Pour éditer la \"bande des événements\" d'un enregistrement que vous avez réalisé dans le Théâtre des Evénements, et pour plus de facilité, cliquez sur l'icône des cercles entrelacés pour obtenir un outil qui vous permet de visualiser et d'éditer une \"partition\" ou l'\"outil piano\" de la bande des événements.\n"
+"13. Pour éditer la \"bande des événements\" d'un enregistrement que vous avez "
+"réalisé dans le Théâtre des Evénements, et pour plus de facilité, cliquez "
+"sur l'icône des cercles entrelacés pour obtenir un outil qui vous permet de "
+"visualiser et d'éditer une \"partition\" ou l'\"outil piano\" de la bande des "
+"événements.\n"
 "\n"
 "Résumé des termes\n"
 "\n"
@@ -3491,10 +3802,12 @@ msgstr ""
 "  L'outil principal pour créer le Bande des Evénements.\n"
 "\n"
 "Enchaînement d'Evénementsl\n"
-"  Un outil annexe montrant la totalité de la \"partition\" de la Bande des Evénements. \n"
+"  Un outil annexe montrant la totalité de la \"partition\" de la Bande des "
+"Evénements. \n"
 "\n"
 "Bande des Evénements\n"
-"  Le résultat d'une session du théatre des événements; une séquence d'intéraction que l'on peut rejouer.\n"
+"  Le résultat d'une session du théatre des événements; une séquence "
+"d'intéraction que l'on peut rejouer.\n"
 "\n"
 "Enregistrement d'Evénements\n"
 "  Un terme équivalent à \"Bande des Evénements.\"\n"
@@ -3525,7 +3838,8 @@ msgstr "Abandonner cet effort et jeter cette fenêtre"
 
 #: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
 msgid "Add a voiceover to the existing event-recorded sequence "
-msgstr "Ajouter un commentaire à une séquence d'événements enregistrés existant "
+msgstr ""
+"Ajouter un commentaire à une séquence d'événements enregistrés existant "
 
 #: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons,Tetris>>makeGameControls
 msgid "Pause"
@@ -3585,7 +3899,9 @@ msgstr "Arrêter Enregistrement Commentaire"
 
 #: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
 msgid "show this theatre's script in a piano-roll-like format for visualizaitoin and editing."
-msgstr "montrer le script de ce théâtre au format piano pour la visualisation et l'édition."
+msgstr ""
+"montrer le script de ce théâtre au format piano pour la visualisation et "
+"l'édition."
 
 #: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
 msgid "show/hide voice controls"
@@ -3596,8 +3912,10 @@ msgid "Temporarily pause this playback"
 msgstr "Suspendre temporairement ce playback"
 
 #: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
-msgid "When you hit this, you will be handed a button which, when it is clicked,  will open up an Event Player in which the recording can be played back."
-msgstr "Quand appuyez sur ceci, vous obtener un bouton qui, une fois cliqué, ouvrir un Lecteur d'Evénements dans lequel l'enregistrement peut être rejoué."
+msgid "When you hit this, you will be handed a button which, when it is clicked, will open up an Event Player in which the recording can be played back."
+msgstr ""
+"Quand appuyez sur ceci, vous obtener un bouton qui, une fois cliqué, ouvrir "
+"un Lecteur d'Evénements dans lequel l'enregistrement peut être rejoué."
 
 #: Morphic-Mentoring,EventRecordingSpace>>offerVersions
 msgid "Choose a version to restore"
@@ -3629,7 +3947,9 @@ msgstr "Bouton textuel"
 
 #: Morphic-Mentoring,EventRecordingSpace>>setBalloonHelp
 msgid "Edit the balloon help to be supplied for playback buttons made for this event movie"
-msgstr "Editer la bulle d'aide fournie pour les boutons de playback construit pour ce film d'événements"
+msgstr ""
+"Editer la bulle d'aide fournie pour les boutons de playback construit pour "
+"ce film d'événements"
 
 #: Morphic-Mentoring,EventRecordingSpace>>setCaption
 msgid "Your Title Goes Here"
@@ -3637,7 +3957,9 @@ msgstr "Votre Titre Ici"
 
 #: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
 msgid "A button to use with tile scripting; its script will be a method of its containing playfield"
-msgstr "Un bouton à utiliser avec les briques de script ;  son script sera une méthode de la scène contenant le bouton"
+msgstr ""
+"Un bouton à utiliser avec les briques de script ;  son script sera une "
+"méthode de la scène contenant le bouton"
 
 #: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
 msgid "A device for making sound recordings."
@@ -3681,7 +4003,8 @@ msgstr "A outil listant tous les objets scriptés dans le projet."
 
 #: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
 msgid "A tool that lets you browse the catalog of available objects"
-msgstr "Un outil permettant de naviguer dans le catalogue des objets disponibles"
+msgstr ""
+"Un outil permettant de naviguer dans le catalogue des objets disponibles"
 
 #: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
 msgid "All Scripts"
@@ -3737,7 +4060,10 @@ msgstr "Étoile"
 
 #: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
 msgid "Stop, Step, and Go buttons for controlling all your scripts at once.  The tool can also be \"opened up\" to control each script in your project individually."
-msgstr "Les boutons Arrêt, Pas et Départ contrôlent tous les scripts à la fois.  L'outil peut aussi être \"décortiqué\" pour contrôler chacun des scripts de façon individuelle."
+msgstr ""
+"Les boutons Arrêt, Pas et Départ contrôlent tous les scripts à la fois.  "
+"L'outil peut aussi être \"décortiqué\" pour contrôler chacun des scripts de "
+"façon individuelle."
 
 #: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads,TextMorph_class>>defaultNameStemForInstances,TextMorph_class>>nonwrappingPrototype,TextMorph_class>>registerInFlapsRegistry,TextMorph_class>>registerInFlapsRegistry
 msgid "Text"
@@ -3769,7 +4095,12 @@ msgstr "changer l'échelle..."
 
 #: Morphic-Mentoring,EventRollMorph>>addCustomMenuItems:hand:
 msgid "normally not necessary, but if you suspect that edits you have made in this event roll have not been fully appreciated by the event theatre, choose this to force the event theatre to reflect what you see in the event roll."
-msgstr "normallement ce n'est pas nécessaire, mais si vous suspectez que les éditions que vous avez réalisées dans cet enchaînement d'événements n'ont pas encore été complètement appréciées par le théâtre d'événements, choisir ceci pour forcer le théâtre d'événements à refléter ce que vous avez vu dans l'enchaînement d'événements."
+msgstr ""
+"Normallement ce n'est pas nécessaire, mais si vous pensez que les "
+"modifications que vous avez réalisées dans cette séquence d'événements n'ont "
+"pas été complètement reflétées dans le théâtre d'événements, cliquez ici "
+"pour forcer le théâtre d'événements à prendre en compte ce que vous avez vu dans "
+"la séquence d'événements."
 
 #: Morphic-Mentoring,EventRollMorph>>addCustomMenuItems:hand:
 msgid "retrofit to event-theatre"
@@ -3777,7 +4108,8 @@ msgstr "réajuster au théâtre des événements"
 
 #: Morphic-Mentoring,EventRollMorph>>addMenuButtonItemsTo:
 msgid "allows you to back up to any earlier version of the event tape."
-msgstr "vous permet de revenir à une version précédente de la bande d'événements."
+msgstr ""
+"vous permet de revenir à une version précédente de la bande d'événements."
 
 #: Morphic-Mentoring,EventRollMorph>>addMenuButtonItemsTo:
 msgid "debugging -- change the definition of this menu."
@@ -3855,7 +4187,10 @@ msgstr ""
 
 #: Morphic-Mentoring,EventRollMorph>>makeButtonsPanel
 msgid "Abandon  this piano roll.  If you have made changes and wish them to be propagated back to the originating event-theatre, be sure to do that before abandoning the piano roll."
-msgstr "Abandonner le piano horizontal. Si vous avez effectué des modifications et que vous souhaitez les propager dans le théâtre des événements originale, assurez-vous de le faire avant d'abandonner l'outil piano."
+msgstr ""
+"Abandonner le piano horizontal. Si vous avez effectué des modifications et "
+"que vous souhaitez les propager dans le théâtre des événements originale, "
+"assurez-vous de le faire avant d'abandonner l'outil piano."
 
 #: Morphic-Mentoring,EventRollMorph>>makeControlsPanel
 msgid "keyboard"
@@ -3939,11 +4274,16 @@ msgstr "vue graphique"
 
 #: Morphic-Mentoring,MouseEventSequenceMorph>>addCustomMenuItems:hand:
 msgid "Lets you visualize all the individual events that constitute this sequence in an onionskin overlay to the event theatre."
-msgstr "Vous permet de visualiser tous les événements individuels qui constituent cette séquence, sous la forme de calques au dessus du théâtre des événements."
+msgstr ""
+"Vous permet de visualiser tous les événements individuels qui constituent "
+"cette séquence, sous la forme de calques au dessus du théâtre des "
+"événements."
 
 #: Morphic-Mentoring,MouseEventSequenceMorph>>addCustomMenuItems:hand:
 msgid "Presents the constituent events of this sequence in a scrolling list for your inspection."
-msgstr "Présente les événements constituant cette séquence dans une liste que vous pouvez dérouler."
+msgstr ""
+"Présente les événements constituant cette séquence dans une liste que vous "
+"pouvez dérouler."
 
 #: Morphic-Mentoring,MouseEventSequenceMorph>>addCustomMenuItems:hand:
 msgid "textual view"
@@ -3987,7 +4327,9 @@ msgstr "fonctionnalité aprés playback"
 
 #: Morphic-Mentoring,TextualEventSequenceDisplayer>>mouseEventSequenceMorph:
 msgid "Each line represents an event in the event sequence I represent"
-msgstr "Chaque ligne représente un événement dans la séquence d'événements que je représente"
+msgstr ""
+"Chaque ligne représente un événement dans la séquence d'événements que je "
+"représente"
 
 #: Morphic-Mentoring,Worldlet>>initialize
 msgid "screen"
@@ -4135,7 +4477,9 @@ msgstr "Sélectionner {1} objets"
 
 #: Morphic-Text_Support,TextFieldMorph_class>>registerInFlapsRegistry
 msgid "A scrolling data field which will have a different value on every card of the background"
-msgstr "Un champ de donnée scrollable qui aura une valeur différente sur toutes les cartes du fond"
+msgstr ""
+"Un champ de donnée scrollable qui aura une valeur différente sur toutes les "
+"cartes du fond"
 
 #: Morphic-Text_Support,TextFieldMorph_class>>registerInFlapsRegistry
 msgid "Scrolling Field"
@@ -4187,7 +4531,9 @@ msgstr "lisser davantage"
 
 #: Morphic-TrueType,TTSampleStringMorph_class>>descriptionForPartsBin
 msgid "A short text in a beautiful font.  Use the resize handle to change size."
-msgstr "Un court texte dans une très belle police.  Utiliser la poignée de redimensionnement pour modifier ses dimensions."
+msgstr ""
+"Un court texte dans une belle police.  Utiliser la poignée de "
+"redimensionnement pour modifier ses dimensions."
 
 #: Morphic-TrueType,TTSampleStringMorph_class>>descriptionForPartsBin
 msgid "TrueType banner"
@@ -4259,7 +4605,9 @@ msgstr "supprimer l'outil de sélection de couleur"
 
 #: Morphic-Widgets,ColorPickerMorph>>initializeModal:
 msgid "move this color-picker to another position, and keep it on the screen until dismissed with the X button  "
-msgstr "déplacer l'outil de sélection de couleur à une autre position et le laisser à l'écran jusqu'à qu'il soit supprimer avec le bouton X  "
+msgstr ""
+"déplacer l'outil de sélection de couleur à une autre position et le laisser "
+"à l'écran jusqu'à qu'il soit supprimé avec le bouton X  "
 
 #: Morphic-Widgets,ColorPickerMorph>>initializeModal:
 msgid "open a full property sheet"
@@ -4267,11 +4615,15 @@ msgstr "ouvrir une feuille de propriétés complète"
 
 #: Morphic-Widgets,HaloMorph>>addDirectionHandles
 msgid "Forward direction (hold down shift key and drag to change it)"
-msgstr "Centre de rotation (pour le déplacer, appuie sur la touche Maj et utilise la souris)"
+msgstr ""
+"Centre de rotation (pour le déplacer, appuie sur la touche Maj et utilise la "
+"souris)"
 
 #: Morphic-Widgets,HaloMorph>>addDirectionHandles
 msgid "Rotation center (hold down the shift key and drag to change it)"
-msgstr "Centre de rotation (garde la touche Maj. enfoncée et utilise la souris pour le déplacer)"
+msgstr ""
+"Centre de rotation (garde la touche Maj. enfoncée et utilise la souris pour "
+"le déplacer)"
 
 #: Morphic-Widgets,HaloMorph>>maybeDismiss:with:
 msgid "Really throw this away"
@@ -4299,7 +4651,9 @@ msgstr "choisir le dispositif physique associé au joystick"
 
 #: Morphic-Widgets,JoystickMorph>>addCustomMenuItems:hand:
 msgid "Governs whether this joystick should track the motions of a real, physical joystick attached to the computer."
-msgstr "Détermine si ce joystick doit suivre les mouvements d'un joystick réel relié à l'ordinateur."
+msgstr ""
+"Définit si ce joystick doit suivre les mouvements d'un joystick réel relié "
+"à l'ordinateur."
 
 #: Morphic-Widgets,JoystickMorph>>addCustomMenuItems:hand:
 msgid "set X range"
@@ -4311,7 +4665,9 @@ msgstr "fixer la plage de valeurs verticales (Y)"
 
 #: Morphic-Widgets,JoystickMorph>>addCustomMenuItems:hand:
 msgid "When auto-center is on, every time you let go of the Joystick knob, it springs back to the neutral position at the center of the device"
-msgstr "Quand l'auto-centrage est actif, le joystick reprend sa position centrale lorsqu'il est lâché"
+msgstr ""
+"Quand l'auto-centrage est actif, le joystick reprend sa position centrale "
+"lorsqu'il est lâché"
 
 #: Morphic-Widgets,JoystickMorph>>autoCenterString
 msgid "auto-center"
@@ -4411,29 +4767,31 @@ msgstr ""
 
 #: Morphic-Widgets,SimpleButtonMorph>>setActWhen
 msgid "buttonDown"
-msgstr "Bouton pressé ?"
+msgstr "...on clique dessus"
 
 #: Morphic-Widgets,SimpleButtonMorph>>setActWhen
 msgid "buttonUp"
-msgstr "Bouton relaché ?"
+msgstr "...on le relâche"
 
 #: Morphic-Widgets,SimpleButtonMorph>>setActWhen
 msgid "Choose one of the following conditions"
-msgstr "Choisissez l'une de ces conditions"
+msgstr "Activer le bouton quand..."
 
 #: Morphic-Widgets,SimpleButtonMorph>>setActWhen
 msgid "startDrag"
-msgstr ""
+msgstr "...on le fait glisser"
 
 #: Morphic-Widgets,SimpleButtonMorph>>setActWhen
 msgid "whilePressed"
-msgstr "bouton encore pressé"
+msgstr "...on le maintient enfoncé"
 
 #: Morphic-Widgets,SimpleButtonMorph>>setArguments
 msgid ""
 "Please type the arguments to be sent to the target\n"
 "when this button is pressed separated by periods"
-msgstr "Tapez les arguments à envoyer à la cible lorsque ce bouton est appuyé, séparés par des points"
+msgstr ""
+"Tapez les arguments à envoyer à la cible lorsque ce bouton est appuyé, "
+"séparés par des points"
 
 #: Morphic-Widgets,SimpleButtonMorph>>setLabel
 msgid "Please enter a new label for this button"
@@ -4509,7 +4867,7 @@ msgstr "fermer la fenetre pour abandonner cette exécution"
 
 #: Morphic-Windows,ProjectViewMorph_class>>defaultNameStemForInstances
 msgid "ProjectView"
-msgstr ""
+msgstr "VueProjet"
 
 #: Morphic-Windows,ProjectViewMorph_class>>serviceOpenProjectFromFile
 msgid "load as project"
@@ -4664,16 +5022,20 @@ msgid "playfield"
 msgstr "Scène"
 
 #: Morphic-Worlds,PasteUpMorph>>abandonUnsituatedPlayers
-msgid "Variable named \"{1}\"  in player named \"{2}\" changed to point to Dot"
+msgid "Variable named \"{1}\" in player named \"{2}\" changed to point to Dot"
 msgstr ""
+"La variable nommée \"{1}\" de l'acteur \"{2}\" a été changée pour pointer vers "
+"l'objet \"Point\"."
 
 #: Morphic-Worlds,PasteUpMorph>>abandonUnsituatedPlayers
 msgid "{1} item(s) fixed up"
-msgstr ""
+msgstr "{1} élément(s) corrigés"
 
 #: Morphic-Worlds,PasteUpMorph>>addFillStyleMenuItems:hand:
 msgid "change the color or pattern of the desktop background that lies behind everything else on the screen."
-msgstr "changer la couleur ou le modèle du fond du bureau qui apparaît derrière toute autre chose à l'écran."
+msgstr ""
+"Change la couleur ou le modèle du fond du bureau qui apparaît derrière "
+"toute autre chose à l'écran."
 
 #: Morphic-Worlds,PasteUpMorph>>addFillStyleMenuItems:hand:
 msgid "desktop color..."
@@ -4717,7 +5079,10 @@ msgstr "Effacer les traces"
 
 #: Morphic-Worlds,PasteUpMorph>>addPenTrailsMenuItemsTo:
 msgid "if true, detailed movement of pens between display updates is ignored.  Thus multiple line segments drawn within a script may not be seen individually."
-msgstr "si vrai signifie que les mouvements détaillés entre les mises à jour de l'affichage sont ignorés. Dans ce cas, des segments de droites multiples dessinés durant un script n'apparaîtront peut-être pas individuellement."
+msgstr ""
+"Si vrai signifie que les mouvements détaillés entre les mises à jour de "
+"l'affichage sont ignorés. Dans ce cas, des segments de droites multiples "
+"dessinés durant un script n'apparaîtront peut-être pas individuellement."
 
 #: Morphic-Worlds,PasteUpMorph>>addPlayfieldMenuItems:hand:,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
 msgid "playfield options..."
@@ -4873,8 +5238,8 @@ msgid "add new card"
 msgstr "ajouter une nouvelle carte"
 
 #: Morphic-Worlds,PasteUpMorph>>presentCardAndStackMenu
-msgid "card und stack"
-msgstr ""
+msgid "card and stack"
+msgstr "cartes et piles"
 
 #: Morphic-Worlds,PasteUpMorph>>presentCardAndStackMenu
 msgid "delete this card"
@@ -4986,7 +5351,9 @@ msgstr " tuile(s) changée pour \""
 
 #: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
 msgid "1 if argument is positive, -1 if argument is negative, 0 if argument is zero."
-msgstr "1 si l'argument est positif, -1 si l'argument est néagatif, 0 si l'argument est nul."
+msgstr ""
+"1 si l'argument est positif, -1 si l'argument est néagatif, 0 si l'argument "
+"est nul."
 
 #: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
 msgid "a randomly chosen integer between 1 and the argument"
@@ -5046,19 +5413,19 @@ msgstr "la négative de l'argument"
 
 #: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
 msgid "the number of degrees equivalent to the argument which is assumed to be expressed in radians"
-msgstr "le nombre de degrés équivalents à l'argument considéré comme une valeur en radians"
+msgstr ""
+"La valeur en degrés de l'argument, considéré comme une valeur en "
+"radians"
 
 #: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
 msgid "the number of radians equivalent to the argument, which is expressed in degrees."
-msgstr "le nombre de radians équivalents à l'argument considéré comme une valeur en dégrés"
+msgstr ""
+"La valeur en radians de l'argument, considéré comme une valeur en "
+"degrés"
 
 #: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
 msgid "the product of all the whole numbers between 1 and the argument"
 msgstr "le produit de tous les nombres entre 1 et la valeur de l'argument"
-
-#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
-msgid "trignometric sine, argument in degrees"
-msgstr "sinus trigonométrique, argument en degrés"
 
 #: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
 msgid "trigonometric cosine, argument in degrees"
@@ -5067,6 +5434,10 @@ msgstr "cosinus trigonométrique, argument en degrés"
 #: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
 msgid "trigonometric cosine, argument in radians"
 msgstr "cosinus trigonométrique, argument en radians"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "trigonometric sine, argument in degrees"
+msgstr "sinus trigonométrique, argument en degrés"
 
 #: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
 msgid "trigonometric sine, argument in radians"
@@ -5079,4 +5450,3 @@ msgstr "tangente trigonométrique, argument en degrés"
 #: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
 msgid "trigonometric tangent, argument in radians"
 msgstr "tangente trigonométrique, argument en radians"
-

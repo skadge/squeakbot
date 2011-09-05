@@ -1,16 +1,19 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: eToys\n"
-"POT-Creation-Date: 2010-08-27 15:37-0000\n"
-"PO-Revision-Date: 2010-08-27 15:37-0000\n"
-"Last-Translator: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-31 22:08-0000\n"
+"PO-Revision-Date: 2011-09-05 17:40+0100\n"
+"Last-Translator: Séverin Lemaignan <skadge@gmail.com>\n"
 "Language-Team: \n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Etoys-SystemVersion: etoys4.1 of 29 April 2010 update 2383 (repo v1295 of 25 August 2010)\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Pootle 2.0.3\n"
 "X-Etoys-Domain: WS-Sound\n"
-
+"X-Etoys-SystemVersion: etoys4.1.2 of 31 August 2011 update 2397\n"
 
 #: WS-Sound-Interface,WsPhonePadMorph_class>>defaultNameStemForInstances,WsPhonePadMorph_class>>descriptionForPartsBin,WsPhonePadMorph_class>>registerInFlapsRegistry,WsPhonePadMorph_class>>registerInFlapsRegistry
 msgid "PhonePad"
@@ -34,7 +37,7 @@ msgstr "Numéro de téléphone ?"
 
 #: WS-Sound-Interface,WsWorldStethoscope>>rangeFinderModeOn
 msgid "You should adjust 'cut off level' to find range well."
-msgstr ""
+msgstr "Tu devrais ajuster le niveau de coupure pour déterminer la bonne plage "
 
 #: WS-Sound-Interface,WsWorldStethoscope>>setFFTSize
 msgid "FFT size (currently "
@@ -42,15 +45,15 @@ msgstr "taille FFT (actuellement "
 
 #: WS-Sound-Interface,WsWorldStethoscope>>setSamplingRate
 msgid "Sampling rate (currently "
-msgstr "Taux d'échantillonage (actuellement "
+msgstr "Fréquence d'échantillonage (actuellement "
 
 #: WS-Sound-Interface,WsWorldStethoscopeMorph_class>>defaultNameStemForInstances,WsWorldStethoscopeMorph_class>>descriptionForPartsBin,WsWorldStethoscopeMorph_class>>registerInFlapsRegistry,WsWorldStethoscopeMorph_class>>registerInFlapsRegistry
 msgid "WorldStethoscope"
-msgstr "StéthoscopeMondial"
+msgstr "Le Grand Stéthoscope"
 
 #: WS-Sound-Interface,WsWorldStethoscopeMorph_class>>descriptionForPartsBin,WsWorldStethoscopeMorph_class>>registerInFlapsRegistry
 msgid "A device for analyzing phenomena as sounds"
-msgstr "Un mécanisme pour analyser les phénomènes sous forme de sons"
+msgstr "Un outil pour analyser les phénomènes sous forme de sons"
 
 #: WS-Sound-Interface,WsWorldStethoscopeMorph>>addButtonRow
 msgid "Menu"
@@ -66,11 +69,11 @@ msgstr "Arrêter"
 
 #: WS-Sound-Interface,WsWorldStethoscopeMorph>>addControlsIn:
 msgid "calibration  "
-msgstr "calibrage  "
+msgstr "Calibration  "
 
 #: WS-Sound-Interface,WsWorldStethoscopeMorph>>addControlsIn:
 msgid "cut off level"
-msgstr "niveau d'écrêtage"
+msgstr "Niveau d'écrêtage"
 
 #: WS-Sound-Interface,WsWorldStethoscopeMorph>>addDataGraph
 msgid "Data"
@@ -90,11 +93,11 @@ msgstr "Spectre"
 
 #: WS-Sound-Interface,WsWorldStethoscopeMorph>>adjustmentsString
 msgid "hide adjustments"
-msgstr "cacher configurations"
+msgstr "Masquer les paramètres"
 
 #: WS-Sound-Interface,WsWorldStethoscopeMorph>>adjustmentsString
 msgid "show adjustments"
-msgstr "afficher configurations"
+msgstr "Afficher les paramètres"
 
 #: WS-Sound-Interface,WsWorldStethoscopeMorph>>inputModeButtonRow
 msgid "AC "
@@ -102,23 +105,23 @@ msgstr "CA "
 
 #: WS-Sound-Interface,WsWorldStethoscopeMorph>>inputModeButtonRow
 msgid "Bias"
-msgstr ""
+msgstr "Bias"
 
 #: WS-Sound-Interface,WsWorldStethoscopeMorph>>invokeMenu
 msgid "add a graph..."
-msgstr "Ajouter un graphique"
+msgstr "Ajouter un graphe..."
 
 #: WS-Sound-Interface,WsWorldStethoscopeMorph>>invokeMenu
 msgid "data"
-msgstr "Donnée"
+msgstr "donnée"
 
 #: WS-Sound-Interface,WsWorldStethoscopeMorph>>invokeMenu
 msgid "set FFT size"
-msgstr "fixer la taille de la FFT"
+msgstr "Définir la largeur de la FFT"
 
 #: WS-Sound-Interface,WsWorldStethoscopeMorph>>invokeMenu
 msgid "set sampling rate"
-msgstr "ajuster la fréquence de l'échantillon"
+msgstr "Ajuster la fréquence d'échantillonage"
 
 #: WS-Sound-Interface,WsWorldStethoscopeMorph>>invokeMenu
 msgid "signal"
@@ -150,7 +153,7 @@ msgstr "classer par niveau"
 
 #: WS-Sound-Interface,WsWorldStethoscopeMorph>>toggleDirectMode
 msgid "AC"
-msgstr "CA"
+msgstr "AC"
 
 #: WS-Sound-Interface,WsWorldStethoscopeMorph>>toggleDirectMode
 msgid "DC"
