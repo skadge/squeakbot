@@ -24,9 +24,11 @@ Installation
 Automatique
 +++++++++++
 
+(Sous Linux seulement !)
+
 > ./bootstrap
 
-Et voila!
+Vous pouvez maintenant aller à la section "Ajout des changesets"
 
 Manuel : Préparer une image SqueakBot à partir d'une image EToys
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -35,7 +37,16 @@ Manuel : Préparer une image SqueakBot à partir d'une image EToys
 - Récupérer une image Etyos fraiche ici:
 http://download.sugarlabs.org/sources/sucrose/glucose/etoys/
 
-- appliquer (par drag and drop) les différents changesets :
+- Décompresser l'image, copier le contenu du sous-dossier "Content/" dans 
+  un nouveau dossier "squeakbot/", renommer etoys.* en squeakbot.*
+  
+- passer à la section suivante
+
+Ajout des changesets
+++++++++++++++++++++
+
+- appliquer (par drag and drop) les différents changesets du dossier 
+  changesets/ dans cet ordre:
  - NamedSerialPort
  - PhysicalEtoys
  - Arduino-core
