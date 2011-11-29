@@ -15,7 +15,10 @@
  * TODO: use Program Control to load stored profiles from EEPROM
  */
 
-/* CQ 04/2011
+/* CQ 11/2011
+ * adding pwm management (direct copy paste from adafruit lib)
+ *
+ * CQ 04/2011
  * adding shift register support to handle AF motorshield
  * quick and dirty: rewrite this stuff...
  */
@@ -103,6 +106,15 @@ Servo servos[MAX_SERVOS];
 #define BACKWARD 2
 #define RELEASE 3
 
+#define MOTOR12_64KHZ _BV(CS20)  // no prescale
+#define MOTOR12_8KHZ _BV(CS21)   // divide by 8
+#define MOTOR12_2KHZ _BV(CS21) | _BV(CS20) // divide by 32
+#define MOTOR12_1KHZ _BV(CS22)  // divide by 64
+
+#define MOTOR34_64KHZ _BV(CS00)  // no prescale
+#define MOTOR34_8KHZ _BV(CS01)   // divide by 8
+#define MOTOR34_1KHZ _BV(CS01) | _BV(CS00)  // divide by 64
+
 //TODO: #define SHIFTREG as a pinmode possibility => nope, it already exists as 'SHIFT' (should be thought about, tho).
 
 void shiftRegister_enable(void);
@@ -113,6 +125,58 @@ static uint8_t latch_state;
 /*==============================================================================
  * FUNCTIONS
  *============================================================================*/
+inline void initPWM1(uint8_t freq) {
+    // use PWM from timer2A on PB3 (Arduino pin #11)
+    TCCR2A |= _BV(COM2A1) | _BV(WGM20) | _BV(WGM21); // fast PWM, turn on oc2a
+    TCCR2B = freq & 0x7;
+    OCR2A = 0;
+    pinMode(11, OUTPUT);
+}
+
+inline void setPWM1(uint8_t s) {
+    // use PWM from timer2A on PB3 (Arduino pin #11)
+    OCR2A = s;
+}
+
+inline void initPWM2(uint8_t freq) {
+    // use PWM from timer2B (pin 3)
+    TCCR2A |= _BV(COM2B1) | _BV(WGM20) | _BV(WGM21); // fast PWM, turn on oc2b
+    TCCR2B = freq & 0x7;
+    OCR2B = 0;
+    pinMode(3, OUTPUT);
+}
+
+inline void setPWM2(uint8_t s) {
+    // use PWM from timer2A on PB3 (Arduino pin #11)
+    OCR2B = s;
+}
+
+inline void initPWM3(uint8_t freq) {
+    // use PWM from timer0A / PD6 (pin 6)
+    TCCR0A |= _BV(COM0A1) | _BV(WGM00) | _BV(WGM01); // fast PWM, turn on OC0A
+    //TCCR0B = freq & 0x7;
+    OCR0A = 0;
+    pinMode(6, OUTPUT);
+}
+
+inline void setPWM3(uint8_t s) {
+    // use PWM from timer0A on PB3 (Arduino pin #6)
+    OCR0A = s;
+}
+
+inline void initPWM4(uint8_t freq) {
+    // use PWM from timer0B / PD5 (pin 5)
+    TCCR0A |= _BV(COM0B1) | _BV(WGM00) | _BV(WGM01); // fast PWM, turn on oc0a
+    //TCCR0B = freq & 0x7;
+    OCR0B = 0;
+    pinMode(5, OUTPUT);
+}
+
+inline void setPWM4(uint8_t s) {
+    // use PWM from timer0A on PB3 (Arduino pin #6)
+    OCR0B = s;
+}
+
 void toggleLed() 
 {
   if (millis() - toggleMillis > 500) {
@@ -122,17 +186,17 @@ void toggleLed()
   }
 }
 
-void motorRun(uint8_t motornum, uint8_t cmd) {
+void motorRun(uint8_t motornum, uint8_t cmd, uint8_t pwmSpeed) {
   uint8_t a, b;
   switch (motornum) {
     case 1:
-      a = MOTOR1_A; b = MOTOR1_B; break;
+      a = MOTOR1_A; b = MOTOR1_B;setPWM1(pwmSpeed);break;
     case 2:
-      a = MOTOR2_A; b = MOTOR2_B; break;
+      a = MOTOR2_A; b = MOTOR2_B;setPWM2(pwmSpeed);break;
     case 3:
-      a = MOTOR3_A; b = MOTOR3_B; break;
+      a = MOTOR3_A; b = MOTOR3_B;setPWM3(pwmSpeed);break;
     case 4:
-      a = MOTOR4_A; b = MOTOR4_B; break;
+      a = MOTOR4_A; b = MOTOR4_B;setPWM4(pwmSpeed);break;
     default:
       return;
   }
@@ -154,6 +218,9 @@ void motorRun(uint8_t motornum, uint8_t cmd) {
       shiftRegister_tx();
       break;
   }
+
+
+
 }
   
 //TODO: rewrite this completely
@@ -170,6 +237,11 @@ void shiftRegister_enable() {
 
  //ENABLE_PORT &= ~_BV(ENABLE); // enable the chip outputs!
  digitalWrite(MOTORENABLE, LOW);
+ 
+ initPWM1(MOTOR12_64KHZ);
+ initPWM2(MOTOR12_64KHZ);
+ initPWM3(MOTOR34_64KHZ);
+ initPWM4(MOTOR34_64KHZ);
 }
 
 
@@ -201,10 +273,10 @@ void shiftRegister_tx(void) {
   digitalWrite(MOTORLATCH, HIGH);
   
   //PWM 100%
-  digitalWrite(PWM1, HIGH);
-  digitalWrite(PWM2, HIGH);
-  digitalWrite(PWM3, HIGH);
-  digitalWrite(PWM4, HIGH);
+//  digitalWrite(PWM1, HIGH);
+//  digitalWrite(PWM2, HIGH);
+//  digitalWrite(PWM3, HIGH);
+//  digitalWrite(PWM4, HIGH);
 }
 
 
@@ -501,7 +573,7 @@ void sysexCallback(byte command, byte argc, byte *argv)
      //shiftRegister_tx();//output that data
      //no output on serial
      
-     motorRun(argv[0], argv[1]);
+     motorRun(argv[0], argv[1], argv[2]);
      
      Serial.write(END_SYSEX);
    break;
