@@ -1,5 +1,3 @@
-I own this :-)
-
 SqueakBot
 =========
 
@@ -45,26 +43,28 @@ http://download.sugarlabs.org/sources/sucrose/glucose/etoys/
 Ajout des changesets
 ++++++++++++++++++++
 
-- appliquer (par drag and drop) les différents changesets du dossier 
+- Appliquer (par drag and drop) les différents changesets du dossier 
   changesets/ dans cet ordre:
- - NamedSerialPort
- - PhysicalEtoys
- - Arduino-core
- - Arduino-compiler
- - Arduino-etoys
- - Nono
+ - 1-NamedSerialPort
+ - 2-PhysicalEtoys
+ - 3-Arduino-Core
+ - 4-Arduino-Compiler
+ - 5-Arduino-EToys
+ - 6-Nono
+ - 7-SqueakBotMain 
+ - 8-AdaFruitMotors
 
-- importer les projets d'accueil (drag and drop des différents ``.pr``)
+- Importer les projets d'accueil (drag and drop des différents ``.pr``)
 
 Processus d'initialisation d'un composant
 -----------------------------------------
 
 [section à mettre à jour avec la Arduino]
-Que se passe t-il lorsque qu'on glisse par exemple une carte ASPIC sur l'espace de travail ?
+Que se passe t'il lorsque qu'on glisse par exemple une carte ASPIC sur l'espace de travail ?
 
 Pile d'appel (avec uniquement les appels significatifs):
 
-AspicMorph openInWorld
+AspicMorph new openInWorld
 |-Aspic new
 |  |-(GenericModule) new
 |  |-aspic initialize
