@@ -1,9 +1,87 @@
-﻿'From etoys4.0 of 9 October 2008 [dernière mise à jour: #2342] on 20 December 2010 at 12:05:36 am'!Object subclass: #SqueakBot	instanceVariableNames: ''	classVariableNames: 'DeviceIndex RegistredDevices'	poolDictionaries: ''	category: 'SqueakBot-Main'!Object subclass: #SqueakBotBitmapLibrary	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'SqueakBot-Main'!!Flaps class methodsFor: '*SqueakBot'!defaultsQuadsDefiningSqueakBotFlap	^ {{#ArduinoMorph. #openInWorld. 'Arduino' translated. 'Add an Arduino board' translated. SqueakBotBitmapLibrary arduinoIcon}} asOrderedCollection! !!Flaps class methodsFor: '*SqueakBot'!initializeSqueakBotFlap	| t1 |	self registeredFlapsQuads		ifNil: [self initializeFlapsQuads].	SharedFlapTabs		ifNil: [self addAndEnableEToyFlaps].	self registeredFlapsQuads at: 'SqueakBot' put: self defaultsQuadsDefiningSqueakBotFlap.	t1 := self				newSqueakBotFlapFromQuads: self quadsDefiningSqueakBotFlap				positioning: #right				withPreviousEntries: nil.	t1 referent setNameTo: 'SqueakBot Flap' translated.	t1 hideFlap.	SharedFlapTabs add: t1.	self enableGlobalFlapWithID: 'SqueakBot' translated.	Preferences sugarNavigator		ifTrue: [(self globalFlapTabWithID: 'Sugar Navigator Flap' translated)				ifNotNilDo: [:t2 | t1 sugarNavTab: t2]]! !!Flaps class methodsFor: '*SqueakBot'!newSqueakBotFlapFromQuads: t1 positioning: t2 withPreviousEntries: t3 	| t4 t5 t6 t7 |	t7 := Preferences sugarNavigator.	t5 := PartsBin				newPartsBinWithOrientation: #leftToRight				andColor: Color gray muchLighter				from: t1				withPreviousEntries: t3.	t4 := (t7				ifTrue: [SolidSugarSuppliesTab]				ifFalse: [FlapTab]) new referent: t5 beSticky.	t4		setName: 'SqueakBot' translated		edge: (t7				ifTrue: [#top]				ifFalse: [#bottom])		color: Color red lighter.	t4 position: 0 @ ActiveWorld sugarAllowance.	t4 setBalloonText: t4 balloonTextForFlapsMenu.	t4 applyThickness: 20.	t6 := ActiveWorld width.	t5 extent: ActiveWorld width @ (76 * (1 + (1350 // t6))).	t5 beFlap: true.	t5 autoLineLayout: true.	t7		ifTrue: [t4 useSolidTab.			t4 height: 20;								color: (Color						r: 0.804						g: 0.804						b: 0.804)]		ifFalse: [t4 color: Color red lighter].	^ t4! !!Flaps class methodsFor: '*SqueakBot'!quadsDefiningSqueakBotFlap	^ self registeredFlapsQuadsAt: 'SqueakBot'! !!SugarNavigatorBar methodsFor: '*SqueakBot' stamp: 'sk 12/23/2010 12:40'!
+﻿'From etoys4.0 of 9 October 2008 [dernière mise à jour: #2342] on 20 December 2010 at 12:05:36 am'!
+Object subclass: #SqueakBot
+	instanceVariableNames: ''
+	classVariableNames: 'DeviceIndex RegistredDevices'
+	poolDictionaries: ''
+	category: 'SqueakBot-Main'!
+Object subclass: #SqueakBotBitmapLibrary
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'SqueakBot-Main'!
+
+!Flaps class methodsFor: '*SqueakBot'!
+defaultsQuadsDefiningSqueakBotFlap
+	^ {{#ArduinoMorph. #openInWorld. 'Arduino' translated. 'Add an Arduino board' translated. SqueakBotBitmapLibrary arduinoIcon}} asOrderedCollection! !
+
+!Flaps class methodsFor: '*SqueakBot'!
+initializeSqueakBotFlap
+	| t1 |
+	self registeredFlapsQuads
+		ifNil: [self initializeFlapsQuads].
+	SharedFlapTabs
+		ifNil: [self addAndEnableEToyFlaps].
+	self registeredFlapsQuads at: 'SqueakBot' put: self defaultsQuadsDefiningSqueakBotFlap.
+	t1 := self
+				newSqueakBotFlapFromQuads: self quadsDefiningSqueakBotFlap
+				positioning: #right
+				withPreviousEntries: nil.
+	t1 referent setNameTo: 'SqueakBot Flap' translated.
+	t1 hideFlap.
+	SharedFlapTabs add: t1.
+	self enableGlobalFlapWithID: 'SqueakBot' translated.
+	Preferences sugarNavigator
+		ifTrue: [(self globalFlapTabWithID: 'Sugar Navigator Flap' translated)
+				ifNotNilDo: [:t2 | t1 sugarNavTab: t2]]! !
+
+!Flaps class methodsFor: '*SqueakBot'!
+newSqueakBotFlapFromQuads: t1 positioning: t2 withPreviousEntries: t3 
+	| t4 t5 t6 t7 |
+	t7 := Preferences sugarNavigator.
+	t5 := PartsBin
+				newPartsBinWithOrientation: #leftToRight
+				andColor: Color gray muchLighter
+				from: t1
+				withPreviousEntries: t3.
+	t4 := (t7
+				ifTrue: [SolidSugarSuppliesTab]
+				ifFalse: [FlapTab]) new referent: t5 beSticky.
+	t4
+		setName: 'SqueakBot' translated
+		edge: (t7
+				ifTrue: [#top]
+				ifFalse: [#bottom])
+		color: Color red lighter.
+	t4 position: 0 @ ActiveWorld sugarAllowance.
+	t4 setBalloonText: t4 balloonTextForFlapsMenu.
+	t4 applyThickness: 20.
+	t6 := ActiveWorld width.
+	t5 extent: ActiveWorld width @ (76 * (1 + (1350 // t6))).
+	t5 beFlap: true.
+	t5 autoLineLayout: true.
+	t7
+		ifTrue: [t4 useSolidTab.
+			t4 height: 20;
+				
+				color: (Color
+						r: 0.804
+						g: 0.804
+						b: 0.804)]
+		ifFalse: [t4 color: Color red lighter].
+	^ t4! !
+
+!Flaps class methodsFor: '*SqueakBot'!
+quadsDefiningSqueakBotFlap
+	^ self registeredFlapsQuadsAt: 'SqueakBot'! !
+
+!SugarNavigatorBar methodsFor: '*SqueakBot' stamp: 'sk 12/23/2010 12:40'!
 buttonSqueakBot
 	^ self
 		makeButton: 'SqueakBot' translated
 		balloonText: 'The robotic panel' translated
-		for: #toggleSqueakBot! !!SqueakBot class methodsFor: 'as yet unclassified' stamp: 'sk 12/23/2010 14:28'!
+		for: #toggleSqueakBot! !
+
+!SqueakBot class methodsFor: 'as yet unclassified' stamp: 'sk 12/23/2010 14:28'!
 initialize
 	Flaps initializeSqueakBotFlap.
 	SugarLibrary default iconAt: 'toggleSqueakBot' put: SqueakBotBitmapLibrary squeakBotIcon.
@@ -24,7 +102,14 @@ makeTheButtons
 		, (Preferences navControlInNavBar
 				ifTrue: [{self buttonHideNavBar}]
 				ifFalse: [#()])!
-]style[(14 5 4 13 4 28 11 44 4 34 3 6 4 13 4 13 4 36 4 17 4 22 13 32 4 14 7 2 4 15 4 13 10 4 13 41 4 31 4 30 4 13 7 2 4 13 4 16 4 20 11 34 4 34 3 2)f3b,f3,f3cmagenta;,f3,f3cmagenta;,f3,f3cmagenta;,f3,f3cmagenta;,f3,f3c202202126,f3,f3cmagenta;,f3,f3cmagenta;,f3,f3cmagenta;,f3,f3cmagenta;,f3,f3cmagenta;,f3,f3cmagenta;,f3,f3cmagenta;,f3,f3c202202126,f3,f3cmagenta;,f3,f3cmagenta;,f3,f3cmagenta;,f3,f3cmagenta;,f3,f3cmagenta;,f3,f3cmagenta;,f3,f3cmagenta;,f3,f3c202202126,f3,f3cmagenta;,f3,f3cmagenta;,f3,f3cmagenta;,f3,f3cmagenta;,f3,f3cmagenta;,f3,f3c202202126,f3! !!SqueakBotBitmapLibrary class methodsFor: 'as yet unclassified'!arduinoIcon	^ Form		extent: 60 @ 42		depth: 32		bits: (Base64MimeConverter mimeDecodeToBytes: '6dgVAAsKCGmH8whqiCr/CGuJD/8Uco7/MoOb/w1tiwr/B2uJF/8KaYX/El10/xJedv8SXXT/
+]style[(14 5 4 13 4 28 11 44 4 34 3 6 4 13 4 13 4 36 4 17 4 22 13 32 4 14 7 2 4 15 4 13 10 4 13 41 4 31 4 30 4 13 7 2 4 13 4 16 4 20 11 34 4 34 3 2)f3b,f3,f3cmagenta;,f3,f3cmagenta;,f3,f3cmagenta;,f3,f3cmagenta;,f3,f3c202202126,f3,f3cmagenta;,f3,f3cmagenta;,f3,f3cmagenta;,f3,f3cmagenta;,f3,f3cmagenta;,f3,f3cmagenta;,f3,f3cmagenta;,f3,f3c202202126,f3,f3cmagenta;,f3,f3cmagenta;,f3,f3cmagenta;,f3,f3cmagenta;,f3,f3cmagenta;,f3,f3cmagenta;,f3,f3cmagenta;,f3,f3c202202126,f3,f3cmagenta;,f3,f3cmagenta;,f3,f3cmagenta;,f3,f3cmagenta;,f3,f3cmagenta;,f3,f3c202202126,f3! !
+
+!SqueakBotBitmapLibrary class methodsFor: 'as yet unclassified'!
+arduinoIcon
+	^ Form
+		extent: 60 @ 42
+		depth: 32
+		bits: (Base64MimeConverter mimeDecodeToBytes: '6dgVAAsKCGmH8whqiCr/CGuJD/8Uco7/MoOb/w1tiwr/B2uJF/8KaYX/El10/xJedv8SXXT/
 El50Gv8TX3YK/xRfdgv/E192/xNfdQr/E192I/8KaYX/B2uJ/xNgeP8TXnX/FGB3/xNedf8T
 YHf/E191Cv8TX3Yr/xNgd/8TXnX/FGB3/xNedf8TX3b/El10/xJedv8SXXSuEV93BQN0lBkA
 CwoIaYfzCGqIJv8Ia4mv/wRph/+mxc//7e7u/2KesP8Dbov/BHKQ/xJke/8lIyT/Ky4x/yUl
@@ -168,7 +253,14 @@ QED/FBIV/z9BQf8PDhH/KExX7AdriQAAAAABB2qIEQAnCghph/MIaoj/B2yK/wdti/8Ha4n/
 CGqI/wdrif8GcI7/Bm6NEv8Ia4kL/whqif8IaogW/whriQr/CGqIDv8Ia4l7/wlphv8lS1j/
 JUtW/yZKVv8nSlb/JUpV/ydLVv8mSVX/JkpV/ydLVv8lSVT/JktW/ydIU/8RYnv/B2yK/xta
 bv8nSlb/KVBb/yZKVv8nT1v/KEtX/yhPW/8oS1f/KVBb/ydKVv8qUFv/JkpW/x1ZbHMHbIoA
-AAAA' readStream) contents! !!SqueakBotBitmapLibrary class methodsFor: 'as yet unclassified'!squeakBotIcon	^ Form		extent: 50 @ 50		depth: 32		bits: (Base64MimeConverter mimeDecodeToBytes: '6cTjdv8AAAgH/wAABgr/AAAED/8AAAP/AAAC/wAAAwr/AAAEB/8AAAaK/wAACAv/AAAH/wAA
+AAAA' readStream) contents! !
+
+!SqueakBotBitmapLibrary class methodsFor: 'as yet unclassified'!
+squeakBotIcon
+	^ Form
+		extent: 50 @ 50
+		depth: 32
+		bits: (Base64MimeConverter mimeDecodeToBytes: '6cTjdv8AAAgH/wAABgr/AAAED/8AAAP/AAAC/wAAAwr/AAAEB/8AAAaK/wAACAv/AAAH/wAA
 Bgr/AAAIP/8AAAb/AAAD/wAAAv8HBw7/Fxce/x0dJP8kJCr/KSkv/yQkKv8dHST/Fxce/wcH
 Dv8AAAL/AAAD/wAABgr/AAAIC/8AAAb/AAAHZv8AAAhv/wAABf8AAAL/AQEI/wYGDf8AAAT/
 AAAC/wkJEP8lJSv/ODg9/1ZWWf9xcXP/fHx+/4eHif+QkJH/h4eJ/3x8fv9xcXP/VlZZ/zg4
@@ -251,4 +343,36 @@ srL/tLSz/7a2tv+cnJ3/dnZ5/05OUv8mJiz/BAQM/wAABP8AAAdu/wAACFf/AAAH/wAABP8D
 Awv/GRkg/y4uNP9ISEz/ZGRo/3Bwc/98fH7/h4eJ/5CQkf+Hh4n/fHx+/3Bwc/9kZGj/SEhM
 /y4uNP8ZGSD/AwML/wAABP8AAAd+/wAACEf/AAAH/wAABP8AAAL/AAAH/w8PF/8WFh3/HR0k
 /yQkKv8pKS//JCQq/x0dJP8WFh3/Dw8X/wAAB/8AAAL/AAAE/wAAB5L/AAAIC/8AAAf/AAAF
-Cv8AAAQP/wAAA/8AAAL/AAADCv8AAAQL/wAABf8AAAfipv8AAAg=' readStream) contents! !!SugarNavigatorBar methodsFor: 'help flap'!toggleHelp	PEUtilities openAboutWindow! !!SugarNavigatorBar methodsFor: '*SqueakBot'!makeTheSimpleButtons	^ {self buttonHelp. self makeProjectNameLabel. self buttonPrev. self buttonNext. self buttonPaint. self buttonSqueakBot. self buttonSupplies} , {self buttonLanguage}		, (SugarLauncher isRunningInSugar				ifTrue: [{self buttonShare. #spacer. self buttonChoose. self buttonKeep. self buttonStop}]				ifFalse: [{self buttonZoom. #spacer. self buttonFind. self buttonPublish. self buttonQuit}])		, (Preferences navControlInNavBar				ifTrue: [{self buttonHideNavBar}]				ifFalse: [#()])! !!SugarNavigatorBar methodsFor: '*SqueakBot'!toggleSqueakBot	| t1 t2 |	t2 := Flaps globalFlapTab: 'SqueakBot'.	t1 := t2 referent.	t1 isInWorld		ifTrue: [t2 hideFlap]		ifFalse: [t2 showFlap.			(owner notNil					and: [owner isFlapTab])				ifTrue: [owner edgeToAdhereTo == #top						ifTrue: [t1 position: self bottomLeft].					owner edgeToAdhereTo == #bottom						ifTrue: [t1 bottomLeft: self topLeft]]]! !SqueakBot initialize!
+Cv8AAAQP/wAAA/8AAAL/AAADCv8AAAQL/wAABf8AAAfipv8AAAg=' readStream) contents! !
+
+
+!SugarNavigatorBar methodsFor: 'help flap'!
+toggleHelp
+	PEUtilities openAboutWindow! !
+
+!SugarNavigatorBar methodsFor: '*SqueakBot'!
+makeTheSimpleButtons
+	^ {self buttonHelp. self makeProjectNameLabel. self buttonPrev. self buttonNext. self buttonPaint. self buttonSqueakBot. self buttonSupplies} , {self buttonLanguage}
+		, (SugarLauncher isRunningInSugar
+				ifTrue: [{self buttonShare. #spacer. self buttonChoose. self buttonKeep. self buttonStop}]
+				ifFalse: [{self buttonZoom. #spacer. self buttonFind. self buttonPublish. self buttonQuit}])
+		, (Preferences navControlInNavBar
+				ifTrue: [{self buttonHideNavBar}]
+				ifFalse: [#()])! !
+
+!SugarNavigatorBar methodsFor: '*SqueakBot'!
+toggleSqueakBot
+	| t1 t2 |
+	t2 := Flaps globalFlapTab: 'SqueakBot'.
+	t1 := t2 referent.
+	t1 isInWorld
+		ifTrue: [t2 hideFlap]
+		ifFalse: [t2 showFlap.
+			(owner notNil
+					and: [owner isFlapTab])
+				ifTrue: [owner edgeToAdhereTo == #top
+						ifTrue: [t1 position: self bottomLeft].
+					owner edgeToAdhereTo == #bottom
+						ifTrue: [t1 bottomLeft: self topLeft]]]! !
+
+SqueakBot initialize!
