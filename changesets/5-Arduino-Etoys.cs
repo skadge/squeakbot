@@ -1147,7 +1147,7 @@ initialize
 	Vocabulary addStandardVocabulary: (SymbolListType new vocabularyName: #ArduinoPinMode;
 			 symbols: #(#input #output )).
 	Vocabulary addStandardVocabulary: (SymbolListType new vocabularyName: #ArduinoType;
-			 symbols: #(#bluetooth #'diecimila w/ atmega168' #'duemilanove w/ atmega168' #'duemilanove w/ atmega328' #'lilypad w/ atmega168' #'lilypad w/ atmega328' #mega #mini #'nano w/ atmega168' #'nano w/ atmega328' #'ng or older w/ atmega168' #'ng or older w/ atmega8' #'pro mini w/ atmega168' #'pro mini w/ atmega328' #'pro w/ atmega168' #'pro w/ atmega328' ))! !
+			 symbols: #(#bluetooth #'diecimila w/ atmega168' #'duemilanove w/ atmega168' #'duemilanove w/ atmega328' #'lilypad w/ atmega168' #'lilypad w/ atmega328' #mega #mini #'nano w/ atmega168' #'nano w/ atmega328' #'ng or older w/ atmega168' #'ng or older w/ atmega8' #'pro mini w/ atmega168' #'pro mini w/ atmega328' #'pro w/ atmega168' #'pro w/ atmega328' #'uno w/ atmega328' ))! !
 
 !ArduinoMorph class methodsFor: 'accessing'!
 lastBoardType

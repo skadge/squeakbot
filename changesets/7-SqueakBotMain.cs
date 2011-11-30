@@ -12,7 +12,7 @@ Object subclass: #SqueakBotBitmapLibrary
 
 !Flaps class methodsFor: '*SqueakBot'!
 defaultsQuadsDefiningSqueakBotFlap
-	^ {{#ArduinoMorph. #openInWorld. 'Arduino' translated. 'Add an Arduino board' translated. SqueakBotBitmapLibrary arduinoIcon}} asOrderedCollection! !
+	^ {{#ArduinoMorph. #authoringPrototype. 'Arduino' translated. 'Add an Arduino board' translated. SqueakBotBitmapLibrary arduinoIcon}} asOrderedCollection! !
 
 !Flaps class methodsFor: '*SqueakBot'!
 initializeSqueakBotFlap

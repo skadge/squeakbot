@@ -66,6 +66,11 @@ ArduinoType subclass: #ArduinoPro328
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Arduino-Compiler-BoardTypes'!
+ArduinoType subclass: #ArduinoUno328
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'Arduino-Compiler-BoardTypes'!
 Error subclass: #CompilingSketchError
 	instanceVariableNames: ''
 	classVariableNames: ''

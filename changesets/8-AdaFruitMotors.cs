@@ -1067,7 +1067,10 @@ shiftData
 
 !Flaps class methodsFor: '*SqueakBot2'!
 defaultsQuadsDefiningSqueakBotFlap
-	^ {{#ArduinoMorph. #openInWorld. 'Arduino' translated. 'Add an Arduino board' translated. SqueakBotBitmapLibrary arduinoIcon}} asOrderedCollection! !
+	^ {
+		{#ArduinoMorph. #authoringPrototype. 'Arduino' translated. 'Add an Arduino board' translated. SqueakBotBitmapLibrary arduinoIcon}.
+		{#AdafruitMotorshieldMorph. #authoringPrototype. 'Adafruit Motorshield' translated. 'Add an Arduino board with Adafruit Motor Shield' translated. SqueakBotBitmapLibrary arduinoIcon}
+	} asOrderedCollection! !
 
 !Flaps class methodsFor: '*SqueakBot2'!
 initializeSqueakBotFlap
@@ -1130,7 +1133,7 @@ quadsDefiningSqueakBotFlap
 	^ self registeredFlapsQuadsAt: 'SqueakBot'! !
 
 
-!ProjectNavigationMorph methodsFor: '*SqueakBot2'!
+!SugarNavigatorBar methodsFor: '*SqueakBot2'!
 buttonSqueakBot
 	^ self
 		makeButton: 'SqueakBot' translated
@@ -1445,3 +1448,10 @@ Object subclass: #Arduino
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Arduino-Core'!
+	
+!AdafruitMotorshieldMorph class methodsFor: 'parts bin'!
+descriptionForPartsBin
+	^ self
+		partName: 'Arduino with Adafruit Motorshield'
+		categories: #('Electronics' )
+		documentation: ''! !
